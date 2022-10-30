@@ -12,7 +12,7 @@ const Hero = () => {
           <h1 className='tb mb-4'>Uma <span className='text-secondary'>Clínica Gastroenterológica</span> em que você pode confiar</h1>
           <p className='pp max-w-[470px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero sequi, nam consectetur ad porro repellendus fugit ducimus velit iste animi dicta, illum labore expedita est tempora sint blanditiis numquam?</p>
         </div>
-        <div className='w-full h-[700px]'>
+        <div className='w-full max-h-[700px]'>
           <img src={home} alt="" className='w-full h-full object-cover' />
         </div>
 

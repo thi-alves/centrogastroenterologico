@@ -5,6 +5,7 @@ import card_01 from "./card_01.png";
 import about_01 from "./about_01.jpeg";
 import about_02 from "./about_02.jpg";
 import profile_photo from "./profile_photo.png";
+import profile_team from "./profile_team.png";
 
 
 export{
@@ -15,4 +16,5 @@ export{
   about_01,
   about_02,
   profile_photo,
+  profile_team,
 }

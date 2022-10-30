@@ -3,8 +3,8 @@ import { about_01, about_02, profile_photo } from "../assets";
 
 const About = () => {
   return (
-    <div className="w-screen flex justify-center items-center my-20">
-      <div className="xl:max-w-[1280px] w-full px-4">
+    <div className="w-screen flex justify-center items-center  bg-light_red/20">
+      <div className="xl:max-w-[1280px] w-full px-4 my-20">
         <div className="grid md:grid-cols-2">
           <div className="flex flex-col justify-start items-start h-[400px] sm:h-[700px] relative">
             <img
@@ -21,7 +21,7 @@ const About = () => {
           <div className="flex justify-center items-center sm:pl-20">
             <div className="space-y-5">
               <button className="shadow-btn bg-white text-secondary px-4 py-3 rounded-lg font-bold leading-5 text-base">
-                Sobre Nós
+                Sobre nós
               </button>
               <h2 className="tm">
                 Nossa equipe tem apenas uma missão: Cuidar de você!

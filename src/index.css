@@ -44,3 +44,8 @@
   background-color: #fee2e2;
 }
 
+html,
+body,
+#root{
+  scroll-behavior: smooth;
+}

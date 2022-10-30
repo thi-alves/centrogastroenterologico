@@ -6,12 +6,12 @@ import Card_Services from "./Card_Services";
 const Services = () => {
   const sliderLeft = () => {
     var slider = document.getElementById("Slider");
-    slider.scrollLeft = slider.scrollLeft - 200;
+    slider.scrollLeft = slider.scrollLeft - 208;
   };
 
   const sliderRight = () => {
     var slider = document.getElementById("Slider");
-    slider.scrollLeft = slider.scrollLeft + 200;
+    slider.scrollLeft = slider.scrollLeft + 208;
   };
 
   return (
