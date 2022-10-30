@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root{
+  @apply font-jakarta
+  bg-gray_white
+}
+
+@layer base{
+  li{
+    @apply  inline-block px-4 py-2 hover:bg-red-100 text-black rounded-md hover:text-secondary transition-colors font-medium;
+  }
+  ul{
+    @apply space-x-2;
+  }
+}
+
+
+ .pp {  
+  @apply  font-normal text-lg leading-7 text-gray_red
+}
+
+.tb{
+  @apply font-bold text-4xl leading-[36px] sm:text-6xl sm:leading-[60px] text-black
+}
+
+.tm{
+  @apply font-extrabold text-4xl leading-[36px] sm:text-4xl sm:leading-[47px] text-red-900
+}
+
+.st{
+  @apply font-bold text-2xl leading-8 text-primary 
+}
+
+
+.shadow-btn{
+  box-shadow:0 1px 3px 0 rgb(24 20 67 / 7%), 0 2px 6px 0 rgb(93 79 255 / 10%);
+}
+
+.current{
+  font-weight: 700;
+  background-color: #fee2e2;
+}
+
