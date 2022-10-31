@@ -34,18 +34,30 @@ const Team = () => {
         </div>
       </div>
       <div className="relative flex items-center mb-20">
-        <button
+      <div
           onClick={sliderLeft}
-          className="sm:left-[5%] w-[80px] left-0 h-[80px] bg-secondary rounded-full absolute z-[8] text-white flex justify-center items-center shadow-lg shadow-btn"
+          className="mr-2 left-0 group flex justify-center items-center w-[74px] h-[74px] absolute z-[8] rounded-full bg-white shadow-lg hover:bg-secondary hover:shadow-secondary hover:transform hover:-translate-y-2 ease-in-out duration-300 "
         >
-          Ant.
-        </button>
-        <button
+          <svg
+            id="left"
+            viewBox="0 0 306 306"
+            className="w-[34px] h-[34px] fill-secondary group-hover:fill-white"
+          >
+            <polygon points="247.35,35.7 211.65,0 58.65,153 211.65,306 247.35,270.3 130.05,153 "/>
+          </svg>
+        </div>
+        <div
           onClick={sliderRight}
-          className="sm:right-[5%] w-[80px] right-0 h-[80px] bg-secondary rounded-full absolute z-[8] text-white flex justify-center items-center shadow-lg shadow-btn"
+          className="mr-2 right-0 group flex justify-center items-center w-[74px] h-[74px] absolute z-[8] rounded-full bg-white shadow-lg hover:bg-secondary hover:shadow-secondary hover:transform hover:-translate-y-2 ease-in-out duration-300 "
         >
-          Prox.
-        </button>
+          <svg
+            id="right"
+            viewBox="0 0 306 306"
+            className="w-[34px] h-[34px] fill-secondary group-hover:fill-white"
+          >
+            <polygon points="58.65,267.75 175.95,153 58.65,35.7 94.35,0 247.35,153 94.35,306" />
+          </svg>
+        </div>
         <div
           id="Slider1"
           className="w-full h-full flex flex-nowrap overflow-x-scroll scroll scroll-smooth gap-4 pt-6 scrollbar-hide"
@@ -55,6 +67,7 @@ const Team = () => {
           ))}
         </div>
       </div>
+      
     </>
   );
 };

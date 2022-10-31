@@ -17,4 +17,5 @@ export{
   about_02,
   profile_photo,
   profile_team,
+
 }
