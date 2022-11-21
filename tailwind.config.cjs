@@ -9,8 +9,8 @@ module.exports = {
         secondary: "#ff3440",
         black: "#150707",
         white: "#fff",
+        gray:" #f3f0f0",
         gray_white:"#fcfcfc",
-        gray:" #e5d9dd",
         light_red: "#efdddc",
         gray_red:"#645151"
       },

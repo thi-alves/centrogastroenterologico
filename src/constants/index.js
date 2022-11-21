@@ -1,5 +1,4 @@
-import { card_01,profile_photo,profile_team } from "../assets";
-
+import { article_01, card_01, profile_team } from "../assets";
 
 export const services = {
   card: [
@@ -71,7 +70,6 @@ export const team = {
       sTitle: "Tamet consectetur ad",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      
     },
     {
       id: "card_02",
@@ -80,7 +78,6 @@ export const team = {
       sTitle: "Tamet consectetur ad",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      
     },
     {
       id: "card_03",
@@ -89,7 +86,6 @@ export const team = {
       sTitle: "Tamet consectetur ad",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      
     },
     {
       id: "card_04",
@@ -98,7 +94,6 @@ export const team = {
       sTitle: "Tamet consectetur ad",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      
     },
     {
       id: "card_05",
@@ -107,7 +102,6 @@ export const team = {
       sTitle: "Tamet consectetur ad",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      
     },
     {
       id: "card_06",
@@ -116,7 +110,6 @@ export const team = {
       sTitle: "Tamet consectetur ad",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      
     },
     {
       id: "card_07",
@@ -125,7 +118,6 @@ export const team = {
       sTitle: "Tamet consectetur ad",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      
     },
     {
       id: "card_08",
@@ -134,6 +126,42 @@ export const team = {
       sTitle: "Tamet consectetur ad",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
+    },
+  ],
+};
+
+export const articles = {
+  card: [
+    {
+      id: "card_01",
+      photo: article_01,
+      title: "A importancia do jejum antes do exame",
+      sTitle: "Perguntas",
+      content:
+        "Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.",
+      date: "Novembro 10, 2022",
+      link: "https://www.google.com.br/",
+    },
+    {
+      id: "card_02",
+      photo: article_01,
+      title: "Mais espaço, melhor atendimento!",
+      sTitle: "Notícia",
+      content:
+        "Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.",
+      date: "Novembro 10, 2022",
+      link: "https://www.google.com.br/",
+      
+    },
+    {
+      id: "card_03",
+      photo: article_01,
+      title: "6 Dicas para evitar desconforto estomacal",
+      sTitle: "Recursos",
+      content:
+        "Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.",
+      date: "Novembro 10, 2022",
+      link: "https://www.google.com.br/",
       
     },
   ],

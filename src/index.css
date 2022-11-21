@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 
 :root{
@@ -8,15 +12,37 @@
   bg-gray_white
 }
 
-@layer base{
-  li{
-    @apply  inline-block px-4 py-2 hover:bg-red-100 text-black rounded-md hover:text-secondary transition-colors font-medium;
-  }
-  ul{
-    @apply space-x-2;
-  }
+*{
+  box-sizing: border-box;
+
 }
 
+body{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.input {
+  
+  @layer 
+}
+
+.p {
+ @apply font-normal text-base
+}
+.h2 {
+  @apply font-bold sm:text-[38px] sm:leading-[47px] text-[26px] leading-[35px]
+}
+.h3 {
+  @apply font-bold text-[24px] leading-[30px] 
+}
+
+.h4 {
+@apply font-bold text-[24px] leading-[30px]  mb-2
+}
+
+.h5 {
+  @apply font-bold text-[18px] leading-[20px]
+ }
 
  .pp {  
   @apply  font-normal text-lg leading-7 text-gray_red
@@ -36,7 +62,7 @@
 
 
 .shadow-btn{
-  box-shadow:0 1px 3px 0 rgb(24 20 67 / 7%), 0 2px 6px 0 rgb(93 79 255 / 10%);
+  box-shadow:0 1px 3px 0 rgb(100 81 81 / 7%), 0 2px 6px 0 rgb(21 7 7 / 10%);
 }
 
 .current{
@@ -48,4 +74,12 @@ html,
 body,
 #root{
   scroll-behavior: smooth;
+}
+
+li{
+  @apply font-normal text-base text-gray_red rounded-lg p-2 flex w-max gap-2 hover:bg-secondary/10 hover:text-secondary cursor-pointer
+}
+
+.btn-secondary{
+ @apply shadow-btn bg-white text-secondary px-4 py-3 rounded-lg font-bold leading-5 text-base
 }

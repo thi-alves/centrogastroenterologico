@@ -6,6 +6,9 @@ import about_01 from "./about_01.jpeg";
 import about_02 from "./about_02.jpg";
 import profile_photo from "./profile_photo.png";
 import profile_team from "./profile_team.png";
+import article_01 from "./article_01.jpeg";
+import schedule from "./schedule.jpg";
+import circle from "./circle.svg";
 
 
 export{
@@ -17,5 +20,8 @@ export{
   about_02,
   profile_photo,
   profile_team,
+  article_01,
+  schedule,
+  circle,
 
 }
