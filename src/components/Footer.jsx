@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer id="footer">
       <div className="w-screen h-full flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] px-3 sm:mt-20">
+        <div className="w-full h-full xl:max-w-[1280px] px-3 py-10">
 
           <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-5">
             <div id="Subscribe-Newsletter" className="space-y-8 col-span-2 mb-4">
@@ -74,13 +74,13 @@ const Footer = () => {
             </div>
 
             <div id="contact">
-              <h5 className="h5 ml-2 mb-2">Contato</h5>
+              <h5 className="h5 ml-2 mb-2 col-span-2">Contato</h5>
               <div>
                 <ul>
                   <li>
                     {" "}
                     <MdEmail className="text-primary  text-2xl" />{" "}
-                    centrogastrologico@gastrocentro.com
+                    contato@gastro.com
                   </li>
                   <li>
                     {" "}
@@ -93,7 +93,7 @@ const Footer = () => {
                     <MdLocationPin className="text-primary  text-2xl" />{" "}
                     <div className="inline-block">
                       353 R. Pernambuco <br /> Conj. 507 e 609 <br />{" "}
-                      Belo-Horizonte, Fúncionarios
+                      Belo-Horizonte
                     </div>{" "}
                   </li>
                 </ul>

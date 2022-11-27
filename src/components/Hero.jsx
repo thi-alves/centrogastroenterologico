@@ -1,55 +1,132 @@
-import React from 'react'
-import { home } from '../assets'
+import React from "react";
+import { home, circle } from "../assets";
+import { MdEmail, MdAccessTimeFilled, MdMedicalServices } from "react-icons/md";
 
 const Hero = () => {
   return (
-    <div className='w-screen flex justify-center items-center flex-col'>
-      
-
-      <div className='xl:max-w-[1280px] grid md:grid-cols-2 justify-center items-center'>
-      
-        <div className='flex flex-col flex-1  p-6'>
-          <h1 className='tb mb-4'>Uma <span className='text-secondary'>Clínica Gastroenterológica</span> em que você pode confiar</h1>
-          <p className='pp max-w-[470px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero sequi, nam consectetur ad porro repellendus fugit ducimus velit iste animi dicta, illum labore expedita est tempora sint blanditiis numquam?</p>
+    <section id="home">
+      <div className="w-screen min-h-screen">
+        <div className="w-full h-full grid sm:grid-cols-2 gap-y-4">
+          <div className="flex flex-col justify-center items-end mr-20 relative overflow-hidden w-full h-full  px-3">
+            <img
+              id="circle"
+              src={circle}
+              alt=""
+              className="w-[50%] absolute -right-[20%] -top-[20%] opacity-60 z-[0]"
+            />
+            <img
+              id="circle"
+              src={circle}
+              alt=""
+              className="w-[40%] absolute left-10 bottom-0 opacity-60 z-[0]"
+            />
+            <div className="self-end max-w-[568px] z-[1] flex flex-col gap-y-4">
+              <h1 className="h1 text-primary">
+                <strong>
+                  Uma{" "}
+                  <span className="text-secondary">
+                    clínica gastroenterologica
+                  </span>{" "}
+                  que você pode confiar
+                </strong>
+              </h1>
+              <p className="p text-gray_red mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
+                sapien habitant integer senectus malesuada ac.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
+                sapien habitant integer senectus malesuada ac.
+              </p>
+              <div className="flex justify-start gap-x-8 items-center flex-col sm:flex-row gap-y-2">
+                <button className="w-full sm:w-max bg-primary rounded-xl px-8 py-4 font-bold text-white shadow-btn hover:bg-secondary hover:-translate-y-1 transition duration-300">
+                  Marcar um hórario
+                </button>
+                <button className=" w-full sm:w-max bg-white rounded-xl px-8 py-4 font-bold text-secondary shadow-btn hover:-translate-y-1 transition duration-300">
+                  Procurar serviços
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="overflow-hidden">
+            <img src={home} alt="" className="w-full h-full" />
+          </div>
         </div>
-        <div className='w-full max-h-[700px]'>
-          <img src={home} alt="" className='w-full h-full object-cover' />
-        </div>
-
       </div>
-      <div className='xl:max-w-[1280px] flex w-full justify-center items-center -top-20 relative'>
-      <div className='bg-white shadow-btn rounded-xl shadow-md min-w-[450px] min-h-[170px] grid flex-col md:grid-cols-3 p-5 gap-2 z-[1]'>
-        <div className='flex justify-center gap-2'>
-          <div src="" alt="" className='h-[62px] w-[62px] object-contain bg-primary rounded-lg'/>
-          <div>
-            <h2 className='st'>Contate-nos</h2>
-            <p className='pp'>(31) 99335-5485</p>
-            <p className='pp'>contato@centrogastro.com.br</p>
-            <a href="" className='text-secondary font-bold'>Enviar E-mail</a>
+      <div className="w-screen flex justify-center items-center">
+        <div className="w-full  xl:max-w-[1280px] px-3 sm:px-10">
+          <div className="flex flex-col sm:flex-row gap-y-4 bg-white rounded-3xl shadow-btn p-10 justify-between relative mt-[-100px]">
+            <div className="flex md:flex-col lg:flex-row gap-y-3 w-full justify-center group">
+              <div className="w-max">
+                <div className="p-4 bg-primary  group-hover:bg-secondary transition duration-300 rounded-2xl mr-5 flex justify-center items-center text-white text-4xl">
+                  <MdEmail />
+                </div>
+              </div>
+              <div className="">
+                <h3 className="h3 text-black mb-2">Contato</h3>
+                <p className="p text-gray_red">(31) 3263-2000</p>
+                <p className="p text-gray_red">(31) 98611-0299</p>
+                <a className="p font-bold text-secondary">
+                  contato@centrogastro.com
+                </a>
+                <div className="w-[0%] h-[2px] group-hover:w-[100%] bg-secondary transition-all duration-300" />
+              </div>
+            </div>
+
+            <div className="w-full sm:w-[1px]  h-[1px] sm:h-auto mx-4 bg-black/10"></div>
+
+            <div className="flex md:flex-col lg:flex-row gap-y-3 w-full justify-center group">
+              <div className="w-max">
+                <div className="p-4 bg-primary  group-hover:bg-secondary transition duration-300 rounded-2xl mr-5 flex justify-center items-center text-white text-4xl">
+                  <MdAccessTimeFilled />
+                </div>
+              </div>
+              <div className="">
+                <h3 className="h3 text-black mb-2">Hórario</h3>
+                <p className="p text-gray_red">
+                  <span className="font-bold text-secondary">Seg - Sex:</span>{" "}
+                  07:00h às 18:00h
+                </p>
+                <p className="p text-gray_red">
+                  <span className="font-bold text-secondary">Sábado:</span>{" "}
+                  07:00h às 13:00h
+                </p>
+                <p className="p text-gray_red">
+                  <span className="font-bold text-secondary">Domingo:</span>{" "}
+                  Fechado
+                </p>
+                <div className="w-[0%] h-[2px] group-hover:w-[100%] bg-secondary transition-all duration-300" />
+              </div>
+            </div>
+
+            <div className="w-full sm:w-[1px]  h-[1px] sm:h-auto mx-4 bg-black/10"></div>
+
+            <div className="flex md:flex-col lg:flex-row gap-y-3 w-full justify-center group">
+              <div className="w-max">
+                <div className="p-4 bg-primary  group-hover:bg-secondary transition duration-300 rounded-2xl mr-5 flex justify-center items-center text-white text-4xl">
+                  <MdMedicalServices />
+                </div>
+              </div>
+              <div className="">
+                <h3 className="h3 text-black mb-2">Serviços</h3>
+                <p className="p text-gray_red">
+                  <span className="font-bold text-secondary">● </span>Endoscopia
+                  Digestiva A.
+                </p>
+                <p className="p text-gray_red">
+                  <span className="font-bold text-secondary">● </span>
+                  Colonoscopia
+                </p>
+                <p className="p text-gray_red">
+                  <span className="font-bold text-secondary">● </span>
+                  Ecoendoscopia
+                </p>
+                <div className="w-[0%] h-[2px] group-hover:w-[100%] bg-secondary transition-all duration-300" />
+              </div>
+            </div>
           </div>
-        </div>
-        <div className='flex justify-center gap-2'>
-          <div src="" alt="" className='h-[62px] w-[62px] object-contain bg-primary rounded-lg'/>
-          <div>
-            <h2 className='st'>Contate-nos</h2>
-            <p className='pp'>(31) 99335-5485</p>
-            <p className='pp'>contato@centrogastro.com.br</p>
-            <a href="" className='text-secondary font-bold'>Enviar E-mail</a>
-          </div>
-        </div>
-        <div className='flex justify-center gap-2'>
-          <div src="" alt="" className='h-[62px] w-[62px] object-contain bg-primary rounded-lg'/>
-          <div>
-            <h2 className='st'>Contate-nos</h2>
-            <p className='pp'>(31) 99335-5485</p>
-            <p className='pp'>contato@centrogastro.com.br</p>
-            <a href="" className='text-secondary font-bold'>Enviar E-mail</a>
-          </div>
-        </div>
         </div>
       </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default Hero
+export default Hero;

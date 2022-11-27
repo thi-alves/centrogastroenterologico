@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card_Services = ({icon, title, content, link}) => {
   return (
-    <div className='group min-w-[400px] bg-white shadow-lg shadow-btn rounded-xl hover:transform hover:-translate-y-6 ease-in-out duration-300 mb-10'>
+    <div className='group w-full bg-white shadow-lg shadow-btn rounded-xl hover:transform hover:-translate-y-6 ease-in-out duration-300 mb-10'>
       <div>
         <img src={icon} alt={title} className='w-full h-full object-cover overflow-hidden rounded-t-xl ' />
       </div>

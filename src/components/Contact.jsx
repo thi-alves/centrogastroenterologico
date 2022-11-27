@@ -17,13 +17,13 @@ const Contact = () => {
           alt=""
           className="absolute left-[0%] top-[-20%] z-[1] opacity-60"
         />
-        <div className="w-full h-full xl:max-w-[1280px] px-3 z-[2]">
+        <div className="w-full h-full xl:max-w-[1280px] px-3 py-10 z-[2]">
           <div className="h-full grid sm:grid-cols-2 gap-4 content-center">
             <div className="space-y-4">
               <button className="btn-secondary">Contate-nos</button>
               <h2 className="h2 text-primary">
-                Entre em contato para <br className="sm:block hidden" />
-                marcar sua primeira <br className="sm:block hidden" /> consulta
+                <strong>Entre em contato para <br className="sm:block hidden" />
+                marcar sua primeira <br className="sm:block hidden" /> consulta</strong>
               </h2>
               <p className="p text-gray_red max-w-[450px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

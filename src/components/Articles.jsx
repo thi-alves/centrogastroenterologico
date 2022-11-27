@@ -6,11 +6,11 @@ const Articles = () => {
   return (
     <section id="articles">
       <div className="w-screen min-h-screen flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] px-3">
+        <div className="w-full h-full xl:max-w-[1280px] px-3 py-10">
           <div className="space-y-4 flex flex-col justify-center items-center mb-8">
             <button className="btn-secondary">Contate-nos</button>
             <h2 className="h2 text-primary text-center">
-            Nossos artigos sobre saúde estomacal
+            <strong>Nossos artigos sobre saúde estomacal</strong>
             </h2>
             <p className="p text-gray_red max-w-[768px] text-center">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt

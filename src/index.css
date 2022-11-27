@@ -29,6 +29,9 @@ body{
 .p {
  @apply font-normal text-base
 }
+.h1 {
+  @apply font-bold sm:text-[58px] sm:leading-[60px] text-[38px] leading-[40px]
+}
 .h2 {
   @apply font-bold sm:text-[38px] sm:leading-[47px] text-[26px] leading-[35px]
 }
@@ -82,4 +85,7 @@ li{
 
 .btn-secondary{
  @apply shadow-btn bg-white text-secondary px-4 py-3 rounded-lg font-bold leading-5 text-base
+}
+.btn-primary{
+ @apply shadow-btn bg-primary text-white px-4 py-3 rounded-lg font-bold leading-5 text-base
 }

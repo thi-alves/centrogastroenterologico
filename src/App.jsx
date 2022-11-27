@@ -3,7 +3,7 @@ import { Navbar, Hero, Services, About, Team, Book, Button, Articles, Contact, F
 function App() {
   return (
     <div className="App overflow-x-hidden">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Services />
       <About />

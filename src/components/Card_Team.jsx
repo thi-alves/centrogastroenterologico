@@ -1,15 +1,28 @@
-import React from 'react'
+import React from "react";
 
-const Card_Team = ({photo,title,sTitle,content}) => {
+import { AiOutlineMail } from "react-icons/ai";
+import { FiLinkedin } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
+
+
+const Card_Team = ({ photo, title, sTitle, content, crm }) => {
   return (
-    <div className='min-w-[390px] text-center'>
-      <img src={photo} alt="" className='object-cover overflow-hidden rounded-xl mb-4'/>
-      <h3 className='st'>{title}</h3>
-      <p className='s mb-3'>{sTitle}</p>
-      <p className='pp'>{content}</p>
+    <div className="max-w-[390px]  flex-none text-center">
+      <img src={photo} alt="" className="object-cover rounded-[2.8rem] mb-4" />
+      <h3 className="h3 text-primary text-center">
+        <strong>{title}</strong>
+        <p className="text-xs text-gray_red">{crm}</p>
+      </h3>
+      <p className="p font-bold text-primary mb-2">{sTitle}</p>
+      <div className="flex text-secondary text-2xl gap-3 justify-center items-center">
+        <FiLinkedin className="hover:text-primary hover:scale-125 duration-150 ease-in-out" />
+        <FaWhatsapp className="hover:text-primary hover:scale-125 duration-150 ease-in-out" />
+        <AiOutlineMail className="hover:text-primary hover:scale-125 duration-150 ease-in-out" />
+      </div>
+      
+      <p className="p text-gray_red">{content}</p>
     </div>
-  )
-}
+  );
+};
 
-export default Card_Team
-
+export default Card_Team;
