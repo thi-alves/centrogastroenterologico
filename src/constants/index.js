@@ -1,11 +1,11 @@
-import { article_01, card_01, profile_team } from "../assets";
+import { article_01, card_01, profile_team} from "../assets";
 
 export const services = {
   card: [
     {
       id: "card_01",
       icon: card_01,
-      title: "Title",
+      title: "Gastroenterologia",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque, veritatis obcaecati sequi amet nesciunt",
       link: "https://www.google.com",
@@ -13,7 +13,7 @@ export const services = {
     {
       id: "card_02",
       icon: card_01,
-      title: "Title",
+      title: "Coloproctologia",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque, veritatis obcaecati sequi amet nesciunt",
       link: "https://www.google.com",
@@ -21,7 +21,7 @@ export const services = {
     {
       id: "card_03",
       icon: card_01,
-      title: "Title",
+      title: "Cirurgia Geral",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque, veritatis obcaecati sequi amet nesciunt",
       link: "https://www.google.com",
@@ -143,3 +143,57 @@ export const articles = {
     },
   ],
 };
+
+// ######################### F A Q  ######################### //
+
+export const Faq_Menu = ["Account","Orders","Payments","Shipping","Returns","Refounds","Promotions"];
+
+export const Account = [ 
+  {
+    questions:"Se eu aceitar participar de uma pesquisa clínica, viro cobaia?",
+    answers:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime."
+  },
+  {
+    questions:"Recebo alguma remuneração se eu aceitar participar de uma pesquisa clínica?",
+    answers:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime."
+  },
+  {
+    questions:"Tenho algum custo para participar de uma pesquisa clínica?",
+    answers:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime."
+  },
+  {
+    questions:"Uma vez que aceitei participar de uma pesquisa clínica, terei que seguir até o final dela?",
+    answers:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime."
+  },
+  {
+    questions:"Quais são os meus direitos como participante de uma pesquisa clínica?",
+    answers:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime."
+  },
+  {
+    questions:"Quais são os meus deveres como participante de uma pesquisa clínica?",
+    answers:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime."
+  },
+  {
+    questions:"Caso eu aceite participar, com quem meus dados serão compartilhados?",
+    answers:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime."
+  },
+  
+];
+
+export const Orders = [ 
+  {
+    questions:"Orders 1",
+    answers:"Orders 1.1"
+  },
+  {
+    questions:"Orders 2",
+    answers:"Orders 2.2"
+  },
+  {
+    questions:"Orders 3",
+    answers:"Orders 3.3"
+  },
+];
+
+
+// ######################### F A Q  ######################### //

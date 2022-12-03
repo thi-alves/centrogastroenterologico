@@ -8,7 +8,7 @@ const Articles = () => {
       <div className="w-screen min-h-screen flex justify-center items-center">
         <div className="w-full h-full xl:max-w-[1280px] px-3 py-10">
           <div className="space-y-4 flex flex-col justify-center items-center mb-8">
-            <button className="btn-secondary">Contate-nos</button>
+            <button className="btn-secondary">Artigos e Dicas</button>
             <h2 className="h2 text-primary text-center">
             <strong>Nossos artigos sobre saúde estomacal</strong>
             </h2>

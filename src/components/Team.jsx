@@ -67,7 +67,7 @@ const Team = () => {
       <div className="relative flex items-center mb-20 select-none">
         <div
           id="Slider1"
-          className="sm:pl-[16.7%] w-full h-full flex flex-nowrap overflow-x-scroll scroll scroll-smooth gap-4 pt-6 scrollbar-hide"
+          className="sm:pl-[16.7%] w-full h-full flex flex-nowrap overflow-x-scroll scroll scroll-smooth gap-4 pt-6 scrollbar-hide "
         >
           <div className="flex gap-4">
             {team.card.map((card) => (

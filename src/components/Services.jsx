@@ -7,7 +7,7 @@ const Services = () => {
     <section id="services">
       <div className="w-screen min-h-screen flex justify-center items-center">
         <div className="w-full h-full xl:max-w-[1280px] px-3 py-10">
-          <div className="space-y-4 flex flex-col justify-center items-center text-center">
+          <div className="space-y-4 flex flex-col justify-center items-center text-center mb-4">
             <button className="btn-secondary">Nossos serviços</button>
             <h2 className="h2 text-primary">
               <strong>
@@ -22,7 +22,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-3 gap-4 p-10">
+          <div className="grid sm:grid-cols-3 sm:gap-4 sm:p-10 gap-y-4">
           {services.card.map((card) => (
             <Card_Services key={card.id} {...card} />
           ))}

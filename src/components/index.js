@@ -13,7 +13,10 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Schedule from "./Schedule";
 import Teste from "./Teste";
-
+import Partners from "./Partners";
+import Terms from "./Terms"
+import Faq from "./Faq"
+import Card_Faq from "./Card_Faq"
 
 export {
   Navbar,
@@ -31,4 +34,8 @@ export {
   Teste,
   Card_Articles,
   Schedule,
+  Partners,
+  Terms,
+  Faq,
+  Card_Faq,
 };
