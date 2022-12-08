@@ -9,7 +9,13 @@ import profile_team from "./profile_team.png";
 import article_01 from "./article_01.jpeg";
 import schedule from "./schedule.jpg";
 import circle from "./circle.svg";
-
+import unimed from "./unimed.svg";
+import amil from "./amil.svg";
+import sulamerica from "./sulamerica.svg";
+import allianz from "./allianz.svg";
+import cemig from "./cemig.svg";
+import vale from "./vale.svg";
+import goldencross from "./goldencross.svg";
 
 export{
   logo,
@@ -23,5 +29,6 @@ export{
   article_01,
   schedule,
   circle,
+  unimed,amil,sulamerica,allianz,cemig,vale,goldencross
 
 }

@@ -10,6 +10,7 @@
 :root{
   @apply font-jakarta
   bg-gray_white
+scroll-smooth
 }
 
 *{
@@ -88,4 +89,8 @@ li{
 }
 .btn-primary{
  @apply shadow-btn bg-primary text-white px-4 py-3 rounded-lg font-bold leading-5 text-base
+}
+
+.anime-img{
+@apply duration-300 translate-y-32 ease-in-out
 }

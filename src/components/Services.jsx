@@ -11,8 +11,9 @@ const Services = () => {
             <button className="btn-secondary">Nossos serviços</button>
             <h2 className="h2 text-primary">
               <strong>
-                Podemos lhe ajudar com uma variedade de serviços
-                gastroenterológicos
+                Podemos lhe ajudar com uma variedade
+                <br className="sm:block hidden" />
+                de serviços gastroenterológicos
               </strong>
             </h2>
             <p className="p text-gray_red max-w-[768px]">
@@ -23,9 +24,9 @@ const Services = () => {
           </div>
 
           <div className="grid sm:grid-cols-3 sm:gap-4 sm:p-10 gap-y-4">
-          {services.card.map((card) => (
-            <Card_Services key={card.id} {...card} />
-          ))}
+            {services.card.map((card) => (
+              <Card_Services key={card.id} {...card} />
+            ))}
           </div>
         </div>
       </div>

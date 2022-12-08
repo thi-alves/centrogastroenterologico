@@ -7,13 +7,16 @@ const Hero = () => {
     <section id="home">
       <div className="w-screen min-h-screen">
         <div className="w-full h-full grid sm:grid-cols-2 gap-y-4">
-          <div className="flex flex-col justify-center items-end mr-20 relative overflow-hidden w-full h-full  px-3">
+          <div className="flex flex-col justify-center items-end mr-20 relative overflow-hidden w-full h-full  px-3 py-10">
             <img
               id="circle"
               src={circle}
               alt=""
               className="w-[50%] absolute -right-[20%] -top-[20%] opacity-60 z-[0]"
             />
+            <div className="rounded-2xl h-14 w-8 border-4 border-secondary flex justify-center items-center">
+              <div className="bg-secondary w-[5px] h-[50%] rounded-full ease-in-out animate-bounce" />
+            </div>
             <img
               id="circle"
               src={circle}
@@ -32,9 +35,9 @@ const Hero = () => {
               </h1>
               <p className="p text-gray_red mb-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
-                sapien habitant integer senectus malesuada ac.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
-                sapien habitant integer senectus malesuada ac.
+                sapien habitant integer senectus malesuada ac. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit velit, sapien habitant
+                integer senectus malesuada ac.
               </p>
               <div className="flex justify-start gap-x-8 items-center flex-col sm:flex-row gap-y-2">
                 <button className="w-full sm:w-max bg-primary rounded-xl px-8 py-4 font-bold text-white shadow-btn hover:bg-secondary hover:-translate-y-1 transition duration-300">
@@ -109,7 +112,7 @@ const Hero = () => {
                 <h3 className="h3 text-black mb-2">Serviços</h3>
                 <p className="p text-gray_red">
                   <span className="font-bold text-secondary">● </span>Endoscopia
-                  Digestiva A.
+                  Digestiva
                 </p>
                 <p className="p text-gray_red">
                   <span className="font-bold text-secondary">● </span>

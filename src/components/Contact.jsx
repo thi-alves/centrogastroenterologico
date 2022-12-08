@@ -1,6 +1,6 @@
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
-import { circle} from "../assets";
+import { circle } from "../assets";
 const Contact = () => {
   return (
     <section id="contact">
@@ -22,13 +22,25 @@ const Contact = () => {
             <div className="space-y-4">
               <button className="btn-secondary">Contate-nos</button>
               <h2 className="h2 text-primary">
-                <strong>Entre em contato para <br className="sm:block hidden" />
-                marcar sua primeira <br className="sm:block hidden" /> consulta</strong>
+                <strong>
+                  Entre em contato para <br className="sm:block hidden" />
+                  marcar sua primeira <br className="sm:block hidden" />{" "}
+                  consulta
+                </strong>
               </h2>
               <p className="p text-gray_red max-w-[450px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Tincidunt integer elit cum sed etiam nisl arcu.
               </p>
+              <p>
+                Ao informar seus dados você concorda que nosso time entre em
+                contato para prosseguir com o agendamento.
+              </p>
+              <p>
+                Os dados inseridos no nosso formulário estão seguros, sendo
+                usados somente para a solicitação de agendamento.
+              </p>
+              <p>Saiba mais sobre o uso de dados em Políticas de Privacidade</p>
               <div className="flex flex-col md:flex-row gap-y-3 gap-x-14">
                 <a href="" className="flex gap-3 group">
                   <div>

@@ -19,18 +19,21 @@ const About = () => {
         <div className="w-full h-full xl:max-w-[1280px] px-3 p-10">
           <div className="grid sm:grid-cols-2 space-y-4">
             <div className="relative">
-                <img src={about_01} alt="" className="max-w-[77%] float-left  rounded-[2.5rem] z-[3]"/>
+                <img data-anime="" src={about_01} alt="" className="max-w-[77%] float-left  rounded-[2.5rem] z-[3]"/>
                 <img src={about_02} alt="" className="max-w-[76%]  float-right mt-[-100px]  rounded-[2.5rem] z-[4]" /> 
             </div>
             <div className="sm:ml-20 self-center space-y-4 z-[5]">
               <div className="btn-secondary w-max select-none">Sobre nós</div>
               <div className="h2 text-primary">
                 <strong>
-                  Nossa equipe tem apenas uma missão: Cuidar de você!
+                  Nossa clínica tem apenas uma missão: Cuidar de você!
                 </strong>
               </div>
               <div className="p text-gray_red">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                mecenas viverra em quis nibh. Tortor, quis aenean vitae, enim,
+                magna tortor. Sed vivamus porttitor tempus
+                sit amet, consectetur adipiscing elit. Ut
                 mecenas viverra em quis nibh. Tortor, quis aenean vitae, enim,
                 magna tortor. Sed vivamus porttitor tempus
               </div>
@@ -40,13 +43,14 @@ const About = () => {
                   alt=""
                   className="w-[84px] h-[84px] object-cover rounded-full shadow-lg"
                 />
-                <div className="mb-10">
+                <div className="mb-5">
                   <h3 className="h3 text-primary">
                     <p className="text-xs text-gray_red">CEO</p>
                     <strong>Ricardo Morillo Vigil</strong>
                   </h3>
                   <p className="p text-gray_red">
-                    Gastroenterologia / Endoscopia Digestiva
+                    "ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                mecenas viverra em quis nibh. Tortor,"
                   </p>
                 </div>
               </div>
