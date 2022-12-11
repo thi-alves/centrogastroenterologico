@@ -1,5 +1,6 @@
 import React from "react";
 import { circle, schedule } from "../assets";
+import {BsCalendar3} from "react-icons/bs"
 
 const Schedule = () => {
   return (
@@ -21,11 +22,13 @@ const Schedule = () => {
                 className="absolute right-0  top-[40%] left-[60%] z-[1]"
               />
               <h2 className="h2 text-white z-[2]">
-                Agende hoje mesmo uma consulta virtual ou presencial
+                Solicite hoje mesmo o agendamento da sua consulta
               </h2>
-              <button className="px-4 py-6 bg-white rounded-xl h5 text-secondary w-max z-[2]">
-                Agendar um horário
-              </button>
+              <a href="#contact" className="bg-white rounded-xl px-8 py-4 font-bold text-secondary shadow-btn hover:-translate-y-1 transition duration-300 w-max z-[2]">
+              <BsCalendar3 className="inline text-2xl mr-2"/>
+                Solicitar agendamento
+                
+              </a>
             </div>
             <div className="sm:col-span-5 relative overflow-hidden">
               <img

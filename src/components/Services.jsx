@@ -28,6 +28,7 @@ const Services = () => {
               <Card_Services key={card.id} {...card} />
             ))}
           </div>
+
         </div>
       </div>
     </section>

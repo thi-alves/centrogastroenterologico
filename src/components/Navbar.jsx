@@ -1,5 +1,5 @@
 import React from 'react'
-import { icon_phone, logo } from '../assets'
+import {  logo } from '../assets'
 /*z-10 fixed*/
 const Navbar = () => {
   return (

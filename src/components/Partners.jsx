@@ -20,7 +20,8 @@ const Partners = () => {
   return (
     <section>
       <div className="w-screen h-max flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px]  px-3">
+        <div className="w-full h-full xl:max-w-[1280px] p-10 px-3">
+    
           <div className="space-y-4 flex flex-col justify-center items-center mb-8">
             <h2 className="h3 text-primary text-center">
               <strong>Nossos parceiros</strong>

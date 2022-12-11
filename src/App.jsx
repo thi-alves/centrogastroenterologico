@@ -12,8 +12,8 @@ import {
   Teste,
   Schedule,
   Partners,
-  Terms,
   Faq,
+  Downloads,
 } from "./components";
 
 import { useEffect } from "react";
@@ -50,11 +50,12 @@ function App() {
       <Hero />
       <About />
       <Services />
-      {/* <Terms /> */}
       <Team />
       <Book />
       <Button />
       <Schedule />
+    
+      <Downloads/>
       <Partners />
       <Articles />
       <Contact />

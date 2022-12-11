@@ -8,13 +8,13 @@ const About = () => {
           id="circle"
           src={circle}
           alt=""
-          className="absolute w-[300px] left-[150px] top-[200px] z-[0] opacity-40"
+          className="absolute w-[300px] left-[150px] top-[200px] z-[0] opacity-50"
         />
         <img
           id="circle"
           src={circle}
           alt=""
-          className="absolute w-[380px] right-[150px] bottom-[200px] z-[0] opacity-40"
+          className="absolute w-[380px] right-[150px] bottom-[200px] z-[0] opacity-50"
         />
         <div className="w-full h-full xl:max-w-[1280px] px-3 p-10">
           <div className="grid sm:grid-cols-2 space-y-4">

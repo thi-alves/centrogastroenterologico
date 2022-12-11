@@ -1,10 +1,10 @@
-import { article_01, card_01, profile_team} from "../assets";
+import { article_01, card_01, profile_team, gastroenterologia} from "../assets";
 
 export const services = {
   card: [
     {
       id: "card_01",
-      icon: card_01,
+      icon: gastroenterologia,
       title: "Gastroenterologia",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque, veritatis obcaecati sequi amet nesciunt",

@@ -1,6 +1,12 @@
 import React from "react";
 import { home, circle } from "../assets";
-import { MdEmail, MdAccessTimeFilled, MdMedicalServices } from "react-icons/md";
+import {
+  MdEmail,
+  MdAccessTimeFilled,
+  MdMedicalServices,
+  MdOutlineMedicalServices,
+} from "react-icons/md";
+import { BsCalendar2Plus } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -40,12 +46,14 @@ const Hero = () => {
                 integer senectus malesuada ac.
               </p>
               <div className="flex justify-start gap-x-8 items-center flex-col sm:flex-row gap-y-2">
-                <button className="w-full sm:w-max bg-primary rounded-xl px-8 py-4 font-bold text-white shadow-btn hover:bg-secondary hover:-translate-y-1 transition duration-300">
+                <a href="#contact" className="flex justify-center items-center gap-2 w-full sm:w-max bg-primary rounded-xl px-8 py-4 font-bold text-white shadow-btn hover:bg-secondary hover:-translate-y-1 transition duration-300">
+                  <BsCalendar2Plus />
                   Marcar um hórario
-                </button>
-                <button className=" w-full sm:w-max bg-white rounded-xl px-8 py-4 font-bold text-secondary shadow-btn hover:-translate-y-1 transition duration-300">
+                </a>
+                <a href="#services" className="flex justify-center items-center gap-2 w-full sm:w-max bg-white rounded-xl px-8 py-4 font-bold text-secondary shadow-btn hover:-translate-y-1 transition duration-300">
+                  <MdOutlineMedicalServices className="text-xl" />
                   Procurar serviços
-                </button>
+                </a>
               </div>
             </div>
           </div>
