@@ -54,10 +54,9 @@ function App() {
       <Book />
       <Button />
       <Schedule />
-    
+      <Articles />
       <Downloads/>
       <Partners />
-      <Articles />
       <Contact />
       <Faq />
       <Footer />
