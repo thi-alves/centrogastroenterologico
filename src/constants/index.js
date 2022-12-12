@@ -1,4 +1,4 @@
-import { article_01, card_01, profile_team, gastroenterologia} from "../assets";
+import { article_01, card_01, profile_team, gastroenterologia,cirurgiageral,coloproctologia} from "../assets";
 
 export const services = {
   card: [
@@ -12,7 +12,7 @@ export const services = {
     },
     {
       id: "card_02",
-      icon: card_01,
+      icon: coloproctologia,
       title: "Coloproctologia",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque, veritatis obcaecati sequi amet nesciunt",
@@ -20,7 +20,7 @@ export const services = {
     },
     {
       id: "card_03",
-      icon: card_01,
+      icon: cirurgiageral,
       title: "Cirurgia Geral",
       content:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque, veritatis obcaecati sequi amet nesciunt",

@@ -13,7 +13,7 @@ const Hero = () => {
     <section id="home">
       <div className="w-screen min-h-screen">
         <div className="w-full h-full grid sm:grid-cols-2 gap-y-4">
-          <div className="flex flex-col justify-center items-end mr-20 relative overflow-hidden w-full h-full  px-3 py-10">
+          <div className="flex flex-col justify-center items-end mr-20 relative overflow-hidden w-full h-full  space-container-section">
             <img
               id="circle"
               src={circle}

@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section id="services">
       <div className="w-screen min-h-screen flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] px-3 py-10">
+        <div className="w-full h-full xl:max-w-[1280px] space-container-section">
           <div className="space-y-4 flex flex-col justify-center items-center text-center mb-4">
             <button className="btn-secondary">Nossos serviços</button>
             <h2 className="h2 text-primary">

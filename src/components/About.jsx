@@ -16,7 +16,7 @@ const About = () => {
           alt=""
           className="absolute w-[380px] right-[150px] bottom-[200px] z-[0] opacity-50"
         />
-        <div className="w-full h-full xl:max-w-[1280px] px-3 p-10">
+        <div className="w-full h-full xl:max-w-[1280px] space-container-section">
           <div className="grid sm:grid-cols-2 space-y-4">
             <div className="relative">
                 <img data-anime="" src={about_01} alt="" className="max-w-[77%] float-left  rounded-[2.5rem] z-[3]"/>

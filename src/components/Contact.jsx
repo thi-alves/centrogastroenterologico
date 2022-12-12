@@ -17,7 +17,7 @@ const Contact = () => {
           alt=""
           className="absolute left-[0%] top-[-20%] z-[1] opacity-60"
         />
-        <div className="w-full h-full xl:max-w-[1280px] px-3 py-10 z-[2]">
+        <div className="w-full h-full xl:max-w-[1280px] space-container-section z-[2]">
           <div className="h-full grid sm:grid-cols-2 gap-4 content-center">
             <div className="space-y-4">
               <button className="btn-secondary">Contate-nos</button>

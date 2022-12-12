@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer id="footer">
       <div className="w-screen h-full flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] px-3 py-10">
+        <div className="w-full h-full xl:max-w-[1280px] px-3">
 
           <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-5">
             <div id="Subscribe-Newsletter" className="space-y-8 col-span-2 mb-4">
@@ -42,18 +42,18 @@ const Footer = () => {
               <div className="grid grid-cols-2">
                 <div>
                   <ul className="space-y-1">
-                    <li className="font-bold bg-secondary/10 text-secondary">Home</li>
-                    <li>Sobre</li>
-                    <li>Serviços</li>
-                    <li>Equipe</li>
-                    <li>Procedimentos</li>
+                    <li className="font-bold bg-secondary/10 text-secondary"><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#team">Equipe</a></li>
+                    <li><a href="#partners">Convênios</a></li>
                   </ul>
                 </div>
                 <div className="space-y-1">
                   <ul>
-                    <li>Novidades</li>
-                    <li>Contato</li>
-                    <li>Localização</li>
+                    <li><a href="#articles">Artigos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#team">Localização</a></li>
                   </ul>
                 </div>
               </div>
@@ -63,12 +63,11 @@ const Footer = () => {
               <h5 className="h5 ml-2 mb-2">Utilitários</h5>
               <div>
                 <ul className="space-y-1">
-                  <li>Termos</li>
-                  <li>Planos</li>
-                  <li>Consorcios</li>
-                  <li>Changelog</li>
-                  <li>Procedimentos</li>
-                  <li className="font-bold bg-secondary/10 text-secondary">Licenças</li>
+                  <li><a href="#downloads">Downloads</a></li>
+                  <li><a href="#faq">Ajuda</a></li>
+                  <li><a href="#articles">Artigos</a></li>
+                  <li><a href="#news">Novidades</a></li>
+                  <li className="font-bold bg-secondary/10 text-secondary">LGPD</li>
                 </ul>
               </div>
             </div>

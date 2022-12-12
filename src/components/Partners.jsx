@@ -18,9 +18,9 @@ const Partners = () => {
     ? "display"
     : "hidden";
   return (
-    <section>
+    <section id="partners">
       <div className="w-screen h-max flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] p-10 px-3">
+        <div className="w-full h-full xl:max-w-[1280px] space-container-section">
     
           <div className="space-y-4 flex flex-col justify-center items-center mb-8">
             <h2 className="h3 text-primary text-center">

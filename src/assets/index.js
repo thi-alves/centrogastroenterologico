@@ -1,5 +1,7 @@
 import logo from "./logo.png";
 import gastroenterologia from "./gastroenterologia.png";
+import cirurgiageral from "./cirurgiageral.png";
+import coloproctologia from "./coloproctologia.png";
 import home from "./home.png";
 import card_01 from "./card_01.png";
 import about_01 from "./about_01.jpeg";
@@ -20,6 +22,8 @@ import goldencross from "./goldencross.svg";
 export{
   logo,
   gastroenterologia,
+  coloproctologia,
+  cirurgiageral,
   home,
   card_01,
   about_01,

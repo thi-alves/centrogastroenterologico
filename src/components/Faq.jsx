@@ -9,7 +9,7 @@ const Faq = () => {
   return (
     <section id="faq">
       <div className="w-screen min-h-screen flex flex-col justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px]">
+        <div className="w-full h-full xl:max-w-[1280px] space-container-section">
       
           <div className="space-y-4 flex flex-col justify-center items-center text-center mb-8">
             <button className="btn-secondary">FAQ</button>

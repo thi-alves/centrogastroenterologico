@@ -94,3 +94,7 @@ li{
 .anime-img{
 @apply duration-300 translate-y-32 ease-in-out
 }
+
+.space-container-section{
+@apply py-10 px-3 md:px-6 lg:px-12
+}
