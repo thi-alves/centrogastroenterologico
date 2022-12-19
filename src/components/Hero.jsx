@@ -40,10 +40,12 @@ const Hero = () => {
                 </strong>
               </h1>
               <p className="p text-gray_red mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit velit,
-                sapien habitant integer senectus malesuada ac. Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit velit, sapien habitant
-                integer senectus malesuada ac.
+                O centro Gastro foi criado pelo Dr. 
+                Nantes Morillo no ano de 1992 ainda
+                atuante como gastroenterologista
+                e endoscopista. Somos uma clínica especializada
+                em doenças do aparelho digestivo com atendimento
+                em consultas eletivas, exames diagnósticos e terapêuticos de endoscopia digestiva, Colonoscopia e Ecoendoscopia.
               </p>
               <div className="flex justify-start gap-x-8 items-center flex-col sm:flex-row gap-y-2">
                 <a href="#contact" className="flex justify-center items-center gap-2 w-full sm:w-max bg-primary rounded-xl px-8 py-4 font-bold text-white shadow-btn hover:bg-secondary hover:-translate-y-1 transition duration-300">
