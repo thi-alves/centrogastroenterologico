@@ -24,7 +24,7 @@ const Downloads = () => {
           </div>
           <div className="grid sm:grid-cols-2 mt-6 gap-2">
             <div className="flex flex-col sm:flex-row">
-              <div className="border-2 border-secondary rounded-2xl p-4 relative shadow-btn">
+              <div className="border border-secondary rounded-2xl p-4 relative shadow-btn">
                 <h3 className="h3 text-primary">Termos de Consentimento</h3>
                 <p className="p text-gray_red max-w-[650px]">
                   Termo de Consentimento Livre e Esclarecido (TCLE) para que
@@ -52,7 +52,7 @@ const Downloads = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row">
-              <div className="border-2 border-secondary rounded-2xl p-4 relative shadow-btn">
+              <div className="border border-secondary rounded-2xl p-4 relative shadow-btn">
                 <h3 className="h3 text-primary">Preparos</h3>
                 <p className="p text-gray_red max-w-[650px]">
                   Termo de Consentimento Livre e Esclarecido (TCLE) para que

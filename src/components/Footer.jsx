@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer id="footer">
       <div className="w-screen h-full flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] px-3">
+        <div className="w-full h-full xl:max-w-[1280px] px-8">
 
           <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-5">
             <div id="Subscribe-Newsletter" className="space-y-8 col-span-2 mb-4">

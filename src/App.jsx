@@ -14,6 +14,7 @@ import {
   Partners,
   Faq,
   Downloads,
+  Testimonials,
 } from "./components";
 
 import { useEffect } from "react";
@@ -54,10 +55,10 @@ function App() {
       <Book />
       <Button />
       <Schedule />
-    
+      <Articles />
+      <Testimonials/>
       <Downloads/>
       <Partners />
-      <Articles />
       <Contact />
       <Faq />
       <Footer />

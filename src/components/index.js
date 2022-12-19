@@ -17,6 +17,7 @@ import Partners from "./Partners";
 import Downloads from "./Downloads"
 import Faq from "./Faq"
 import Card_Faq from "./Card_Faq"
+import Testimonials from "./Testimonials"
 
 export {
   Navbar,
@@ -38,4 +39,5 @@ export {
   Downloads,
   Faq,
   Card_Faq,
+  Testimonials,
 };

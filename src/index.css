@@ -20,6 +20,12 @@ scroll-smooth
 
 body{
   font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 0;
+  min-height: 100%;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
 }
 
 .input {
@@ -96,5 +102,11 @@ li{
 }
 
 .space-container-section{
-@apply py-10 px-3 md:px-6 lg:px-12
+@apply py-10 px-3 md:px-6 lg:px-32 xl:px-4
 }
+
+.shadow-box{
+  border-radius: 50px;
+background: linear-gradient(315deg, #cacaca, #f0f0f0);
+box-shadow:  -20px -20px 60px #bebebe,
+             20px 20px 60px #ffffff;}

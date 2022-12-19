@@ -5,8 +5,8 @@ import Card_Articles from "./Card_Articles";
 const Articles = () => {
   return (
     <section id="articles">
-      <div className="w-screen min-h-screen flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] space-container-section">
+      <div className="container m-auto my-20 xl:max-w-[1280px]">
+        
           <div className="space-y-4 flex flex-col justify-center items-center mb-8">
             <button className="btn-secondary">Artigos e Dicas</button>
             <h2 className="h2 text-primary text-center">
@@ -23,7 +23,7 @@ const Articles = () => {
               <Card_Articles key={card.id} {...card} />
             ))}
           </div>
-        </div>
+        
       </div>
     </section>
   );

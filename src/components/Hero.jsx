@@ -63,8 +63,8 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-screen flex justify-center items-center">
-        <div className="w-full  xl:max-w-[1280px] px-3 sm:px-10">
-          <div className="flex flex-col sm:flex-row gap-y-4 bg-white rounded-3xl shadow-btn p-10 justify-between relative mt-[-100px]">
+        <div className="w-full h-full xl:max-w-[1280px] px-3 sm:px-10 lg:px-48 xl:px-10">
+          <div className="right-0 left-0 m-auto flex flex-col md:flex-row gap-y-4 bg-white rounded-3xl shadow-btn p-10 justify-between relative mt-[-100px]">
             <div className="flex md:flex-col lg:flex-row gap-y-3 w-full justify-center group">
               <div className="w-max">
                 <div className="p-4 bg-primary  group-hover:bg-secondary transition duration-300 rounded-2xl mr-5 flex justify-center items-center text-white text-4xl">

@@ -8,7 +8,9 @@ import { FaWhatsapp } from "react-icons/fa";
 const Card_Team = ({ photo, title, sTitle, content, crm }) => {
   return (
     <div className="max-w-[390px]  flex-none text-center">
-      <img src={photo} alt="" className="object-cover rounded-[2.8rem] mb-4" />
+      <div className="overflow-hidden rounded-[2.8rem] mb-4">
+      <img src={photo} alt="" className="object-cover   hover:scale-110 ease-in-out duration-300" />
+      </div>
       <h3 className="h3 text-primary text-center">
         <strong>{title}</strong>
         <p className="text-xs text-gray_red">{crm}</p>
