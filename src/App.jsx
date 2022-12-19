@@ -57,7 +57,6 @@ function App() {
       <Schedule />
       <Articles />
       <Testimonials/>
-      <Articles />
       <Downloads/>
       <Partners />
       <Contact />
