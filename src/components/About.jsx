@@ -4,19 +4,14 @@ const About = () => {
   return (
     <section id="about">
       <div className="w-screen min-h-screen flex justify-center items-center bg-secondary/[4%] shadow-sm bg-cover relative overflow-hidden">
+   
         <img
           id="circle"
           src={circle}
           alt=""
-          className="absolute w-[300px] left-[150px] top-[200px] z-[0] opacity-50"
+          className="absolute w-[380px] right-[150px] bottom-[200px] z-[0] opacity-20"
         />
-        <img
-          id="circle"
-          src={circle}
-          alt=""
-          className="absolute w-[380px] right-[150px] bottom-[200px] z-[0] opacity-50"
-        />
-        <div className="w-full h-full xl:max-w-[1280px] space-container-section">
+      <div className="container mx-auto py-16">
           <div className="grid sm:grid-cols-2 space-y-4">
             <div className="relative">
                 <img data-anime="" src={about_01} alt="" className="max-w-[77%] float-left  rounded-[2.5rem] z-[3]"/>

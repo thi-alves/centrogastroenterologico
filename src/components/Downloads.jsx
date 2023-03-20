@@ -3,8 +3,7 @@ import { BiRightArrow } from "react-icons/bi";
 const Downloads = () => {
   return (
     <section id="downloads">
-      <div className="w-scren  flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] space-container-section">
+    <div className="container mx-auto py-16">
           <div className="space-y-4 flex flex-col justify-center items-center text-center bg-secondary/[4%] rounded-2xl p-6 ">
             <button className="btn-secondary">Downloads</button>
             <h2 className="h2 text-primary">
@@ -83,7 +82,6 @@ const Downloads = () => {
 
 
 
-          </div>
         </div>
       </div>
     </section>

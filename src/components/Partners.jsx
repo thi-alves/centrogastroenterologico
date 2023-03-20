@@ -19,8 +19,7 @@ const Partners = () => {
     : "hidden";
   return (
     <section id="partners">
-      <div className="w-screen h-max flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] space-container-section">
+        <div className="container mx-auto py-16">
     
           <div className="space-y-4 flex flex-col justify-center items-center mb-8">
             <h2 className="h3 text-primary text-center">
@@ -78,8 +77,7 @@ const Partners = () => {
               </ul>
             </div>
           </div>
-        </div>
-      </div>
+       </div>
     </section>
   );
 };

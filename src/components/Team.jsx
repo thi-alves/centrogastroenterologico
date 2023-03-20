@@ -19,7 +19,7 @@ const Team = () => {
   return (
     <>
     <section id="team">
-      <div className="w-screen min-h-scren flex flex-col justify-center items-center relative">
+      <div className="w-screen containermin-h-scren flex flex-col justify-center items-center relative">
         <img
           id="circle"
           src={circle}

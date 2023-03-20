@@ -5,8 +5,7 @@ import Card_Services from "./Card_Services";
 const Services = () => {
   return (
     <section id="services">
-      <div className="w-screen min-h-screen flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] space-container-section">
+      <div className="container mx-auto py-16">
           <div className="space-y-4 flex flex-col justify-center items-center text-center mb-4">
             <button className="btn-secondary">Nossos serviços</button>
             <h2 className="h2 text-primary">
@@ -29,8 +28,7 @@ const Services = () => {
             ))}
           </div>
 
-        </div>
-      </div>
+       </div>
     </section>
   );
 };

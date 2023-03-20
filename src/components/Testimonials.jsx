@@ -19,7 +19,7 @@ const Testimonials = () => {
 
   return (
     <section id="testmonials">
-      <div className="container mx-auto my-20 relative">
+      <div className="container mx-auto py-16 relative">
         <img
           id="circle"
           src={circle}
@@ -100,11 +100,7 @@ const Testimonials = () => {
           </p>
         </div>{" "}
         {/*Header Testmonials */}
-        <div className="rounded-2xl p-4">
-          <div className="d">
-          oi
-          </div>
-        </div>
+   
       </div>
     </section>
   );

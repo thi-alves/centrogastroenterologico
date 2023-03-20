@@ -5,7 +5,7 @@ import Card_Articles from "./Card_Articles";
 const Articles = () => {
   return (
     <section id="articles">
-      <div className="container m-auto my-20 xl:max-w-[1280px]">
+      <div className="container mx-auto py-16">
         
           <div className="space-y-4 flex flex-col justify-center items-center mb-8">
             <button className="btn-secondary">Artigos e Dicas</button>

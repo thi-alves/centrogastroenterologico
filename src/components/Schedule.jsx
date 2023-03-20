@@ -5,8 +5,7 @@ import {BsCalendar3} from "react-icons/bs"
 const Schedule = () => {
   return (
     <section id="schedule">
-      <div className="w-screen flex justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] flex flex-col  sm:py-20 space-container-section">
+    <div className="container mx-auto py-16">
           <div className="w-full grid sm:grid-cols-12 bg-primary self-center rounded-3xl overflow-hidden group">
             <div className="sm:col-span-7 flex flex-col justify-center p-10 gap-6 relative">
               <img
@@ -38,8 +37,7 @@ const Schedule = () => {
               />
             </div>
           </div>
-        </div>
-      </div>
+     </div>
     </section>
   );
 };
