@@ -8,9 +8,9 @@ const Faq = () => {
   const [Menu_Links, setMenu] = useState(false);
   return (
     <section id="faq">
-      <div className="w-screen min-h-screen flex flex-col justify-center items-center">
-        <div className="w-full h-full xl:max-w-[1280px] space-container-section">
-      
+      <div className="my-10">
+        <div className="container mx-auto">
+
           <div className="space-y-4 flex flex-col justify-center items-center text-center mb-8">
             <button className="btn-secondary">FAQ</button>
             <h2 className="h2 text-primary">
@@ -37,7 +37,7 @@ const Faq = () => {
               </div>
             </div>
             <div className="sm:col-span-10">
-              <div className="w-full h-full bg-white shadow-btn rounded-2xl border-[1px] border-gray py-6 min-h-[442px] relative overflow-hidden z-[0]">
+              <div className="w-full h-full bg-white shadow-btn rounded-2xl border-[1px] border-gray py-6 min-h-max relative overflow-hidden z-[0]">
                 <img
                   id="circle"
                   src={circle}
@@ -60,21 +60,21 @@ const Faq = () => {
 
                 {Menu_Links == "Orders"
                   ? Orders.map((user, index) => (
-                      <Card_Faq
-                        key={index}
-                        questions={user.questions}
-                        answers={user.answers}
-                      />
-                    ))
+                    <Card_Faq
+                      key={index}
+                      questions={user.questions}
+                      answers={user.answers}
+                    />
+                  ))
                   : false}
                 {Menu_Links == "Account"
                   ? Account.map((user, index) => (
-                      <Card_Faq
-                        key={index}
-                        questions={user.questions}
-                        answers={user.answers}
-                      />
-                    ))
+                    <Card_Faq
+                      key={index}
+                      questions={user.questions}
+                      answers={user.answers}
+                    />
+                  ))
                   : false}
               </div>
             </div>

@@ -6,7 +6,7 @@ import {
   doctor_01,
   doctor_02,
   doctor_03,
-  testmonials_01,  testmonials_02,  testmonials_03,  testmonials_04,  testmonials_05,
+  testmonials_01, testmonials_02, testmonials_03, testmonials_04, testmonials_05,
 } from "../assets";
 
 export const services = {
@@ -225,48 +225,55 @@ export const Orders = [
 // ######################### T E S T M O N I A L S  ######################### //
 
 export const testmonials = [
-  
-    {
-      id: "testmonials_01",
-      photo: testmonials_01,
-      name: "Nelson Rodrigues",
-      office: "Paciente",
-      content:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, dolor, qui delectus ducimus molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
-    },
-    {
-      id: "testmonials_02",
-      photo: testmonials_02,
-      name: "Felipe Abreu",
-      office: "Paciente",
-      content:
-        "Lorem ipsum, dolor sit amet consectetur aestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
-    },
-    {
-      id: "testmonials_03",
-      photo: testmonials_03,
-      name: "Raquel Silva",
-      office: "Paciente",
-      content:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, dolor,  t consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, dolor qui delectus ducimus molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
-    },
-    {
-      id: "testmonials_04",
-      photo: testmonials_04,
-      name: "Manoel Augustos",
-      office: "Paciente",
-      content:
-        "Lorem ipsum, dolor sit amet consectetur adipisicino dolorem rerum quidem quae, dolor, qui delectus ducimus molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
-    },
-    {
-      id: "testmonials_05",
-      photo: testmonials_05,
-      name: "Martins e Silva",
-      office: "Paciente",
-      content:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, t consectetur adipisicing elit. Corrupti sint illo dos molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
-    },
 
-  ];
+  {
+    id: "testmonials_01",
+    photo: testmonials_01,
+    name: "Nelson Rodrigues",
+    office: "Paciente",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, dolor, qui delectus ducimus molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
+  },
+  {
+    id: "testmonials_02",
+    photo: testmonials_02,
+    name: "Felipe Abreu",
+    office: "Paciente",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur aestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
+  },
+  {
+    id: "testmonials_03",
+    photo: testmonials_03,
+    name: "Raquel Silva",
+    office: "Paciente",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, dolor,  t consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, dolor qui delectus ducimus molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
+  },
+  {
+    id: "testmonials_04",
+    photo: testmonials_04,
+    name: "Manoel Augustos",
+    office: "Paciente",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicino dolorem rerum quidem quae, dolor, qui delectus ducimus molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
+  },
+  {
+    id: "testmonials_05",
+    photo: testmonials_05,
+    name: "Martins e Silva",
+    office: "Paciente",
+    content:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, t consectetur adipisicing elit. Corrupti sint illo dos molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
+  },
+
+];
 
 // ######################### T E S T M O N I A L S  ######################### //
+
+
+
+export const name_Insurance = ["AMIL", "ASPEMG", "BHTRANS", "CASSI", "CASU", "CEMIG", "SULAMÉRICA", "COPASS SAÚDE", " DESBAN", 
+"FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANSCISCO XAVIER", "UNIMED", "NOTREDAME INTERMÉDICA", "GOLDEN CROSS", "IPSEMG", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE SISTEMA", "SAÚDE AMMP"];
+
+export const name_Doctor =["NANTES SILVESTRE MORILLO","RICARDO MORILLO VIGIL","EMANUELLA BRAGA DE CARVALHO","RICARDO SOARES FONTES","FERNANDO CAMPOS QUEIROZ","ARLETE CECÍLIA DIAS","SABRINA SOUZA ARAÚJO","LOREN CASTRO REIS"];

@@ -18,8 +18,8 @@ const Footer = () => {
                   Assine nosso canal de novidades
                 </h4>
                 <p className="p text-gray_red">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla.
+                  Assine e receba por e-mail os nossos destaques a cada quinze dias. <br/> 
+                  Fique por dentro de todas as nossas novidades.
                 </p>
               </div>
               <div className="flex gap-4 px-4 items-center justify-between w-full h-[4rem] bg-gray rounded-lg border-transparent border-1 border hover:border-1 hover:border hover:border-secondary  transition-colors duration-300">
