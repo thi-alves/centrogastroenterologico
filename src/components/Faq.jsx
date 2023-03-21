@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Faq_Menu, Account, Orders } from "../constants";
+import { Faq_Menu, Exames, Agendamentos } from "../constants";
 import Card_Faq from "./Card_Faq";
 import { GiTalk } from "react-icons/gi";
 import { circle } from "../assets";
@@ -58,8 +58,8 @@ const Faq = () => {
                   ""
                 )}
 
-                {Menu_Links == "Orders"
-                  ? Orders.map((user, index) => (
+                {Menu_Links == "Exames"
+                  ? Exames.map((user, index) => (
                     <Card_Faq
                       key={index}
                       questions={user.questions}
@@ -67,8 +67,8 @@ const Faq = () => {
                     />
                   ))
                   : false}
-                {Menu_Links == "Account"
-                  ? Account.map((user, index) => (
+                {Menu_Links == "Agendamentos"
+                  ? Agendamentos.map((user, index) => (
                     <Card_Faq
                       key={index}
                       questions={user.questions}

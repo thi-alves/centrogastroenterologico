@@ -36,9 +36,8 @@ const Team = () => {
               pronta para cuidar de você</strong>
             </h2>
             <p className="p text-gray_red max-w-[768px]">
-              A equipe está comprometida com a excelência no atendimento, sempre
-              preocupada em atender às expectativas de seriedade e respeito pela
-              saúde e bem-estar do ser humano
+            Nossa equipe está altamente comprometida em oferecer excelência no atendimento aos nossos pacientes. Temos um forte compromisso em atender às expectativas de nossos pacientes, com uma abordagem séria e respeitosa em relação à saúde e bem-estar humano.
+
             </p>
           </div>
         </div>

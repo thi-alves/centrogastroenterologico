@@ -9,8 +9,8 @@ module.exports = {
         DEFAULT: '',
         sm: '',
         lg: '',
-        xl: '',
-        '2xl': '',
+        xl: '6rem',
+        '2xl': '2',
       },
     },
     extend: {

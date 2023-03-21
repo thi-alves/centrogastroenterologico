@@ -40,7 +40,7 @@ const Hero = () => {
                 </strong>
               </h1>
               <p className="p text-gray_red mb-4">
-              O centro Gastro foi criado pelo Dr. Nantes Morillo no ano de 1992 ainda atuante como gastroenterologista e endoscopista. Somos uma clínica especializada em doenças do aparelho digestivo com atendimento em consultas eletivas, exames diagnósticos e terapêuticos de endoscopia digestiva, Colonoscopia e Ecoendoscopia.
+              O Centro Gastro foi fundado em 1992 pelo Dr. Nantes Morillo, um renomado gastroenterologista e endoscopista em atividade. Oferecemos serviços de consulta eletiva, exames diagnósticos e terapêuticos, incluindo endoscopia digestiva, colonoscopia e ecoendoscopia. Nossa equipe está comprometida em fornecer atendimento personalizado e de alta qualidade para cada paciente que entra pela nossa porta.
               </p>
               <div className="flex justify-start gap-x-8 items-center flex-col sm:flex-row gap-y-2">
                 <a href="#contact" className="flex justify-center items-center gap-2 w-full sm:w-max bg-primary rounded-xl px-8 py-4 font-bold text-white shadow-btn hover:bg-secondary hover:-translate-y-1 transition duration-300">

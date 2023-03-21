@@ -26,9 +26,7 @@ const Partners = () => {
               <strong>Nossos parceiros</strong>
             </h2>
             <p className="p text-gray_red max-w-[768px] text-center">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
-              integer elit cum sed etiam nisl arcu.integer elit cum sed etiam
-              nisl arcu.
+              Nossa clínica tem o prazer de trabalhar com diversos convênios de saúde, visando oferecer a nossos pacientes uma experiência tranquila e acessível. Estamos preparados para oferecer o melhor atendimento aos pacientes conveniados.
             </p>
           </div>
           <div className="w-full h-max flex flex-1 justify-center place-items-center gap-8">
@@ -43,7 +41,7 @@ const Partners = () => {
 
           <div className="w-full h-max flex flex-col justify-center items-center">
             <div onClick={() => setExpand(!expand)} className="cursor-pointer select-none font-bold text-base text-secondary mt-5 w-max gap-4 flex items-center justify-center text-center">
-              Clique para ver todos
+              Clique para ver a lista
               {expand ?
               <BsArrowUpCircle className="text-2xl"/>
               :

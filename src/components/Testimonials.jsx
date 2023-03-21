@@ -24,7 +24,7 @@ const Testimonials = () => {
           id="circle"
           src={circle}
           alt=""
-          className="absolute right-0 top-0 z-[0] opacity-40"
+          className="absolute right-0 top-36 z-[0] opacity-20"
         />
         <div className="flex flex-col justify-center items-center gap-y-4 mb-8 z-[2] relative">
           <div className="btn-secondary w-max select-none cursor-default">
@@ -34,13 +34,12 @@ const Testimonials = () => {
             <strong>Veja o que nossos clientes tem a dizer sobre nós!</strong>
           </h2>
           <p className="p text-gray_red max-w-[768px] text-center">
-            Veja quais são as dúvidas mais frequentes de nossos pacientes e
-            outras informações sobre nosso trabalho na grastroentereologia.
+          Nossa clínica de gastroenterologia se orgulha em oferecer um atendimento de qualidade e personalizado aos nossos pacientes. Em nossa página de depoimentos, você pode conferir os relatos de alguns deles, que expressam sua satisfação com os serviços que oferecemos. 
           </p>
         </div>{" "}
         {/*Header Section */}
         <div className="flex flex-col justify-center items-center gap-4">
-          <div className="w-full sm:w-[100%] md:w-[80%] lg:w-[70%] xl:w-[60%] rounded-2xl p-4 bg-gray/50 shadow-sm border border-gray flex flex-col sm:flex-row relative">
+          <div className="w-full sm:w-[100%] md:w-[80%] lg:w-[70%] xl:w-[60%] rounded-2xl p-4 bg-white  shadow-sm border border-gray flex flex-col sm:flex-row relative">
             <BsChatQuoteFill className="absolute right-0 bottom-0 text-black/5 text-[4rem] m-4" />
             <div className="flex flex-col items-center min-w-max">
               <img
@@ -48,7 +47,7 @@ const Testimonials = () => {
                 alt={testmonials[count].name}
                 className="w-24 h-24 rounded-full shadow-btn"
               />
-              <h4 className="font-bold text-base text-primary">
+              <h4 className="font-bold text-base text-secondary">
                 {testmonials[count].name}
               </h4>
               <p className="text-xs text-gray_red">Paciente</p>

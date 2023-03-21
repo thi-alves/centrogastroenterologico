@@ -16,7 +16,7 @@ export const services = {
       icon: gastroenterologia,
       title: "Gastroenterologia",
       content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque, veritatis obcaecati sequi amet nesciunt",
+        "Gastroenterologia é a especialidade médica que se dedica ao estudo e tratamento de doenças do sistema digestivo. Inclui desde distúrbios simples como azia até doenças complexas como câncer de estômago.",
       link: "https://www.google.com",
     },
     {
@@ -24,7 +24,7 @@ export const services = {
       icon: coloproctologia,
       title: "Coloproctologia",
       content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque, veritatis obcaecati sequi amet nesciunt",
+        "Coloproctologia é a especialidade médica que se dedica ao estudo e tratamento das doenças do cólon, reto e ânus. Inclui desde distúrbios simples como hemorroidas até doenças complexas como o câncer colorretal.",
       link: "https://www.google.com",
     },
     {
@@ -32,7 +32,7 @@ export const services = {
       icon: cirurgiageral,
       title: "Cirurgia Geral",
       content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque, veritatis obcaecati sequi amet nesciunt",
+        "Cirurgia geral é a especialidade médica que se dedica ao tratamento de doenças e lesões que requerem intervenção cirúrgica, incluindo o trato gastrointestinal, parede abdominal, sistema endócrino e vasos sanguíneos periféricos.",
       link: "https://www.google.com",
     },
   ],
@@ -44,74 +44,66 @@ export const team = {
       id: "card_01",
       photo: doctor_03,
       title: "Nantes Silvestre Morillo",
-      sTitle: "Gastroenterologista",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
+      "A medicina é uma arte de coração, mente e alma.",
       crm: "CRM-MG 13.644",
     },
     {
       id: "card_02",
       photo: doctor_01,
       title: "Ricardo Morillo Vigil",
-      sTitle: "Tamet consectetur ad",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      crm: "CRM: 478549/87",
+      "O bem-estar do paciente é o meu objetivo.",
+      crm: "CRM-MG 39.058",
     },
     {
       id: "card_05",
       photo: doctor_02,
       title: "Emanuella Braga de Carvalho",
-      sTitle: "Tamet consectetur ad",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      crm: "CRM: 478549/87",
+      "A medicina é uma jornada constante de aprendizado.",
+      crm: "CRM-MG 39.162",
     },
     {
       id: "card_03",
       photo: doctor_03,
       title: "Ricardo Soares Fontes",
-      sTitle: "Tamet consectetur ad",
+      sTitle: "Coloproctologia",
       content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      crm: "CRM: 478549/87",
+      "Um sorriso pode fazer toda a diferença na vida de um paciente.",
+      crm: "CRM-MG 43.376",
     },
     {
       id: "card_04",
       photo: doctor_01,
       title: "Fernando Campos Queiroz",
-      sTitle: "Tamet consectetur ad",
+      sTitle: "Cirurgia do Aparelho Digestivo",
       content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      crm: "CRM: 478549/87",
+      "Tratar o corpo é importante, mas tratar a alma é essencial.",
+      crm: "CRM-MG 37.688",
     },
     {
       id: "card_06",
       photo: doctor_02,
       title: "Arlete Cecília Dias",
-      sTitle: "Tamet consectetur ad",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      crm: "CRM: 478549/87",
+      "A minha maior recompensa é ver a melhora dos meus pacientes.",
+      crm: "CRM-MG 42.299",
     },
     {
       id: "card_07",
       photo: doctor_02,
       title: "Sabrina Souza Araújo",
-      sTitle: "Tamet consectetur ad",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      crm: "CRM: 478549/87",
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
     },
-    {
-      id: "card_08",
-      photo: doctor_01,
-      title: "Loren Castro Reis",
-      sTitle: "Tamet consectetur ad",
-      content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis laudantium atque",
-      crm: "CRM: 478549/87",
-    },
+   
   ],
 };
 
@@ -120,21 +112,21 @@ export const articles = {
     {
       id: "card_01",
       photo: article_01,
-      title: "A importancia do jejum antes do exame",
+      title: "A importancia do jejum, ao realizar um exame.",
       sTitle: "Perguntas",
       content:
-        "Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.",
-      date: "Novembro 10, 2022",
+        "Neste artigo, discutiremos a importância do jejum antes do exame e como seguir esta instrução corretamente pode ajudar a melhorar a qualidade dos resultados.",
+      date: "Janeiro 12, 2023",
       link: "https://www.google.com.br/",
     },
     {
       id: "card_02",
       photo: article_01,
-      title: "Mais espaço, melhor atendimento!",
+      title: "Mais espaço, Melhor atendimento!",
       sTitle: "Notícia",
       content:
-        "Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.",
-      date: "Novembro 10, 2022",
+        "Com a ampliação, a clínica ganhou novas salas de espera, consultórios e equipamentos de última geração, possibilitando um atendimento ainda mais completo e eficiente.",
+      date: "Fevereiro 10, 2023",
       link: "https://www.google.com.br/",
     },
     {
@@ -143,8 +135,8 @@ export const articles = {
       title: "6 Dicas para evitar desconforto estomacal",
       sTitle: "Recursos",
       content:
-        "Lorem ipsum dolor sit amet, lormol amenrtol consectetur adipiscing elit, sed do eiusmod tempor.",
-      date: "Novembro 10, 2022",
+        "Tem o objetivo orientar os pacientes da clínica de gastroenterologia sobre hábitos saudáveis e simples que podem ajudar a prevenir e aliviar o desconforto estomacal.",
+      date: "Março 21, 2023",
       link: "https://www.google.com.br/",
     },
   ],
@@ -153,16 +145,16 @@ export const articles = {
 // ######################### F A Q  ######################### //
 
 export const Faq_Menu = [
-  "Account",
-  "Orders",
-  "Payments",
-  "Shipping",
-  "Returns",
-  "Refounds",
-  "Promotions",
+  "Exames",
+  "Agendamentos",
+  "Pagamentos",
+  "Convênios",
+  "Retornos",
+  "Preparos",
+  "Cancelamentos",
 ];
 
-export const Account = [
+export const Exames = [
   {
     questions: "Se eu aceitar participar de uma pesquisa clínica, viro cobaia?",
     answers:
@@ -205,7 +197,7 @@ export const Account = [
   },
 ];
 
-export const Orders = [
+export const Agendamentos = [
   {
     questions: "Orders 1",
     answers: "Orders 1.1",
@@ -232,7 +224,7 @@ export const testmonials = [
     name: "Nelson Rodrigues",
     office: "Paciente",
     content:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, dolor, qui delectus ducimus molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
+      "Excelente atendimento na Centro Gastro! Fiz uma colonoscopia e me senti muito bem assistido pela equipe médica. Recomendo!",
   },
   {
     id: "testmonials_02",
@@ -240,7 +232,7 @@ export const testmonials = [
     name: "Felipe Abreu",
     office: "Paciente",
     content:
-      "Lorem ipsum, dolor sit amet consectetur aestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
+    "Fui diagnosticado com gastrite e após a endoscopia, recebi o tratamento adequado. Agradeço ao centro gastro pela atenção e cuidado.",
   },
   {
     id: "testmonials_03",
@@ -248,7 +240,7 @@ export const testmonials = [
     name: "Raquel Silva",
     office: "Paciente",
     content:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, dolor,  t consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, dolor qui delectus ducimus molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
+    "Realizei a colonoscopia na Centro Gastro e fiquei impressionado com a eficiência do procedimento. Recomendo a todos que precisam desse exame.",
   },
   {
     id: "testmonials_04",
@@ -256,7 +248,7 @@ export const testmonials = [
     name: "Manoel Augustos",
     office: "Paciente",
     content:
-      "Lorem ipsum, dolor sit amet consectetur adipisicino dolorem rerum quidem quae, dolor, qui delectus ducimus molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
+    "A equipe médica do Centro Gastro foi muito atenciosa e profissional durante a minha consulta de gastroenterologia. Agradeço pela dedicação.",
   },
   {
     id: "testmonials_05",
@@ -264,7 +256,7 @@ export const testmonials = [
     name: "Martins e Silva",
     office: "Paciente",
     content:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sint illo dolorem rerum quidem quae, t consectetur adipisicing elit. Corrupti sint illo dos molestias accusamus tempora praesentium soluta nobis velit in consequatur maxime recusandae?",
+    "Tive um problema sério de refluxo e graças à endoscopia realizada na Centro Gastro, pude receber o tratamento correto. Estou muito satisfeito com o atendimento.",
   },
 
 ];
