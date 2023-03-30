@@ -3,7 +3,7 @@ import { about_01, about_02, circle, profile_photo } from "../assets";
 const About = () => {
   return (
     <section id="about">
-      <div className="flex justify-center items-center bg-secondary/[4%] shadow-sm bg-cover relative overflow-hidden">
+      <div className="flex justify-center items-center bg-secondary/[2%] shadow-sm bg-cover relative overflow-hidden">
 
         <img
           id="circle"
@@ -26,8 +26,8 @@ const About = () => {
               </div>
               <div className="flex flex-col gap-y-4 p text-gray_red">
                 <p >
-                  Nosso objetivo é proporcionar o mais alto nível de cuidado para os pacientes que sofrem de problemas gastrointestinais, desde sintomas simples até condições mais complexas. Nossa equipe de gastroenterologistas é formada por profissionais altamente capacitados e experientes, que utilizam as técnicas mais avançadas e os equipamentos mais modernos para o diagnóstico e tratamento de doenças do sistema digestivo.
-                  <br /><br /><span className="text-secondary font-bold">• Missão: </span> Realizar o acompanhamento no atendimento clínico e exames endoscópicos para auxiliar de forma segura na tomada de decisão terapêutica em pacientes da área de gastroenterologica.
+                Nosso objetivo é proporcionar atendimento e acompanhamento na área de Gastroenterologia, através de profissionais capacitados e experientes, comprometidos atender ás necessidades dos pacientes, com integridade e ética. Buscamos a satisfação do nosso Cliente. 
+                  <br /><br /><span className="text-secondary font-bold">• Missão: </span> Atender e acompanhar o paciente na área de Gastroenterologia, utilizando-se do atendimento Clínico e da realização de exames Endoscópicos para colaborar de forma segura para a decisão terapêutica.
 
                 </p>
                 <p >
@@ -42,7 +42,7 @@ const About = () => {
                 />
                 <div className="mb-5">
                   <h3 className="h3 text-primary">
-                    <p className="text-xs text-gray_red">CEO</p>
+                    <p className="text-xs text-gray_red">Diretor Técnico</p>
                     <strong>Ricardo Morillo Vigil</strong>
                   </h3>
                   <p className="text-gray_red text-sm">

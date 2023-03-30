@@ -3,6 +3,7 @@ import {
   gastroenterologia,
   cirurgiageral,
   coloproctologia,
+  consultas,
   doctor_01,
   doctor_02,
   doctor_03,
@@ -33,6 +34,14 @@ export const services = {
       title: "Cirurgia Geral",
       content:
         "Cirurgia geral é a especialidade médica que se dedica ao tratamento de doenças e lesões que requerem intervenção cirúrgica, incluindo o trato gastrointestinal, parede abdominal, sistema endócrino e vasos sanguíneos periféricos.",
+      link: "https://www.google.com",
+    },
+    {
+      id: "card_04",
+      icon: consultas,
+      title: "Consultas",
+      content:
+        "Consultas médicas especializadas em gastroenteorológia, com profissionais altamente qualificados para cuidar do seu bem-estar e diagnosticar possíveis problemas de saúde. Conte com a nossa expertise para cuidar de você.",
       link: "https://www.google.com",
     },
   ],

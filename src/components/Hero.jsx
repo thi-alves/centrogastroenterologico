@@ -1,5 +1,5 @@
 import React from "react";
-import { home, circle } from "../assets";
+import { logo_ofc,home, circle } from "../assets";
 import {
   MdEmail,
   MdAccessTimeFilled,
@@ -29,18 +29,21 @@ const Hero = () => {
               alt=""
               className="w-[40%] absolute left-10 bottom-0 opacity-60 z-[0]"
             />
+            
+              
+            
             <div className="self-end max-w-[568px] z-[1] flex flex-col gap-y-4">
+            <div className="mb-8">
+            <img src={logo_ofc} className="w-28 shadow-md"></img>
+            </div>
               <h1 className="h1 text-primary">
                 <strong>
-                  Uma{" "}
-                  <span className="text-secondary">
-                    clínica gastroenterologica
-                  </span>{" "}
-                  que você pode confiar
+                 CENTRO GASTRO
                 </strong>
               </h1>
-              <p className="p text-gray_red mb-4">
-              O Centro Gastro foi fundado em 1992 pelo Dr. Nantes Morillo, um renomado gastroenterologista e endoscopista em atividade. Oferecemos serviços de consulta eletiva, exames diagnósticos e terapêuticos, incluindo endoscopia digestiva, colonoscopia e ecoendoscopia. Nossa equipe está comprometida em fornecer atendimento personalizado e de alta qualidade para cada paciente que entra pela nossa porta.
+              <h3 className="h3 text-secondary"><strong>Uma clinica que você pode confiar ! </strong> </h3>
+              <p className="p text-gray_red text-justify mb-4">
+              O Centro Gastro foi fundado em 1992 pelo Dr. Nantes Morillo, um renomado gastroenterologista e endoscopista em atividade. Oferecemos serviços de consulta eletiva, exames diagnósticos e terapêuticos, incluindo endoscopia digestiva, colonoscopia e ecoendoscopia. Nossa equipe está comprometida em fornecer atendimento personalizado de qualidade, em consonância com a necessidade de cada paciente.
               </p>
               <div className="flex justify-start gap-x-8 items-center flex-col sm:flex-row gap-y-2">
                 <a href="#contact" className="flex justify-center items-center gap-2 w-full sm:w-max bg-primary rounded-xl px-8 py-4 font-bold text-white shadow-btn hover:bg-secondary hover:-translate-y-1 transition duration-300">

@@ -1,7 +1,9 @@
 import logo from "./logo.png";
+import logo_ofc from "./logo_ofc.jpg";
 import gastroenterologia from "./gastroenterologia.png";
 import cirurgiageral from "./cirurgiageral.png";
 import coloproctologia from "./coloproctologia.png";
+import consultas from "./consultas.jpg";
 import doctor_01 from "./doctor_01.png";
 import doctor_02 from "./doctor_02.png";
 import doctor_03 from "./doctor_03.png";
@@ -28,9 +30,11 @@ import testmonials_05 from "./testmonials_05.jpg";
 
 export{
   logo,
+  logo_ofc,
   gastroenterologia,
   coloproctologia,
   cirurgiageral,
+  consultas,
   home,
   doctor_01, doctor_02, doctor_03,
   about_01,
