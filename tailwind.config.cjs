@@ -7,11 +7,6 @@ module.exports = {
       padding: {
         center: true,
         DEFAULT: '1rem',
-        sm: '2rem',
-        md: '3rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl': '6rem',
       },
     },
     extend: {
@@ -30,12 +25,10 @@ module.exports = {
       },
     },
     screens: {
-      xs: "480px",
-      ss: "620px",
       sm: "768px",
-      md: "1060px",
-      lg: "1200px",
-      xl: "1700px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
     },
   },
   plugins: [
