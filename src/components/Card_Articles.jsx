@@ -1,7 +1,7 @@
 
 const Card_Articles = ({id,photo,title,sTitle,content,date,link}) => {
   return (
-    <div id={id} className="shadow-b overflow-hidden rounded-xl border border-1 border-gray group hover:border hover:border-1 hover:border-secondary">
+    <div id={id} className="w-full sm:w-1/3 shadow-b overflow-hidden rounded-xl border border-1 border-gray group hover:border hover:border-1 hover:border-secondary">
       <div className="relative overflow-hidden">
         <div className="px-4 py-3 bg-primary text-white rounded-xl text-base font-bold absolute right-[32px] bottom-[21px] z-[1]">
           {sTitle}

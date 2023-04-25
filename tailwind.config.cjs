@@ -25,10 +25,10 @@ module.exports = {
       },
     },
     screens: {
-      sm: "768px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px",
+      'sm': '640px',      // Small screens (e.g. smartphones)
+      'md': '768px',      // Medium screens (e.g. tablets)
+      'lg': '1024px',     // Large screens (e.g. laptops/desktops)
+      'xl': '1280px',     // Extra large screens (e.g. large desktops)
     },
   },
   plugins: [
