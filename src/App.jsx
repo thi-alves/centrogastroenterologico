@@ -17,27 +17,23 @@ import {
   Testimonials,
 } from "./components";
 
-
-
 function App() {
-  
-
   return (
     <div className="App overflow-x-hidden">
       {/* <Navbar /> */}
       <Hero />
       <About />
       <Services />
+      <Faq />
       <Team />
       <Book />
       <Button />
       <Schedule />
       <Articles />
-      <Testimonials/>
-      <Downloads/>
+      <Testimonials />
+      <Downloads />
       <Partners />
       <Contact />
-      <Faq />
       <Footer />
       <Teste />
     </div>

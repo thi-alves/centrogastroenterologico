@@ -7,13 +7,17 @@ const Faq = () => {
   const [Menu_Links, setMenu] = useState("Exames");
   return (
     <section id="faq">
-      <div className="container mx-auto my-20">
-
+      <div className="container mx-auto">
         <div className="w-full flex justify-center items-center">
           <div className="max-w-[768px] flex flex-col justify-center items-center text-center mb-8 gap-y-4">
-            <div className="shadow-btn bg-white text-secondary px-4 py-3 rounded-lg font-bold leading-5 text-base w-max">FAQ</div>
-            <h2 className="h2 text-primary"><strong>Como podemos ajudar?</strong></h2>
-            <p className="p">Veja quais são as dúvidas mais frequentes de nossos pacientes e
+            <div className="shadow-btn bg-white text-secondary px-4 py-3 rounded-lg font-bold leading-5 text-base w-max">
+              FAQ
+            </div>
+            <h2 className="h2 text-primary">
+              <strong>Como podemos ajudar?</strong>
+            </h2>
+            <p className="p">
+              Veja quais são as dúvidas mais frequentes de nossos pacientes e
               outras informações sobre nosso trabalho na grastroentereologia.
             </p>
           </div>
@@ -40,80 +44,70 @@ const Faq = () => {
             />
             {Menu_Links == "Exames"
               ? Exames.map((user, index) => (
-                <Card_Faq
-                  key={index}
-                  questions={user.questions}
-                  answers={user.answers}
-                />
-              ))
-              : false
-            }
+                  <Card_Faq
+                    key={index}
+                    questions={user.questions}
+                    answers={user.answers}
+                  />
+                ))
+              : false}
             {Menu_Links == "Agendamentos"
               ? Agendamentos.map((user, index) => (
-                <Card_Faq
-                  key={index}
-                  questions={user.questions}
-                  answers={user.answers}
-                />
-              ))
-              : false
-            }
+                  <Card_Faq
+                    key={index}
+                    questions={user.questions}
+                    answers={user.answers}
+                  />
+                ))
+              : false}
             {Menu_Links == "Pagamentos"
               ? Exames.map((user, index) => (
-                <Card_Faq
-                  key={index}
-                  questions={user.questions}
-                  answers={user.answers}
-                />
-              ))
-              : false
-            }
+                  <Card_Faq
+                    key={index}
+                    questions={user.questions}
+                    answers={user.answers}
+                  />
+                ))
+              : false}
             {Menu_Links == "Convênios"
               ? Exames.map((user, index) => (
-                <Card_Faq
-                  key={index}
-                  questions={user.questions}
-                  answers={user.answers}
-                />
-              ))
-              : false
-            }
+                  <Card_Faq
+                    key={index}
+                    questions={user.questions}
+                    answers={user.answers}
+                  />
+                ))
+              : false}
             {Menu_Links == "Retornos"
               ? Exames.map((user, index) => (
-                <Card_Faq
-                  key={index}
-                  questions={user.questions}
-                  answers={user.answers}
-                />
-              ))
-              : false
-            }
+                  <Card_Faq
+                    key={index}
+                    questions={user.questions}
+                    answers={user.answers}
+                  />
+                ))
+              : false}
             {Menu_Links == "Preparos"
               ? Exames.map((user, index) => (
-                <Card_Faq
-                  key={index}
-                  questions={user.questions}
-                  answers={user.answers}
-                />
-              ))
-              : false
-            }
+                  <Card_Faq
+                    key={index}
+                    questions={user.questions}
+                    answers={user.answers}
+                  />
+                ))
+              : false}
             {Menu_Links == "Cancelamentos"
               ? Exames.map((user, index) => (
-                <Card_Faq
-                  key={index}
-                  questions={user.questions}
-                  answers={user.answers}
-                />
-              ))
-              : false
-            }
+                  <Card_Faq
+                    key={index}
+                    questions={user.questions}
+                    answers={user.answers}
+                  />
+                ))
+              : false}
           </div>
         </div>
-
-
       </div>
-
     </section>
   );
 };

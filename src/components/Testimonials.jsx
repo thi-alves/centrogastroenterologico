@@ -19,7 +19,7 @@ const Testimonials = () => {
 
   return (
     <section id="testmonials">
-      <div className="container mx-auto py-16 relative">
+      <div className="container mx-auto  relative">
         <img
           id="circle"
           src={circle}
@@ -34,7 +34,10 @@ const Testimonials = () => {
             <strong>Veja o que nossos clientes tem a dizer sobre nós!</strong>
           </h2>
           <p className="p text-gray_red max-w-[768px] text-center">
-          Nossa clínica de gastroenterologia se orgulha em oferecer um atendimento de qualidade e personalizado aos nossos pacientes. Em nossa página de depoimentos, você pode conferir os relatos de alguns deles, que expressam sua satisfação com os serviços que oferecemos. 
+            Nossa clínica de gastroenterologia se orgulha em oferecer um
+            atendimento de qualidade e personalizado aos nossos pacientes. Em
+            nossa página de depoimentos, você pode conferir os relatos de alguns
+            deles, que expressam sua satisfação com os serviços que oferecemos.
           </p>
         </div>{" "}
         {/*Header Section */}
@@ -99,7 +102,6 @@ const Testimonials = () => {
           </p>
         </div>{" "}
         {/*Header Testmonials */}
-   
       </div>
     </section>
   );

@@ -165,44 +165,50 @@ export const Faq_Menu = [
 
 export const Exames = [
   {
-    questions: "Se eu aceitar participar de uma pesquisa clínica, viro cobaia?",
+    questions: "Preciso de acompanhante para realização do exame ? ",
     answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
+      "Sim. A presença de acompanhante maior de idade é obrigatório para a realização do exame sob sedação. ",
   },
   {
     questions:
-      "Recebo alguma remuneração se eu aceitar participar de uma pesquisa clínica?",
+      "Posso dirigir ou andar de moto após o exame?",
     answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
+      "Não.  Atividades que requerem maior grau de atenção não devem ser realizadas até o dia seguinte do exame. ",
   },
   {
-    questions: "Tenho algum custo para participar de uma pesquisa clínica?",
+    questions: "Posso me alimentar depois do exame?",
     answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Uma vez que aceitei participar de uma pesquisa clínica, terei que seguir até o final dela?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
+      "Sim.  Logo após a liberação da clinica.",
   },
   {
     questions:
-      "Quais são os meus direitos como participante de uma pesquisa clínica?",
+      "Qual a duração do exame?",
     answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
+      "O tempo médio em geral entre 15 a 30 minutos.  Após o exame o período de recuperação media de 1 hora.",
   },
   {
     questions:
-      "Quais são os meus deveres como participante de uma pesquisa clínica?",
+      "Por que tenho que estar de jejum para realização do exame?",
     answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
+      "È importante que o estômago esteja sem resíduos para segurança dos procedimentos realizados sob sedação.  Além disso, para permitir adequada visualização durante o exame. ",
   },
   {
     questions:
-      "Caso eu aceite participar, com quem meus dados serão compartilhados?",
+      "Posso tomar minhas medicações habituais? ",
     answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
+      "Na maioria das vezes sim.  Pacientes em uso de anticoagulantes ou medicamentos para controle da glicose ou para emagrecimento receberão orientações especificas.",
+  },
+  {
+    questions:
+      "O Procedimento é feito com anestesia? ",
+    answers:
+      "È realizado uma sedação profunda, com a presença de um anestesista." ,
+  },
+  {
+    questions:
+      "Como é feito o exame de endoscopia e colonoscopia?",
+    answers:
+      "O exame de endoscopia é realizado através de uma sonda introduzida através da garganta e permitirá avaliação do esôfago, estomago e duodeno  (porção inicial intestino delgado). A Colonoscopia consiste na avaliação do intestino grosso (colon) através de uma sonda introduzida pelo reto." ,
   },
 ];
 
@@ -518,6 +524,6 @@ export const testmonials = [
 
 
 export const name_Insurance = ["AMIL", "ASPEMG", "BHTRANS", "CASSI", "CASU", "CEMIG", "SULAMÉRICA", "COPASS SAÚDE", " DESBAN", 
-"FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANSCISCO XAVIER", "UNIMED", "NOTREDAME INTERMÉDICA", "GOLDEN CROSS", "IPSEMG", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE SISTEMA", "SAÚDE AMMP"];
+"FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANSCISCO XAVIER", "UNIMED", "NOTREDAME INTERMÉDICA", "GOLDEN CROSS", "IPSEMG", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP"];
 
 export const name_Doctor =["NANTES SILVESTRE MORILLO","RICARDO MORILLO VIGIL","EMANUELLA BRAGA DE CARVALHO","RICARDO SOARES FONTES","FERNANDO CAMPOS QUEIROZ","ARLETE CECÍLIA DIAS","SABRINA SOUZA ARAÚJO","LOREN CASTRO REIS"];
