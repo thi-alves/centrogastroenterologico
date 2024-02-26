@@ -4,18 +4,24 @@ import Card_Articles from "./Card_Articles";
 
 const Articles = () => {
   return (
-    <section id="articles">
-      <div className="container mx-auto my-20">
-        <div className="w-full flex justify-center items-center">
-          <div className="max-w-[768px] flex flex-col justify-center items-center text-center mb-8 gap-y-4">
-            <div className="shadow-btn bg-white text-secondary px-4 py-3 rounded-lg font-bold leading-5 text-base w-max">Artigos e Dicas</div>
-            <h2 className="h2 text-primary"><strong>Nossos artigos sobre saúde estomacal</strong></h2>
-            <p className="p"> Aqui você encontrará dicas e orientações para manter seu sistema digestivo saudável e funcionando corretamente.
-              Nós nos dedicamos a fornecer informações de qualidade e precisas para ajudar nossos pacientes e visitantes.
-            </p>
-          </div>
+    <section
+      id="Artigos Médicos Centro Gastro BH"
+      className="max-container padding-container flex mt-12"
+    >
+      <div className="">
+        <div className="flex flex-1 flex-col flexCenter gap-4 text-center">
+          <div className="btn-secondary w-max select-none">Artigos e Dicas</div>
+          <h2 className="h2 text-primary">
+            <strong>Nossos artigos sobre saúde estomacal</strong>
+          </h2>
+          <p className="p max-w-[768px]">
+            Aqui você encontrará dicas e orientações para manter seu sistema
+            digestivo saudável e funcionando corretamente. Nós nos dedicamos a
+            fornecer informações de qualidade e precisas para ajudar nossos
+            pacientes e visitantes.
+          </p>
         </div>
-        <div className="w-full flex flex-wrap sm:flex-nowrap gap-4">
+        <div className="flex flex-1 flex-col md:flex-row gap-4 mt-8">
           {articles.card.map((card) => (
             <Card_Articles key={card.id} {...card} />
           ))}

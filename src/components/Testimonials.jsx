@@ -18,7 +18,7 @@ const Testimonials = () => {
   }
 
   return (
-    <section id="testmonials">
+    <section id="testmonials" className="mt-10">
       <div className="container mx-auto  relative">
         <img
           id="circle"
@@ -42,7 +42,7 @@ const Testimonials = () => {
         </div>{" "}
         {/*Header Section */}
         <div className="flex flex-col justify-center items-center gap-4">
-          <div className="w-full sm:w-[100%] md:w-[80%] lg:w-[70%] xl:w-[60%] rounded-2xl p-4 bg-white  shadow-sm border border-gray flex flex-col sm:flex-row relative">
+          <div className="w-full md:w-[100%] md:w-[80%] lg:w-[70%] xl:w-[60%] rounded-2xl p-4 bg-white  shadow-sm border border-gray flex flex-col md:flex-row relative">
             <BsChatQuoteFill className="absolute right-0 bottom-0 text-black/5 text-[4rem] m-4" />
             <div className="flex flex-col items-center min-w-max">
               <img
@@ -55,7 +55,7 @@ const Testimonials = () => {
               </h4>
               <p className="text-xs text-gray_red">Paciente</p>
             </div>
-            <div className="hidden sm:block w-[1px] bg-black/10 m-3" />
+            <div className="hidden md:block w-[1px] bg-black/10 m-3" />
             <div className="flex items-center">
               <p className="p">{testmonials[count].content}</p>
             </div>

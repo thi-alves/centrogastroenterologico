@@ -1,25 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-:root{
+:root {
   @apply font-jakarta
   bg-gray_white
-scroll-smooth
+scroll-smooth;
 }
 
-*{
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-
 }
-
-body{
-  font-family: 'Plus Jakarta Sans', sans-serif;
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
   margin: 0;
   min-height: 100%;
   background-color: #fff;
@@ -28,85 +25,109 @@ body{
   color: #333;
 }
 
+@layer utilities {
+  .max-container {
+    @apply mx-auto max-w-[1440px];
+  }
+
+  .padding-container {
+    @apply px-6 lg:px-20;
+  }
+
+  .flexCenter {
+    @apply flex items-center justify-center;
+  }
+
+  .flexBetween {
+    @apply flex items-center justify-between;
+  }
+
+  .flexStart {
+    @apply flex items-center justify-start;
+  }
+
+  .flexEnd {
+    @apply flex items-center justify-end;
+  }
+}
+
 .input {
-  
-  @layer 
+  @layer;
 }
 
 .p {
- @apply font-normal text-base
+  @apply font-normal text-base;
 }
 .h1 {
-  @apply font-bold sm:text-[58px] sm:leading-[60px] text-[38px] leading-[40px]
+  @apply font-bold text-[38px] leading-[40px];
 }
 .h2 {
-  @apply font-bold sm:text-[38px] sm:leading-[47px] text-[26px] leading-[35px]
+  @apply font-bold  text-[26px] leading-[35px];
 }
 .h3 {
-  @apply font-bold text-[24px] leading-[30px] 
+  @apply font-bold text-[24px] leading-[30px];
 }
 
 .h4 {
-@apply font-bold text-[24px] leading-[30px]  mb-2
+  @apply font-bold text-[24px] leading-[30px]  mb-2;
 }
 
 .h5 {
-  @apply font-bold text-[18px] leading-[20px]
- }
-
- .pp {  
-  @apply  font-normal text-lg leading-7 text-gray_red
+  @apply font-bold text-[18px] leading-[20px];
 }
 
-.tb{
-  @apply font-bold text-4xl leading-[36px] sm:text-6xl sm:leading-[60px] text-black
+.pp {
+  @apply font-normal text-lg leading-7 text-gray_red;
 }
 
-.tm{
-  @apply font-extrabold text-4xl leading-[36px] sm:text-4xl sm:leading-[47px] text-red-900
+.tb {
+  @apply font-bold text-4xl leading-[36px]   text-black;
 }
 
-.st{
-  @apply font-bold text-2xl leading-8 text-primary 
+.tm {
+  @apply font-extrabold text-4xl leading-[36px]   text-red-900;
 }
 
-
-.shadow-btn{
-  box-shadow:0 1px 3px 0 rgb(100 81 81 / 7%), 0 2px 6px 0 rgb(21 7 7 / 10%);
+.st {
+  @apply font-bold text-2xl leading-8 text-primary;
 }
 
-.current{
+.shadow-btn {
+  box-shadow: 0 1px 3px 0 rgb(100 81 81 / 7%), 0 2px 6px 0 rgb(21 7 7 / 10%);
+}
+
+.current {
   font-weight: 700;
   background-color: #fee2e2;
 }
 
 html,
 body,
-#root{
+#root {
   scroll-behavior: smooth;
 }
 
-li{
-  @apply font-normal text-base text-gray_red rounded-lg p-2 flex w-max gap-2 hover:bg-secondary/10 hover:text-secondary cursor-pointer
+li {
+  @apply font-normal text-base text-gray_red rounded-lg p-2 flex w-max gap-2 hover:bg-secondary/10 hover:text-secondary cursor-pointer;
 }
 
-.btn-secondary{
- @apply shadow-btn bg-white text-secondary px-4 py-3 rounded-lg font-bold leading-5 text-base
+.btn-secondary {
+  @apply shadow-btn bg-white text-secondary px-4 py-3 rounded-lg font-bold leading-5 text-base;
 }
-.btn-primary{
- @apply shadow-btn bg-primary text-white px-4 py-3 rounded-lg font-bold leading-5 text-base
-}
-
-.anime-img{
-@apply duration-300 translate-y-32 ease-in-out
+.btn-primary {
+  @apply shadow-btn bg-primary text-white px-4 py-3 rounded-lg font-bold leading-5 text-base;
 }
 
-.space-container-section{
-@apply py-10 px-3 md:px-6 lg:px-32 xl:px-4
+.anime-img {
+  @apply duration-300 translate-y-32 ease-in-out;
 }
 
-.shadow-box{
+.space-container-section {
+  @apply py-10 px-3 md:px-6 lg:px-32 xl:px-4;
+}
+
+.shadow-box {
   border-radius: 50px;
-background: linear-gradient(315deg, #cacaca, #f0f0f0);
-box-shadow:  -20px -20px 60px #bebebe,
-             20px 20px 60px #ffffff;}
+  background: linear-gradient(315deg, #cacaca, #f0f0f0);
+  box-shadow: -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
+}

@@ -8,7 +8,7 @@ import doctor_01 from "./doctor_01.jpg";
 import doctor_02 from "./doctor_02.jpg";
 import doctor_03 from "./doctor_03.jpg";
 import home from "./home.jpg";
-import about_01 from "./about_01.jpeg";
+import about_01 from "./about_01.jpg";
 import about_02 from "./about_02.jpg";
 import profile_photo from "./profile_photo.jpg";
 import article_01 from "./article_01.jpeg";

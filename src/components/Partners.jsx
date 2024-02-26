@@ -35,7 +35,7 @@ const Partners = () => {
           </div>
         </div>
 
-        <div className="hidden w-full h-max sm:flex flex-1 justify-center place-items-center gap-8">
+        <div className="hidden w-full h-max md:flex flex-1 justify-center place-items-center gap-8">
           <img src={sulamerica} alt="" className="w-40 object-cover" />
           <img src={amil} alt="" className="w-40 object-cover" />
           <img src={unimed} alt="" className="w-40 object-cover" />

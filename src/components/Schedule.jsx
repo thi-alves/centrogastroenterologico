@@ -1,43 +1,132 @@
 import React from "react";
 import { circle, schedule } from "../assets";
-import {BsCalendar3} from "react-icons/bs"
+import { BsCalendar3 } from "react-icons/bs";
+import { MdEmail, MdAccessTimeFilled, MdMedicalServices } from "react-icons/md";
 
 const Schedule = () => {
   return (
-    <section id="schedule">
-    <div className="container mx-auto py-16">
-          <div className="w-full grid sm:grid-cols-12 bg-primary self-center rounded-3xl overflow-hidden group">
-            <div className="sm:col-span-7 flex flex-col justify-center p-10 gap-6 relative">
-              <img
-                id="circle"
-                src={circle}
-                alt=""
-                className="absolute left-0 z-[1] transition-all duration-100"
-              />
-              <img
-                id="circle"
-                src={circle}
-                alt=""
-                className="absolute right-0  top-[40%] left-[60%] z-[1]"
-              />
-              <h2 className="h2 text-white z-[2]">
+    <section
+      id="schedule"
+      className="max-container padding-container flex mt-12"
+    >
+      <div className="flex flex-col">
+        <div
+          id="Agendamentos Centro Gastro BH"
+          className="flex  flex-col md:flex-row bg-primary rounded-3xl group overflow-hidden"
+        >
+          <div className="w-full md:w-[60%] relative">
+            <img
+              id="circle"
+              src={circle}
+              alt=""
+              className="absolute -left-10 -top-10 z-[0]"
+            />
+            <img
+              id="circle"
+              src={circle}
+              alt=""
+              className="w-[44%] absolute -right-36 -bottom-36 z-[0]"
+            />
+            <div className="w-full h-full flex flex-col  relative justify-center p-10 gap-6 z-[1]">
+              <h2 className="h2 text-white ">
                 Solicite hoje mesmo o agendamento da sua consulta
               </h2>
-              <a href="#contact" className="bg-white rounded-xl px-8 py-4 font-bold text-secondary shadow-btn hover:-translate-y-1 transition duration-300 w-max z-[2]">
-              <BsCalendar3 className="inline text-2xl mr-2"/>
+              <a
+                href="#contact"
+                className="bg-white rounded-xl px-8 py-4 font-bold text-secondary shadow-btn hover:-translate-y-1 transition duration-300 w-max"
+              >
+                <BsCalendar3 className="inline text-2xl mr-2" />
                 Solicitar agendamento
-                
               </a>
             </div>
-            <div className="sm:col-span-5 relative overflow-hidden">
-              <img
-                src={schedule}
-                alt=""
-                className="w-full h-full object-cover relative z-[2] group-hover:scale-125 transition-transform duration-700 ease-in-out"
-              />
+          </div>
+          <div className="w-full md:w-[40%]  overflow-hidden z-[1]">
+            <img
+              src={schedule}
+              alt=""
+              className="w-full h-full object-cover relative group-hover:scale-125 transition-transform duration-700 ease-in-out"
+            />
+          </div>
+        </div>
+        <div
+          id="Informações Agendamentos Centro Gastro BH"
+          className="flex flex-col md:flex-row bg-white rounded-3xl shadow-btn p-5 justify-between gap-4 mt-8"
+        >
+          <div className="flex flex-1 group">
+            <div className="hidden md:block">
+              <div className="p-4 bg-primary  group-hover:bg-secondary transition duration-300 rounded-2xl mr-5 flex justify-center items-center text-white text-4xl">
+                <MdEmail />
+              </div>
+            </div>
+            <div className="">
+              <h3 className="h3 text-black mb-2">Contato</h3>
+              <p className="p text-gray_red">(31) 3263-2000 | (31) 3263-2001</p>
+              <p className="p text-gray_red">
+                (31) 98611-0299 | (31) 98660-50783
+              </p>
+              <p className="p  text-secondary">
+                centrogastro
+                <span className="font-bold">@centrogastro.com.br</span>
+              </p>
+              <div className="w-[0%] h-[2px] group-hover:w-[100%] bg-secondary transition-all duration-300" />
             </div>
           </div>
-     </div>
+          <div className="w-full md:w-[1px]  h-[1px] md:h-auto bg-black/10"></div>
+          <div className="flex flex-1 group">
+            <div className="hidden md:block">
+              <div className="p-4 bg-primary  group-hover:bg-secondary transition duration-300 rounded-2xl mr-5 flex justify-center items-center text-white text-4xl">
+                <MdAccessTimeFilled />
+              </div>
+            </div>
+            <div className="">
+              <h3 className="h3 text-black mb-2">Hórario</h3>
+              <p className="p text-gray_red">
+                <span className="font-bold text-secondary">Seg - Sex:</span>{" "}
+                06:30h às 18:00h
+              </p>
+              <p className="p text-gray_red">
+                <span className="font-bold text-secondary">Sábado:</span> 06:30h
+                às 13:00h
+              </p>
+              <p className="p text-gray_red">
+                <span className="font-bold text-secondary">Domingo:</span>{" "}
+                Fechado
+              </p>
+              <div className="w-[0%] h-[2px] group-hover:w-[100%] bg-secondary transition-all duration-300" />
+            </div>
+          </div>
+          <div className="w-full md:w-[1px]  h-[1px] md:h-auto bg-black/10"></div>
+          <div className="flex flex-1 group">
+            <div className="hidden md:block">
+              <div className="p-4 bg-primary  group-hover:bg-secondary transition duration-300 rounded-2xl mr-5 flex justify-center items-center text-white text-4xl">
+                <MdMedicalServices />
+              </div>
+            </div>
+            <div className="">
+              <h3 className="h3 text-black mb-2">Serviços</h3>
+              <p className="p text-gray_red">
+                <span className="font-bold text-secondary">● </span>
+                Consultas &nbsp;&nbsp;
+                <span className="font-bold text-secondary">● </span>
+                Exames
+              </p>
+              <p className="p text-gray_red">
+                <span className="font-bold text-secondary">● </span>
+                Endoscopia &nbsp;&nbsp;
+                <span className="font-bold text-secondary">● </span>
+                Ecoendoscopia
+              </p>
+              <p className="p text-gray_red">
+                <span className="font-bold text-secondary">● </span>
+                Colonoscopia &nbsp;&nbsp;
+                <span className="font-bold text-secondary">● </span>
+                Cirurgião Geral
+              </p>
+              <div className="w-[0%] h-[2px] group-hover:w-[100%] bg-secondary transition-all duration-300" />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

@@ -19,10 +19,12 @@ import {
 
 function App() {
   return (
-    <div className="App overflow-x-hidden">
+    <div className="relative overflow-x-hidden">
       {/* <Navbar /> */}
       <Hero />
-      <About />
+      <div className="bg-secondary/[2%] shadow-sm py-10">
+        <About />
+      </div>
       <Services />
       <Faq />
       <Team />

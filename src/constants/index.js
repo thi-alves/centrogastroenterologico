@@ -39,7 +39,7 @@ export const services = {
     {
       id: "card_04",
       icon: consultas,
-      title: "Consultas",
+      title: "Consultas e Exames",
       content:
         "Consultas médicas especializadas em gastroenteorológia, com profissionais altamente qualificados para cuidar do seu bem-estar e diagnosticar possíveis problemas de saúde. Conte com a nossa expertise para cuidar de você.",
       link: "https://www.google.com",

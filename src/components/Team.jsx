@@ -17,27 +17,30 @@ const Team = () => {
     slider.scrollLeft = slider.scrollLeft - 203;
   };
   return (
-    <>
     <section id="team">
       <div className="w-screen containermin-h-scren flex flex-col justify-center items-center relative">
         <img
           id="circle"
           src={circle}
           alt=""
-          className="absolute  bottom-[-20%] right-[0%] z-[0] opacity-30"
+          className="absolute  bottom-[-90%] right-[0%] z-[0] opacity-15"
         />
 
         <div className="xl:max-w-[1280px] w-full space-container-section z-[1]">
           <div className="space-y-4 flex flex-col justify-center items-center text-center">
             <button className="btn-secondary">Nossa equipe</button>
             <h2 className="h2 text-primary">
-              <strong>Temos uma equipe médica qualificada e{" "}
-              <br className="sm:block hidden" />
-              pronta para cuidar de você</strong>
+              <strong>
+                Temos uma equipe médica qualificada e{" "}
+                <br className="md:block hidden" />
+                pronta para cuidar de você
+              </strong>
             </h2>
             <p className="p text-gray_red max-w-[768px]">
-            Nossa equipe está altamente comprometida em oferecer excelência no atendimento aos nossos pacientes. Temos um forte compromisso em atender às expectativas de nossos pacientes, com uma abordagem séria e respeitosa em relação à saúde e bem-estar humano.
-
+              Nossa equipe está altamente comprometida em oferecer excelência no
+              atendimento aos nossos pacientes. Temos um forte compromisso em
+              atender às expectativas de nossos pacientes, com uma abordagem
+              séria e respeitosa em relação à saúde e bem-estar humano.
             </p>
           </div>
         </div>
@@ -47,7 +50,7 @@ const Team = () => {
           id="circle"
           src={circle}
           alt=""
-          className="absolute w-[15%] left-[100px] top-40 z-[0] opacity-60"
+          className="absolute w-[15%] left-[100px] top-40 z-[0] opacity-15"
         />
         <div className="w-full h-full xl:max-w-[1280px] flex justify-between absolute z-[3] top-[200px] px-3">
           <div
@@ -64,10 +67,10 @@ const Team = () => {
           </div>
         </div>
       </div>
-      <div className="relative flex items-center mb-20 select-none">
+      <div className="relative flex items-center mb-10 select-none">
         <div
           id="Slider1"
-          className="sm:pl-[16.7%] w-full h-full flex flex-nowrap overflow-x-scroll scroll scroll-smooth gap-4 pt-6 scrollbar-hide "
+          className="md:pl-[16.7%] w-full h-full flex flex-nowrap overflow-x-scroll scroll scroll-smooth gap-4 pt-6 scrollbar-hide "
         >
           <div className="flex gap-4">
             {team.card.map((card) => (
@@ -76,8 +79,7 @@ const Team = () => {
           </div>
         </div>
       </div>
-      </section>
-    </>
+    </section>
   );
 };
 

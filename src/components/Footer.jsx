@@ -1,8 +1,11 @@
 import { MdEmail, MdLocationPin } from "react-icons/md";
-import { BsFillTelephoneFill, BsFillChatQuoteFill, BsLinkedin } from "react-icons/bs";
+import {
+  BsFillTelephoneFill,
+  BsFillChatQuoteFill,
+  BsLinkedin,
+} from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io";
-
 
 import { logo } from "../assets";
 const Footer = () => {
@@ -16,8 +19,8 @@ const Footer = () => {
                 Assine nosso canal de novidades
               </h4>
               <p className="p text-gray_red text-justify">
-                Assine e receba por e-mail os nossos destaques a cada quinze dias.
-                Fique por dentro de todas as nossas novidades.
+                Assine e receba por e-mail os nossos destaques a cada quinze
+                dias. Fique por dentro de todas as nossas novidades.
               </p>
               <input
                 type="text"
@@ -37,28 +40,54 @@ const Footer = () => {
               <div className="">
                 <h5 className="h5 mb-2">Menu</h5>
                 <ul className="">
-                  <li className="font-bold bg-secondary/10 text-secondary"><a href="#home">Home</a></li>
-                  <li><a href="#about">Sobre</a></li>
-                  <li><a href="#services">Serviços</a></li>
-                  <li><a href="#team">Equipe</a></li>
-                  <li><a href="#partners">Convênios</a></li>
+                  <li className="font-bold bg-secondary/10 text-secondary">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about">Sobre</a>
+                  </li>
+                  <li>
+                    <a href="#services">Serviços</a>
+                  </li>
+                  <li>
+                    <a href="#team">Equipe</a>
+                  </li>
+                  <li>
+                    <a href="#partners">Convênios</a>
+                  </li>
                 </ul>
               </div>
               <div className="">
                 <ul>
-                  <li><a href="#articles">Artigos</a></li>
-                  <li><a href="#contact">Contato</a></li>
-                  <li><a href="#team">Localização</a></li>
+                  <li>
+                    <a href="#articles">Artigos</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contato</a>
+                  </li>
+                  <li>
+                    <a href="#team">Localização</a>
+                  </li>
                 </ul>
               </div>
               <div className="">
                 <h5 className="h5 mb-2">Utilitários</h5>
                 <ul className="">
-                  <li><a href="#downloads">Downloads</a></li>
-                  <li><a href="#faq">Ajuda</a></li>
-                  <li><a href="#articles">Artigos</a></li>
-                  <li><a href="#news">Novidades</a></li>
-                  <li className="font-bold bg-secondary/10 text-secondary">LGPD</li>
+                  <li>
+                    <a href="#downloads">Downloads</a>
+                  </li>
+                  <li>
+                    <a href="#faq">Ajuda</a>
+                  </li>
+                  <li>
+                    <a href="#articles">Artigos</a>
+                  </li>
+                  <li>
+                    <a href="#news">Novidades</a>
+                  </li>
+                  <li className="font-bold bg-secondary/10 text-secondary">
+                    LGPD
+                  </li>
                 </ul>
               </div>
             </div>
@@ -68,7 +97,7 @@ const Footer = () => {
               <h5 className="h5 ml-2 mb-2 col-span-2">Contato</h5>
               <div>
                 <ul>
-                  <li >
+                  <li>
                     {" "}
                     <MdEmail className="text-primary  text-2xl" />{" "}
                     contato@gastro.com
@@ -94,12 +123,12 @@ const Footer = () => {
         </div>
 
         <div className="w-full flex flex-wrap text-center justify-center items-center mt-6 gap-y-4">
-          <div className="w-full sm:w-1/3">
+          <div className="w-full md:w-1/3">
             <div className="flex justify-center items-center">
               <img src={logo} alt="" className="w-[180px]" />
             </div>
           </div>
-          <div className="w-full sm:w-1/3">
+          <div className="w-full md:w-1/3">
             <div className="flex justify-center text-black/30 text-3xl gap-3">
               <BsLinkedin className="hover:text-secondary hover:scale-125 duration-150 ease-in-out" />
               <RiInstagramFill className="hover:text-secondary hover:scale-125 duration-150 ease-in-out" />
@@ -107,11 +136,19 @@ const Footer = () => {
               <BsFillChatQuoteFill className="hover:text-secondary hover:scale-125 duration-150 ease-in-out" />
             </div>
           </div>
-          <div className="w-full sm:w-1/3">
-            <p className="p text-gray_red">Copyright © Desenhado e Desenvolvido por <br /> <span className="text-primary"><u>Thi Alves</u></span> - <span className="text-primary"><u>TAGLINE</u></span></p>
+          <div className="w-full md:w-1/3">
+            <p className="p text-gray_red">
+              Copyright © Desenhado e Desenvolvido por <br />{" "}
+              <span className="text-primary">
+                <u>Thi Alves</u>
+              </span>{" "}
+              -{" "}
+              <span className="text-primary">
+                <u>TAGLINE</u>
+              </span>
+            </p>
           </div>
         </div>
-
       </div>
     </footer>
   );

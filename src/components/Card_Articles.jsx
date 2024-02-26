@@ -1,7 +1,9 @@
-
-const Card_Articles = ({id,photo,title,sTitle,content,date,link}) => {
+const Card_Articles = ({ id, photo, title, sTitle, content, date, link }) => {
   return (
-    <div id={id} className="w-full sm:w-1/3 shadow-b overflow-hidden rounded-xl border border-1 border-gray group hover:border hover:border-1 hover:border-secondary">
+    <div
+      id={id}
+      className="w-full md:w-1/3 shadow-b overflow-hidden rounded-xl border border-1 border-gray group hover:border hover:border-1 hover:border-secondary"
+    >
       <div className="relative overflow-hidden">
         <div className="px-4 py-3 bg-primary text-white rounded-xl text-base font-bold absolute right-[32px] bottom-[21px] z-[1]">
           {sTitle}
@@ -17,10 +19,7 @@ const Card_Articles = ({id,photo,title,sTitle,content,date,link}) => {
           <h3 className="font-bold text-2xl text-primary group-hover:text-secondary transition-colors duration-200">
             {title}
           </h3>
-          <p className="font-normal text-lg text-gray_red">
-            {" "}
-            {content}
-          </p>
+          <p className="font-normal text-lg text-gray_red"> {content}</p>
         </div>
         <hr className="text-gray w-full self-center  mb-8" />
         <div className="card-wrapper-footer-inf flex justify-between items-center">
