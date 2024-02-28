@@ -26,13 +26,23 @@ const Hero = () => {
             CENTRO <br />
             <span className="h2"> GASTROENTEROLÓGICO </span>
           </h1>
-          <p className="p text-justify lg:max-w-[520px]">
-            O Centro Gastro foi fundado em 1992 pelo Dr. Nantes Morillo, um
-            renomado gastroenterologista e endoscopista em atividade. Oferecemos
-            serviços de consulta eletiva, exames diagnósticos e terapêuticos,
-            incluindo endoscopia digestiva, colonoscopia e ecoendoscopia. Nossa
-            equipe está comprometida em fornecer atendimento personalizado de
-            qualidade, em consonância com a necessidade de cada paciente.
+          <p className="p text-justify">
+          Doutor Nantes Morillo fundador da clínica Centro Gastroenterologico é formado em Medicina
+no ano de 1976, pela Universidade Peruana Cayetano Heredia, fez residência médica em
+Gastroenterologia na faculdade de medicina San Fernando, pertencente a universidade
+Nacional Mayor de San Marcos no Peru, logo em seguida veio para o Brasil. Dr. Nantes fundou
+o serviço de endoscopia do hospital SEMPER, onde ficou muito conhecido pelos seus
+pacientes, destacando-se pelo seu carisma, dedicação e amor pela profissão. Em 1981, montou
+seu primeiro consultório, a sua serenidade, empatia e competência o faz se destacar. O
+consultório cresceu, e foi em 2004 que o Centro Gastroenterologico foi inaugurado para
+atendimento de consultas e exames. Em 2008, seu filho, Dr. Ricardo Morillo voltou ao Brasil
+após concluir sua especialização em Gatroenterologia e endoscopia avançada na França,
+trazendo toda sua expertise, assumindo o cargo de diretor técnico da clínica. Temos um
+quadro de médicos renomados na área da Gastroenterologia e Endoscopia Digestiva, que em
+conjunto com toda a equipe de enfermagem, recepção, administrativo, farmacêuticos
+contribuem diariamente para o crescimento, modernização e solidez da clínica. Esse ano de
+2024 a clínica completa 20 anos de história, com atendimento humanizado, respeitoso, com
+padrão inigualável.
           </p>
         </div>
         <div className="w-full flex flex-col md:flexCenter md:flex-row gap-4">
