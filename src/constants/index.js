@@ -1,5 +1,5 @@
 import {
-  article_01,
+  article_01,  article_02, article_03,
   gastroenterologia,
   cirurgiageral,
   coloproctologia,
@@ -7,6 +7,9 @@ import {
   doctor_01,
   doctor_02,
   doctor_03,
+  doctor_04,
+  doctor_05,
+  doctor_06,
   testmonials_01, testmonials_02, testmonials_03, testmonials_04, testmonials_05,
 } from "../assets";
 
@@ -78,7 +81,7 @@ export const team = {
     },
     {
       id: "card_03",
-      photo: doctor_03,
+      photo: doctor_04,
       title: "Ricardo Soares Fontes",
       sTitle: "Coloproctologia",
       content:
@@ -87,7 +90,7 @@ export const team = {
     },
     {
       id: "card_04",
-      photo: doctor_01,
+      photo: doctor_05,
       title: "Fernando Campos Queiroz",
       sTitle: "Cirurgia do Aparelho Digestivo",
       content:
@@ -96,7 +99,7 @@ export const team = {
     },
     {
       id: "card_06",
-      photo: doctor_02,
+      photo: doctor_06,
       title: "Arlete Cecília Dias",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
@@ -104,8 +107,8 @@ export const team = {
       crm: "CRM-MG 42.299",
     },
     {
-      id: "card_07",
-      photo: doctor_02,
+      id: "card_06",
+      photo: doctor_06,
       title: "Sabrina Souza Araújo",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
@@ -130,7 +133,7 @@ export const articles = {
     },
     {
       id: "card_02",
-      photo: article_01,
+      photo: article_02,
       title: "Mais espaço, Melhor atendimento!",
       sTitle: "Notícia",
       content:
@@ -140,7 +143,7 @@ export const articles = {
     },
     {
       id: "card_03",
-      photo: article_01,
+      photo: article_03,
       title: "6 Dicas para evitar desconforto estomacal",
       sTitle: "Recursos",
       content:
@@ -479,42 +482,42 @@ export const testmonials = [
   {
     id: "testmonials_01",
     photo: testmonials_01,
-    name: "Nelson Rodrigues",
+    name: "Izabella Amancio",
     office: "Paciente",
     content:
-      "Excelente atendimento na Centro Gastro! Fiz uma colonoscopia e me senti muito bem assistido pela equipe médica. Recomendo!",
+      "Estava apreensiva antes de fazer minha endoscopia, mas fui surpreendida positivamente pela excelente experiência na Clínica. Desde o momento em que cheguei até o término do procedimento, fui tratada com muita gentileza e profissionalismo.",
   },
   {
     id: "testmonials_02",
     photo: testmonials_02,
-    name: "Felipe Abreu",
+    name: "Mary Faria",
     office: "Paciente",
     content:
-    "Fui diagnosticado com gastrite e após a endoscopia, recebi o tratamento adequado. Agradeço ao centro gastro pela atenção e cuidado.",
+    "Muito satisfeita com o excelente atendimento. Devo exaltar o acolhimento, organização, cuidado, carinho,  com que tratam os pacientes, além da competência. Parabéns a toda equipe Gratidão!",
   },
   {
     id: "testmonials_03",
     photo: testmonials_03,
-    name: "Raquel Silva",
+    name: "Lucineia Rodrigues",
     office: "Paciente",
     content:
-    "Realizei a colonoscopia na Centro Gastro e fiquei impressionado com a eficiência do procedimento. Recomendo a todos que precisam desse exame.",
+    "Excelente médicos como Doutora Emanuella Braga e Dr. Fernando Campos. Só tenho a agradecer ao estabelecimento e toda equipe.",
   },
   {
     id: "testmonials_04",
     photo: testmonials_04,
-    name: "Manoel Augustos",
+    name: "Rafael Reis",
     office: "Paciente",
     content:
-    "A equipe médica do Centro Gastro foi muito atenciosa e profissional durante a minha consulta de gastroenterologia. Agradeço pela dedicação.",
+    "Realizei um exame de endoscopia e fui muito bem atendido por toda a equipe,  pessoas muito atenciosas e cuidadosas com a gente. A pontualidade dos procedimentos também foi excepcional. Desde a recepção até os enfermeiros e médicos, todos estão de parabéns",
   },
   {
     id: "testmonials_05",
     photo: testmonials_05,
-    name: "Martins e Silva",
+    name: "Sthefane Martins",
     office: "Paciente",
     content:
-    "Tive um problema sério de refluxo e graças à endoscopia realizada na Centro Gastro, pude receber o tratamento correto. Estou muito satisfeito com o atendimento.",
+    "Clinica maravilhosa! Realizei endoscopia com o doutor Ricardo,muito atencioso e educado! Todos os atendentes e enfermeiros são muito atencioso, gentis e tratam com a maior delicadeza e atenção. Recomendo muito, fui muito feliz no meu exame",
   },
 
 ];

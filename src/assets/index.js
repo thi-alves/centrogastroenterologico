@@ -7,11 +7,16 @@ import consultas from "./consultas.jpg";
 import doctor_01 from "./doctor_01.jpg";
 import doctor_02 from "./doctor_02.jpg";
 import doctor_03 from "./doctor_03.jpg";
+import doctor_04 from "./doctor_04.jpg";
+import doctor_05 from "./doctor_05.jpg";
+import doctor_06 from "./doctor_06.jpg";
 import home from "./home.jpg";
 import about_01 from "./about_01.jpg";
 import about_02 from "./about_02.jpg";
 import profile_photo from "./profile_photo.jpg";
-import article_01 from "./article_01.jpeg";
+import article_01 from "./article_01.jpg";
+import article_02 from "./article_02.jpg";
+import article_03 from "./article_03.jpg";
 import schedule from "./schedule.jpg";
 import circle from "./circle.svg";
 import unimed from "./unimed.svg";
@@ -36,11 +41,11 @@ export{
   cirurgiageral,
   consultas,
   home,
-  doctor_01, doctor_02, doctor_03,
+  doctor_01, doctor_02, doctor_03, doctor_04, doctor_05, doctor_06,
   about_01,
   about_02,
   profile_photo,
-  article_01,
+  article_01, article_02, article_03,
   schedule,
   circle,
   unimed,amil,sulamerica,allianz,cemig,vale,goldencross,
