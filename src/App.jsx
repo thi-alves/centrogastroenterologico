@@ -16,11 +16,13 @@ import {
   Downloads,
   Testimonials,
 } from "./components";
+import Heroo from "./components/Heroo";
 
 function App() {
   return (
     <div className="relative overflow-x-hidden">
       {/* <Navbar /> */}
+      <Heroo />
       <Hero />
       <div className="bg-secondary/[2%] shadow-sm py-10">
         <About />

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { testmonials } from "../constants";
 
 import { BsFillChatDotsFill, BsChatQuoteFill } from "react-icons/bs";
-import { circle } from "../assets";
+import { circle, estrela, logo_google } from "../assets";
 
 const Testimonials = () => {
   const [moving, setMoving] = useState(true);
@@ -87,19 +87,44 @@ const Testimonials = () => {
           </div>
         </div>{" "}
         {/*Testmonials Section */}
-        <div className="flex flex-row items-center justify-center">
-          <div className="w-[80%] h-[1px] bg-black/10 mt-10 mb-5" />
-        </div>{" "}
-        {/*Separate Bar */}
-        <div className="flex flex-col justify-center items-center text-center mb-8">
-          <h4 className="h4 text-primary">
-            Preencha os campos abaixo e envie comentários, sugestões ou críticas
-          </h4>
-          <p className="p text-gray_red">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur ex sequi sit velit architecto iure eveniet, pariatur
-            eaque praesentium inventore.
-          </p>
+        <div className="flexCenter flex-col">
+          <div className="flex flex-col w-full justify-center items-center text-center mb-8 px-20 mt-10">
+            <div className="flex flexCenter w-[80%] h-1">
+              <div className="flex-1 h-full w-full  bg-blue-500"></div>
+              <div className="flex-1 h-full w-full bg-red-500"></div>
+              <div className="flex-1 h-full w-full bg-yellow-500"></div>
+              <div className="flex-1 h-full w-full bg-blue-500"></div>
+              <div className="flex-1 h-full w-full bg-green-500"></div>
+              <div className="flex-1 h-full w-full  bg-red-500"></div>
+            </div>
+          </div>
+          <div className="flex flexCenter flex-col md:flex-row w-full h-full">
+            <div className="flex-1 flexCenter">
+              <img
+                src={logo_google}
+                alt=""
+                className="w-[35%]  hidden md:flex"
+              />
+            </div>
+            <div className="flex-1 flexCenter flex-col">
+              <p className="p !font-bold">A sua opinião vale muito</p>
+              <p>Avalie nossos serviços clicando nas estrelas.</p>
+            </div>
+            <div className="flex-1 cursor-pointer">
+              <a href="https://g.page/r/CShUQV4UdmqkEBM/review">
+                <p className="font-extrabold text-stone-700 text-lg text-center">
+                  5/5
+                </p>
+                <div className="flex gap-2 flexCenter">
+                  <img src={estrela} alt="" className="w-5" />
+                  <img src={estrela} alt="" className="w-5" />
+                  <img src={estrela} alt="" className="w-5" />
+                  <img src={estrela} alt="" className="w-5" />
+                  <img src={estrela} alt="" className="w-5" />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>{" "}
         {/*Header Testmonials */}
       </div>

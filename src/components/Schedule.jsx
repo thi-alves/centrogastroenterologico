@@ -62,11 +62,12 @@ const Schedule = () => {
               <h3 className="h3 text-black mb-2">Contato</h3>
               <p className="p text-gray_red">(31) 3263-2000 | (31) 3263-2001</p>
               <p className="p text-gray_red">
-                (31) 98611-0299 | (31) 98660-50783
+                (31) 98611-0299 | (31) 98605-8783
               </p>
               <p className="p  text-secondary">
-                centrogastro
-                <span className="font-bold">@centrogastro.com.br</span>
+                <span className="font-bold">
+                  centrogastro@centrogastro.com.br
+                </span>
               </p>
               <div className="w-[0%] h-[2px] group-hover:w-[100%] bg-secondary transition-all duration-300" />
             </div>

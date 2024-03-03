@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import logo_google from "./google-logo-1.jpg";
 import logo_ofc from "./logo_ofc.jpg";
 import gastroenterologia from "./gastroenterologia.png";
 import cirurgiageral from "./cirurgiageral.png";
@@ -31,10 +32,11 @@ import testmonials_02 from "./testmonials_02.jpg";
 import testmonials_03 from "./testmonials_03.jpg";
 import testmonials_04 from "./testmonials_04.jpg";
 import testmonials_05 from "./testmonials_05.jpg";
+import estrela from "./estrela.png";
 
 
 export{
-  logo,
+  logo,logo_google,
   logo_ofc,
   gastroenterologia,
   coloproctologia,
@@ -50,5 +52,6 @@ export{
   circle,
   unimed,amil,sulamerica,allianz,cemig,vale,goldencross,
   testmonials_01,testmonials_02,testmonials_03,testmonials_04,testmonials_05,
+  estrela,
 
 }

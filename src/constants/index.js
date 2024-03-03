@@ -82,7 +82,7 @@ export const team = {
     {
       id: "card_03",
       photo: doctor_04,
-      title: "Ricardo Soares Fontes",
+      title: "Arlete Cecília Dias",
       sTitle: "Coloproctologia",
       content:
       "Um sorriso pode fazer toda a diferença na vida de um paciente.",
@@ -91,7 +91,7 @@ export const team = {
     {
       id: "card_04",
       photo: doctor_05,
-      title: "Fernando Campos Queiroz",
+      title: "Sabrina Souza Araújo",
       sTitle: "Cirurgia do Aparelho Digestivo",
       content:
       "Tratar o corpo é importante, mas tratar a alma é essencial.",
@@ -100,7 +100,7 @@ export const team = {
     {
       id: "card_06",
       photo: doctor_06,
-      title: "Arlete Cecília Dias",
+      title: "Vitor Arantes",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
       "A minha maior recompensa é ver a melhora dos meus pacientes.",
@@ -109,7 +109,106 @@ export const team = {
     {
       id: "card_06",
       photo: doctor_06,
-      title: "Sabrina Souza Araújo",
+      title: "Luiz Ronaldo",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      content:
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
+    },
+    {
+      id: "card_06",
+      photo: doctor_06,
+      title: "Arthur",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      content:
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
+    },
+    {
+      id: "card_06",
+      photo: doctor_06,
+      title: "Elaine",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      content:
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
+    },
+    {
+      id: "card_06",
+      photo: doctor_06,
+      title: "Fernando",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      content:
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
+    },
+    {
+      id: "card_06",
+      photo: doctor_06,
+      title: "Paola",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      content:
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
+    },
+    {
+      id: "card_06",
+      photo: doctor_06,
+      title: "Ana Paula",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      content:
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
+    },
+    {
+      id: "card_06",
+      photo: doctor_06,
+      title: "Raquel",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      content:
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
+    },
+    {
+      id: "card_06",
+      photo: doctor_06,
+      title: "Dilson",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      content:
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
+    },
+    {
+      id: "card_06",
+      photo: doctor_06,
+      title: "Ricardo Arantes",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      content:
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
+    },
+    {
+      id: "card_06",
+      photo: doctor_06,
+      title: "Luiz Carlos",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      content:
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
+    },
+    {
+      id: "card_06",
+      photo: doctor_06,
+      title: "Cláudio",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      content:
+      "Cada paciente é único e merece atendimento personalizado.",
+      crm: "CRM-MG 39.018",
+    },
+    {
+      id: "card_06",
+      photo: doctor_06,
+      title: "Natália",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
       "Cada paciente é único e merece atendimento personalizado.",
