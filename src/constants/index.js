@@ -10,6 +10,7 @@ import {
   doctor_04,
   doctor_05,
   doctor_06,
+  doctor_07,
   testmonials_01, testmonials_02, testmonials_03, testmonials_04, testmonials_05,
 } from "../assets";
 
@@ -108,7 +109,7 @@ export const team = {
     },
     {
       id: "card_06",
-      photo: doctor_06,
+      photo: doctor_07,
       title: "Luiz Ronaldo",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:

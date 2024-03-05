@@ -11,6 +11,7 @@ import doctor_03 from "./doctor_03.jpg";
 import doctor_04 from "./doctor_04.jpg";
 import doctor_05 from "./doctor_05.jpg";
 import doctor_06 from "./doctor_06.jpg";
+import doctor_07 from "./doctor_07.jpg";
 import home from "./home.jpg";
 import about_01 from "./about_01.jpg";
 import about_02 from "./about_02.jpg";
@@ -43,7 +44,7 @@ export{
   cirurgiageral,
   consultas,
   home,
-  doctor_01, doctor_02, doctor_03, doctor_04, doctor_05, doctor_06,
+  doctor_01, doctor_02, doctor_03, doctor_04, doctor_05, doctor_06, doctor_07,
   about_01,
   about_02,
   profile_photo,
