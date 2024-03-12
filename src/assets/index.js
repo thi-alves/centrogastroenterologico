@@ -5,13 +5,18 @@ import gastroenterologia from "./gastroenterologia.png";
 import cirurgiageral from "./cirurgiageral.png";
 import coloproctologia from "./coloproctologia.png";
 import consultas from "./consultas.jpg";
-import doctor_01 from "./doctor_01.jpg";
-import doctor_02 from "./doctor_02.jpg";
-import doctor_03 from "./doctor_03.jpg";
-import doctor_04 from "./doctor_04.jpg";
-import doctor_05 from "./doctor_05.jpg";
-import doctor_06 from "./doctor_06.jpg";
-import doctor_07 from "./doctor_07.jpg";
+import man from "./man.png";
+import woman from "./woman.png";
+import Luiz_Ronaldo_Alberti from "./Luiz_Ronaldo_Alberti.jpg";
+import Nantes_Silvestre_Morillo from "./Nantes_Silvestre_Morillo.jpg";
+import Ricardo_Morillo_Vigil from "./Ricardo_Morillo_Vigil.jpg";
+import Paola_Stefania_Costa from "./Paola_Stefania_Costa.jpg";
+import Raquel_Shamash from "./Raquel_Shamash.jpg";
+import Natalia_Colares from "./Natalia_Colares.jpg";
+import Elaine_Laranjeiras from "./Elaine_Laranjeiras.jpg";
+
+
+
 import home from "./home.jpg";
 import about_01 from "./about_01.jpg";
 import about_02 from "./about_02.jpg";
@@ -37,14 +42,14 @@ import estrela from "./estrela.png";
 
 
 export{
-  logo,logo_google,
+  logo,logo_google, 
   logo_ofc,
   gastroenterologia,
   coloproctologia,
   cirurgiageral,
   consultas,
   home,
-  doctor_01, doctor_02, doctor_03, doctor_04, doctor_05, doctor_06, doctor_07,
+  man, woman, Nantes_Silvestre_Morillo, Ricardo_Morillo_Vigil, Luiz_Ronaldo_Alberti, Paola_Stefania_Costa,Raquel_Shamash, Natalia_Colares,Elaine_Laranjeiras,
   about_01,
   about_02,
   profile_photo,

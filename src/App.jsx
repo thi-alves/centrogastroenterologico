@@ -17,6 +17,7 @@ import {
   Testimonials,
 } from "./components";
 import Heroo from "./components/Heroo";
+import Our_Structure from "./components/Our_Structure";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <Schedule />
       <Articles />
       <Testimonials />
+
       <Downloads />
       <Partners />
       <Contact />

@@ -25,7 +25,9 @@ const Card_Team = ({ photo, title, sTitle, content, crm }) => {
         <AiOutlineMail className="hover:text-primary hover:scale-125 duration-150 ease-in-out" />
       </div>
 
-      <p className="p text-gray_red"></p>
+      <p className="py-2 text-gray_red !text-[12px] leading-[16px]">
+        {content}
+      </p>
     </div>
   );
 };

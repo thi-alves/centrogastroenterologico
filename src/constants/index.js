@@ -4,14 +4,8 @@ import {
   cirurgiageral,
   coloproctologia,
   consultas,
-  doctor_01,
-  doctor_02,
-  doctor_03,
-  doctor_04,
-  doctor_05,
-  doctor_06,
-  doctor_07,
-  testmonials_01, testmonials_02, testmonials_03, testmonials_04, testmonials_05,
+  man, woman, Luiz_Ronaldo_Alberti, Raquel_Shamash, Natalia_Colares,Elaine_Laranjeiras,
+  testmonials_01, testmonials_02, testmonials_03, testmonials_04, testmonials_05, Nantes_Silvestre_Morillo, Ricardo_Morillo_Vigil, Paola_Stefania_Costa,
 } from "../assets";
 
 export const services = {
@@ -21,7 +15,7 @@ export const services = {
       icon: gastroenterologia,
       title: "Gastroenterologia",
       content:
-        "Gastroenterologia é a especialidade médica que se dedica ao estudo e tratamento de doenças do sistema digestivo. Inclui desde distúrbios simples como azia até doenças complexas como câncer de estômago.",
+        "Gastroenterologia é a especialidade médica que avalia e trata as doenças orgânicas e funcionais do esôfago, estômago, intestinos delgado e grosso (cólon) e reto, pâncreas, fígado e vesícula biliar. Inclui distúrbios como azia, dor abdominal, esteatose hepática e prevenção e diagnóstico de câncer de estômago e colorretal.",
       link: "https://www.google.com",
     },
     {
@@ -29,7 +23,7 @@ export const services = {
       icon: coloproctologia,
       title: "Coloproctologia",
       content:
-        "Coloproctologia é a especialidade médica que se dedica ao estudo e tratamento das doenças do cólon, reto e ânus. Inclui desde distúrbios simples como hemorroidas até doenças complexas como o câncer colorretal.",
+        "A coloproctologia é a especialidade que atende doenças do intestino grosso, reto e canal anal, com tratamento clínico ou cirúrgico.No caso de sintomas como diarreia persistente, constipação intestinal, alteração do hábito intestinal, sangramento nas fezes, dor às evacuações ou alterações na região anal, procure este especialista.",
       link: "https://www.google.com",
     },
     {
@@ -37,7 +31,7 @@ export const services = {
       icon: cirurgiageral,
       title: "Cirurgia Geral",
       content:
-        "Cirurgia geral é a especialidade médica que se dedica ao tratamento de doenças e lesões que requerem intervenção cirúrgica, incluindo o trato gastrointestinal, parede abdominal, sistema endócrino e vasos sanguíneos periféricos.",
+        "Cirurgia Geral é a especialidade médica que se dedica ao cuidado de pacientes portadores das mais variadas afeções que demandam ou possam vir a demandar algum tipo de intervenção cirúrgica no curso de seu tratamento.",
       link: "https://www.google.com",
     },
     {
@@ -45,7 +39,7 @@ export const services = {
       icon: consultas,
       title: "Consultas e Exames",
       content:
-        "Consultas médicas especializadas em gastroenteorológia, com profissionais altamente qualificados para cuidar do seu bem-estar e diagnosticar possíveis problemas de saúde. Conte com a nossa expertise para cuidar de você.",
+        "Consultas médicas especializadas em Gastroenterologia, Proctologia e Cirurgia Geral, com profissionais altamente qualificados para garantir seu bem estar, controle das doenças do aparelho digestivo e proporcionar qualidade de vida.",
       link: "https://www.google.com",
     },
   ],
@@ -55,164 +49,164 @@ export const team = {
   card: [
     {
       id: "card_01",
-      photo: doctor_03,
+      photo: Nantes_Silvestre_Morillo,
       title: "Nantes Silvestre Morillo",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "A medicina é uma arte de coração, mente e alma.",
+      "",
       crm: "CRM-MG 13.644",
     },
     {
       id: "card_02",
-      photo: doctor_01,
+      photo: Ricardo_Morillo_Vigil,
       title: "Ricardo Morillo Vigil",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "O bem-estar do paciente é o meu objetivo.",
+      "",
       crm: "CRM-MG 39.058",
     },
     {
       id: "card_05",
-      photo: doctor_02,
+      photo: woman,
       title: "Emanuella Braga de Carvalho",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "A medicina é uma jornada constante de aprendizado.",
+      "",
       crm: "CRM-MG 39.162",
     },
     {
       id: "card_03",
-      photo: doctor_04,
+      photo: woman,
       title: "Arlete Cecília Dias",
       sTitle: "Coloproctologia",
       content:
-      "Um sorriso pode fazer toda a diferença na vida de um paciente.",
+      "",
       crm: "CRM-MG 43.376",
     },
     {
       id: "card_04",
-      photo: doctor_05,
+      photo: woman,
       title: "Sabrina Souza Araújo",
       sTitle: "Cirurgia do Aparelho Digestivo",
       content:
-      "Tratar o corpo é importante, mas tratar a alma é essencial.",
-      crm: "CRM-MG 37.688",
+      "Medicina UFMG / Gastroenterologia Felicio Rocho / Endoscopia Hospital Militar",
+      crm: "CRM-MG 39.018",
     },
     {
       id: "card_06",
-      photo: doctor_06,
+      photo: man,
       title: "Vitor Arantes",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "A minha maior recompensa é ver a melhora dos meus pacientes.",
+      "",
       crm: "CRM-MG 42.299",
     },
     {
       id: "card_06",
-      photo: doctor_07,
-      title: "Luiz Ronaldo",
+      photo: Luiz_Ronaldo_Alberti,
+      title: "Luiz Ronaldo Alberti",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
-      crm: "CRM-MG 39.018",
+      "Medicina UFMG / Cirurgia geral FHEMIG",
+      crm: "CRM-MG 36.709",
     },
     {
       id: "card_06",
-      photo: doctor_06,
+      photo: man,
       title: "Arthur",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
+      "",
       crm: "CRM-MG 39.018",
     },
     {
       id: "card_06",
-      photo: doctor_06,
-      title: "Elaine",
+      photo: Elaine_Laranjeiras,
+      title: "Elaine Laranjeiras",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
+      "",
       crm: "CRM-MG 39.018",
     },
     {
       id: "card_06",
-      photo: doctor_06,
+      photo: man,
       title: "Fernando",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
+      "",
       crm: "CRM-MG 39.018",
     },
     {
       id: "card_06",
-      photo: doctor_06,
-      title: "Paola",
+      photo: Paola_Stefania_Costa,
+      title: "Paola Stefania Costa",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
+      "",
       crm: "CRM-MG 39.018",
     },
     {
       id: "card_06",
-      photo: doctor_06,
+      photo: woman,
       title: "Ana Paula",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
+      "",
       crm: "CRM-MG 39.018",
     },
     {
       id: "card_06",
-      photo: doctor_06,
-      title: "Raquel",
+      photo: Raquel_Shamash,
+      title: "Raquel Shamash",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
+      "",
       crm: "CRM-MG 39.018",
     },
     {
       id: "card_06",
-      photo: doctor_06,
-      title: "Dilson",
-      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      photo: man,
+      title: "Dilson de Barros Guimarães",
+      sTitle: "Anestesiologia",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
-      crm: "CRM-MG 39.018",
+      "Ciências Médicas de Minas Gerais / Anestesiologia Hospital das Clínicas UFMG",
+      crm: "CRM-MG 22.603",
     },
     {
       id: "card_06",
-      photo: doctor_06,
+      photo: man,
       title: "Ricardo Arantes",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
+      "",
       crm: "CRM-MG 39.018",
     },
     {
       id: "card_06",
-      photo: doctor_06,
+      photo: man,
       title: "Luiz Carlos",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
+      "",
       crm: "CRM-MG 39.018",
     },
     {
       id: "card_06",
-      photo: doctor_06,
+      photo: man,
       title: "Cláudio",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
+      "",
       crm: "CRM-MG 39.018",
     },
     {
       id: "card_06",
-      photo: doctor_06,
-      title: "Natália",
+      photo: Natalia_Colares,
+      title: "Natália Colares",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Cada paciente é único e merece atendimento personalizado.",
+      "",
       crm: "CRM-MG 39.018",
     },
    

@@ -12,7 +12,7 @@ const Card_Services = ({ icon, title, content, link }) => {
       </div>
       <div className="px-5 py-2 space-y-4 flex flex-col bg-white -mt-20 md:mt-0">
         <h3 className="h3 group-hover:text-secondary">{title}</h3>
-        <p className="p text-gray_red">{content}</p>
+        <p className="p text-gray_red text-start">{content}</p>
         <a
           href={link}
           className="font-bold text-base text-secondary leading-3 pb-2"
