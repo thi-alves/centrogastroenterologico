@@ -111,7 +111,7 @@ const Contact = () => {
         "%0A" +
         "|" +
         "%0A" +
-        "*Especialidade:* " +
+        "*Exame:* " +
         values.exame
     );
   };
