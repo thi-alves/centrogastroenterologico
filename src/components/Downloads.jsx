@@ -78,16 +78,37 @@ const Downloads = () => {
               </div>
             </div>
             <div className="px-8 bg-gray/60  rounded-2xl p-4 flex flex-col space-y-2">
-              <span className="font-medium text-secondary">Colonoscopia</span>
-              <span className="font-medium text-secondary">
+              <a
+                href="https://drive.google.com/uc?export=download&id=1ABS1MlrWRrMXSc6Dp61saBDo-4OZvbGy"
+                className="font-medium text-secondary"
+              >
+                Colonoscopia Manhã
+              </a>
+              <a
+                href="https://drive.google.com/uc?export=download&id=1EsMj72kx6iDjn0KUPBpj5O6YMP38zd17"
+                className="font-medium text-secondary"
+              >
+                Colonoscopia Tarde
+              </a>
+              <a
+                href="https://drive.google.com/uc?export=download&id=1BGA_53P3hFz9QPaeSTmuM_Ih4YEYJmMo"
+                className="font-medium text-secondary"
+              >
                 Endoscopia Baixa
-              </span>
-              <span className="font-medium text-secondary">
-                Endoscopia Alta
-              </span>
-              <span className="font-medium text-secondary">
-                Endoscopia Digestiva Alta
-              </span>
+              </a>
+              <a
+                href="https://drive.google.com/uc?export=download&id=1j53rEtO6IecFwGDV0aHGsDzjjaE1zM6m"
+                className="font-medium text-secondary"
+              >
+                Endoscopia Digestiva Alta Manhã
+              </a>
+              <a
+                href="https://drive.google.com/uc?export=download&id=1EkLavn_8y9A8WvgFXs0UkCkRgOIDpfxU
+                "
+                className="font-medium text-secondary"
+              >
+                Endoscopia Digestiva Alta Tarde
+              </a>
             </div>
             <div className=""></div>
           </div>

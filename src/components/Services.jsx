@@ -14,9 +14,8 @@ const Services = () => {
           <strong>Podemos lhe ajudar com as seguintes especialidades</strong>
         </h2>
         <p className="p max-w-[768px]">
-          Nossa clínica é equipada com tecnologia de última geração e seguimos
-          rigorosos protocolos de segurança para garantir a sua tranquilidade e
-          bem-estar durante todas as suas visitas
+          Nossa clínica segue rigorosos protocolos de segurança para garantir a
+          sua tranquilidade e bem-estar durante todas as suas visitas.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
           {services.card.map((card) => (

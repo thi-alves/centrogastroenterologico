@@ -78,10 +78,10 @@ export const team = {
       id: "card_03",
       photo: woman,
       title: "Arlete Cecília Dias",
-      sTitle: "Coloproctologia",
+      sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
       "",
-      crm: "CRM-MG 43.376",
+      crm: "CRM-MG 42.299",
     },
     {
       id: "card_04",
@@ -113,7 +113,7 @@ export const team = {
     {
       id: "card_06",
       photo: man,
-      title: "Arthur",
+      title: "Arthur Vaz Alvares",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
       "",
@@ -122,47 +122,47 @@ export const team = {
     {
       id: "card_06",
       photo: Elaine_Laranjeiras,
-      title: "Elaine Laranjeiras",
+      title: "Elaine Jessica Laranjeira",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
       "",
-      crm: "CRM-MG 39.018",
+      crm: "CRM-MG 71.095",
     },
     {
       id: "card_06",
       photo: man,
-      title: "Fernando",
-      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      title: "Fernando Campos Queiroz",
+      sTitle: "Cirurgião Geral",
       content:
       "",
-      crm: "CRM-MG 39.018",
+      crm: "CRM-MG 37.688",
     },
     {
       id: "card_06",
       photo: Paola_Stefania_Costa,
       title: "Paola Stefania Costa",
-      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      sTitle: "Coloproctologista",
       content:
       "",
-      crm: "CRM-MG 39.018",
+      crm: "CRM-MG 62.003",
     },
     {
       id: "card_06",
       photo: woman,
-      title: "Ana Paula",
-      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      title: "Ana Paula Fernandes",
+      sTitle: "Coloproctologista",
       content:
       "",
-      crm: "CRM-MG 39.018",
+      crm: "CRM-MG 74.736",
     },
     {
       id: "card_06",
       photo: Raquel_Shamash,
       title: "Raquel Shamash",
-      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      sTitle: "Anestesiologista",
       content:
       "",
-      crm: "CRM-MG 39.018",
+      crm: "CRM-MG 19.199",
     },
     {
       id: "card_06",
@@ -185,29 +185,29 @@ export const team = {
     {
       id: "card_06",
       photo: man,
-      title: "Luiz Carlos",
-      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      title: "Luiz Ronaldo Alberti",
+      sTitle: "Cirurgião Geral",
       content:
       "",
-      crm: "CRM-MG 39.018",
+      crm: "CRM-MG 36.709",
     },
     {
       id: "card_06",
-      photo: man,
-      title: "Cláudio",
-      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      photo: woman,
+      title: "Claudia Cristina dos santos",
+      sTitle: "Anestesiologista",
       content:
       "",
-      crm: "CRM-MG 39.018",
+      crm: "CRM-MG 34.670",
     },
     {
       id: "card_06",
       photo: Natalia_Colares,
       title: "Natália Colares",
-      sTitle: "Gastroenterologia / Endoscopia Digestiva",
+      sTitle: "Anestesiologista",
       content:
       "",
-      crm: "CRM-MG 39.018",
+      crm: "CRM-MG 62.197",
     },
    
   ],
@@ -254,10 +254,8 @@ export const Faq_Menu = [
   "Exames",
   "Agendamentos",
   "Pagamentos",
-  "Convênios",
-  "Retornos",
   "Preparos",
-  "Cancelamentos",
+  
 ];
 
 export const Exames = [
@@ -311,87 +309,17 @@ export const Exames = [
 
 export const Agendamentos = [
   {
-    questions: "Se eu aceitar participar de uma pesquisa clínica, viro cobaia?",
+    questions: "Quais os meios de agendamento para exames e consultas? ",
     answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Recebo alguma remuneração se eu aceitar participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions: "Tenho algum custo para participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Uma vez que aceitei participar de uma pesquisa clínica, terei que seguir até o final dela?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus direitos como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus deveres como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Caso eu aceite participar, com quem meus dados serão compartilhados?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
+      "Telefone 3263-2000, WhatsApp e pelo site.",
   },
 ];
 
 export const Pagamentos = [
   {
-    questions: "Se eu aceitar participar de uma pesquisa clínica, viro cobaia?",
+    questions: "Qual forma de pagamento?",
     answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Recebo alguma remuneração se eu aceitar participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions: "Tenho algum custo para participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Uma vez que aceitei participar de uma pesquisa clínica, terei que seguir até o final dela?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus direitos como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus deveres como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Caso eu aceite participar, com quem meus dados serão compartilhados?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
+      "O Centro Gastroenterológico atendemos particular e convênios, entre em contato para maiores esclarecimentos.",
   },
 ];
 
@@ -490,35 +418,6 @@ export const Preparos = [
   {
     questions:
       "Recebo alguma remuneração se eu aceitar participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions: "Tenho algum custo para participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Uma vez que aceitei participar de uma pesquisa clínica, terei que seguir até o final dela?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus direitos como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus deveres como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Caso eu aceite participar, com quem meus dados serão compartilhados?",
     answers:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
   },

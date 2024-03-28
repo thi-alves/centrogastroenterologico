@@ -20,7 +20,7 @@ const Faq = () => {
           informações sobre nosso trabalho na grastroentereologia.
         </p>
         <div className="flex flexCenter flex-col md:flex-row flex-wrap w-full gap-4 text-left mt-8">
-          <div className="flex flex-col  w-full md:w-2/12 bg-white shadow-btn rounded-2xl border-[1px] border-gray py-6">
+          <div className="flex flex-col  w-full md:w-2/12 bg-white shadow-btn rounded-2xl border-[1px] border-gray py-6 h-full">
             {Faq_Menu.map((menu, index) => (
               <div
                 onClick={() => setMenu(menu)}
@@ -31,7 +31,7 @@ const Faq = () => {
               </div>
             ))}
           </div>
-          <div className="flex flex-1 flex-col md:w-10/12  bg-white shadow-btn rounded-2xl border-[1px] border-gray py-2 relative z-[1] overflow-hidden">
+          <div className="flex flex-1 flex-col md:w-10/12  bg-white shadow-btn rounded-2xl border-[1px] border-gray py-2 relative z-[1] overflow-hidden ">
             <img
               id="circle"
               src={circle}
@@ -65,34 +65,8 @@ const Faq = () => {
                   />
                 ))
               : false}
-            {Menu_Links == "Convênios"
-              ? Exames.map((user, index) => (
-                  <Card_Faq
-                    key={index}
-                    questions={user.questions}
-                    answers={user.answers}
-                  />
-                ))
-              : false}
-            {Menu_Links == "Retornos"
-              ? Exames.map((user, index) => (
-                  <Card_Faq
-                    key={index}
-                    questions={user.questions}
-                    answers={user.answers}
-                  />
-                ))
-              : false}
+
             {Menu_Links == "Preparos"
-              ? Exames.map((user, index) => (
-                  <Card_Faq
-                    key={index}
-                    questions={user.questions}
-                    answers={user.answers}
-                  />
-                ))
-              : false}
-            {Menu_Links == "Cancelamentos"
               ? Exames.map((user, index) => (
                   <Card_Faq
                     key={index}
