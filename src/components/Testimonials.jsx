@@ -24,7 +24,7 @@ const Testimonials = () => {
           id="circle"
           src={circle}
           alt=""
-          className="absolute right-0 top-36 z-[0] opacity-20"
+          className="absolute right-0 top-36 z-[0] opacity-15"
         />
         <div className="flex flex-col justify-center items-center gap-y-4 mb-8 z-[2] relative">
           <div className="btn-secondary w-max select-none cursor-default">

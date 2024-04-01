@@ -3,6 +3,7 @@ import {
   BsFillTelephoneFill,
   BsFillChatQuoteFill,
   BsLinkedin,
+  BsWhatsapp,
 } from "react-icons/bs";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -10,7 +11,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { logo } from "../assets";
 const Footer = () => {
   return (
-    <footer id="footer">
+    <footer id="footer" className="mt-12">
       <div className="container mx-auto my-10">
         <div className="w-full flex justify-items-center items-center flex-wrap gap-y-4">
           <div className="w-full md:w-1/2 lg:w-1/3">

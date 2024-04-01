@@ -15,13 +15,14 @@ import {
   Faq,
   Downloads,
   Testimonials,
+  WithUs,
 } from "./components";
 import Heroo from "./components/Heroo";
 import Our_Structure from "./components/Our_Structure";
 
 function App() {
   return (
-    <div className="relative overflow-x-hidden">
+    <div className="relative overflow-x-hidden z-0">
       {/* <Navbar /> */}
       <Heroo />
       <Hero />
@@ -35,11 +36,11 @@ function App() {
       <Button />
       <Schedule />
       <Articles />
-      <Testimonials />
-
-      <Downloads />
-      <Partners />
       <Contact />
+      <Testimonials />
+      <Downloads />
+      <WithUs />
+      <Partners />
       <Footer />
       <Teste />
     </div>

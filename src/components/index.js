@@ -19,6 +19,7 @@ import Faq from "./Faq";
 import Card_Faq from "./Card_Faq";
 import Testimonials from "./Testimonials";
 import Our_Structure from "./Our_Structure";
+import WithUs from "./WithUs";
 
 export {
   Navbar,
@@ -41,4 +42,5 @@ export {
   Faq,
   Card_Faq,
   Testimonials,
+  WithUs,
 };

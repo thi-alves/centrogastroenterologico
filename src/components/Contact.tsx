@@ -120,7 +120,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full bg-secondary/[4%] shadow-sm relative overflow-hidden py-10"
+      className="w-full bg-secondary/[4%] shadow-sm relative overflow-hidden py-10 mt-20"
     >
       <div className=" w-full h-full">
         <img
@@ -139,7 +139,7 @@ const Contact = () => {
       <div className="max-container padding-container flex flex-col gap-x-20 gap-y-10 z-10">
         <div className="">
           <div className="flex flex-1 flex-col flexCenter gap-4 text-center">
-            <div className="btn-secondary w-max select-none">Contate-nos</div>
+            <div className="btn-secondary w-max select-none">Agendamentos</div>
             <h2 className="h2 text-primary self-start">
               <strong>Agendar consulta:</strong>
             </h2>
@@ -288,7 +288,7 @@ const Contact = () => {
                   )}
                 </div>
               </div>
-              {checkPrivate === "Não" ? (
+              {checkPrivate === "Não" || checkPrivate === undefined ? (
                 <>
                   <div className="w-full md:w-1/2 lg:w-1/3">
                     <div className="bg-gray-200 p-4">
@@ -355,8 +355,18 @@ const Contact = () => {
                         Medico:
                       </label>
                       <select className={inputStyle} {...register("medico")}>
-                        <option>Não</option>
-                        <option>Sim</option>
+                        <option defaultValue="DEFAULT" disabled selected>
+                          Escolha seu médico...
+                        </option>
+                        {team.card.map((item, index) =>
+                          item.flag ? (
+                            <option value={item.title} key={index}>
+                              {item.title}
+                            </option>
+                          ) : (
+                            ""
+                          )
+                        )}
                       </select>
                     </div>
                   </div>
@@ -364,8 +374,10 @@ const Contact = () => {
                     <div className="bg-gray-200 p-4">
                       <label className="block h5 text-black mb-2">Exame:</label>
                       <select className={inputStyle} {...register("exame")}>
-                        <option>Não</option>
-                        <option>Sim</option>
+                        <option>Endoscopia</option>
+                        <option>Ecoendoscopia</option>
+                        <option>Colonoscopia</option>
+                        <option>Consulta</option>
                       </select>
                     </div>
                   </div>

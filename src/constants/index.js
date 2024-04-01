@@ -5,7 +5,7 @@ import {
   coloproctologia,
   consultas,
   man, woman, Luiz_Ronaldo_Alberti, Raquel_Shamash, Natalia_Colares,Elaine_Laranjeiras,
-  testmonials_01, testmonials_02, testmonials_03, testmonials_04, testmonials_05, Nantes_Silvestre_Morillo, Ricardo_Morillo_Vigil, Paola_Stefania_Costa,
+  testmonials_01, testmonials_02, testmonials_03, testmonials_04, testmonials_05, Nantes_Silvestre_Morillo, Ricardo_Morillo_Vigil, Paola_Stefania_Costa, Emanuella_Braga, Arlete_Cecilia,
 } from "../assets";
 
 export const services = {
@@ -55,6 +55,7 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 13.644",
+      flag: true,
     },
     {
       id: "card_02",
@@ -64,24 +65,27 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 39.058",
+      flag: true,
     },
     {
       id: "card_05",
-      photo: woman,
+      photo: Emanuella_Braga,
       title: "Emanuella Braga de Carvalho",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
       "",
       crm: "CRM-MG 39.162",
+      flag: true,
     },
     {
       id: "card_03",
-      photo: woman,
+      photo: Arlete_Cecilia,
       title: "Arlete Cecília Dias",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
       "",
       crm: "CRM-MG 42.299",
+      flag: true,
     },
     {
       id: "card_04",
@@ -91,6 +95,7 @@ export const team = {
       content:
       "Medicina UFMG / Gastroenterologia Felicio Rocho / Endoscopia Hospital Militar",
       crm: "CRM-MG 39.018",
+      flag: true,
     },
     {
       id: "card_06",
@@ -100,6 +105,7 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 42.299",
+      flag: true,
     },
     {
       id: "card_06",
@@ -109,6 +115,7 @@ export const team = {
       content:
       "Medicina UFMG / Cirurgia geral FHEMIG",
       crm: "CRM-MG 36.709",
+      flag: true,
     },
     {
       id: "card_06",
@@ -118,6 +125,7 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 39.018",
+      flag: true,
     },
     {
       id: "card_06",
@@ -127,6 +135,7 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 71.095",
+      flag: true,
     },
     {
       id: "card_06",
@@ -136,6 +145,7 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 37.688",
+      flag: true,
     },
     {
       id: "card_06",
@@ -145,6 +155,7 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 62.003",
+      flag: true,
     },
     {
       id: "card_06",
@@ -154,6 +165,7 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 74.736",
+      flag: true,
     },
     {
       id: "card_06",
@@ -163,6 +175,7 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 19.199",
+      flag: false,
     },
     {
       id: "card_06",
@@ -172,6 +185,7 @@ export const team = {
       content:
       "Ciências Médicas de Minas Gerais / Anestesiologia Hospital das Clínicas UFMG",
       crm: "CRM-MG 22.603",
+      flag: false,
     },
     {
       id: "card_06",
@@ -181,15 +195,17 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 39.018",
+      flag: false,
     },
     {
       id: "card_06",
       photo: man,
       title: "Luiz Ronaldo Alberti",
-      sTitle: "Cirurgião Geral",
+      sTitle: "Anestesiologista",
       content:
       "",
       crm: "CRM-MG 36.709",
+      flag: false,
     },
     {
       id: "card_06",
@@ -199,6 +215,7 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 34.670",
+      flag: false,
     },
     {
       id: "card_06",
@@ -208,6 +225,7 @@ export const team = {
       content:
       "",
       crm: "CRM-MG 62.197",
+      flag: false,
     },
    
   ],

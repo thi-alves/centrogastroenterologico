@@ -14,6 +14,8 @@ import Paola_Stefania_Costa from "./Paola_Stefania_Costa.jpg";
 import Raquel_Shamash from "./Raquel_Shamash.jpg";
 import Natalia_Colares from "./Natalia_Colares.jpg";
 import Elaine_Laranjeiras from "./Elaine_Laranjeiras.jpg";
+import Emanuella_Braga from "./Emanuella_Braga.jpg";
+import Arlete_Cecilia from "./Arlete_Cecilia.jpg";
 
 
 
@@ -21,6 +23,7 @@ import home from "./home.jpg";
 import about_01 from "./about_01.jpg";
 import about_02 from "./about_02.jpg";
 import profile_photo from "./profile_photo.jpg";
+import profile_photo1 from "./profile_photo1.jpg";
 import article_01 from "./article_01.jpg";
 import article_02 from "./article_02.jpg";
 import article_03 from "./article_03.jpg";
@@ -49,10 +52,10 @@ export{
   cirurgiageral,
   consultas,
   home,
-  man, woman, Nantes_Silvestre_Morillo, Ricardo_Morillo_Vigil, Luiz_Ronaldo_Alberti, Paola_Stefania_Costa,Raquel_Shamash, Natalia_Colares,Elaine_Laranjeiras,
+  man, woman, Nantes_Silvestre_Morillo, Ricardo_Morillo_Vigil, Luiz_Ronaldo_Alberti, Paola_Stefania_Costa,Raquel_Shamash, Natalia_Colares,Elaine_Laranjeiras,Emanuella_Braga, Arlete_Cecilia,
   about_01,
   about_02,
-  profile_photo,
+  profile_photo, profile_photo1,
   article_01, article_02, article_03,
   schedule,
   circle,

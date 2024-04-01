@@ -17,12 +17,9 @@ const Partners = () => {
   const expandClass = expand ? "display" : "hidden";
   return (
     <section id="partners">
-      <div className="container mx-auto my-20">
+      <div className="container mx-auto my-16">
         <div className="w-full flex justify-center items-center">
           <div className="max-w-[768px] flex flex-col justify-center items-center text-center mb-8 gap-y-4">
-            <div className="shadow-btn bg-white text-secondary px-4 py-3 rounded-lg font-bold leading-5 text-base w-max">
-              FAQ
-            </div>
             <h2 className="h2 text-primary">
               <strong>Nossos parceiros</strong>
             </h2>

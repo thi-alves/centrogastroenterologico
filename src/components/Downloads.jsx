@@ -33,7 +33,7 @@ const Downloads = () => {
                 <BiRightArrow className="text-secondary text-xl" />
               </div>
             </div>
-            <div className="px-8 bg-gray/60  rounded-2xl p-4 flex flex-col space-y-2">
+            <div className="px-8 bg-[#E5E7EB]/15  rounded-2xl p-4 flex flex-col space-y-2">
               <a
                 href="https://drive.google.com/uc?export=download&id=1QMb3Af67PKWdjuGjCWJ1Rypnn-86yecY"
                 className="font-medium text-secondary"
@@ -77,7 +77,7 @@ const Downloads = () => {
                 <BiRightArrow className="text-secondary text-xl" />
               </div>
             </div>
-            <div className="px-8 bg-gray/60  rounded-2xl p-4 flex flex-col space-y-2">
+            <div className="px-8 bg-[#E5E7EB]/15  rounded-2xl p-4 flex flex-col space-y-2">
               <a
                 href="https://drive.google.com/uc?export=download&id=1ABS1MlrWRrMXSc6Dp61saBDo-4OZvbGy"
                 className="font-medium text-secondary"

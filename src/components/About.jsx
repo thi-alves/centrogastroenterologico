@@ -1,5 +1,11 @@
 import React from "react";
-import { about_01, about_02, circle, profile_photo } from "../assets";
+import {
+  about_01,
+  about_02,
+  circle,
+  profile_photo,
+  profile_photo1,
+} from "../assets";
 const About = () => {
   return (
     <section
@@ -65,11 +71,31 @@ const About = () => {
                   <p className="text-xs text-gray_red">Diretor Técnico</p>
                   <strong>Ricardo Morillo Vigil</strong>
                 </h3>
-                <p className="text-gray_red text-sm font-normal">
-                  "Estamos comprometidos em fornecer um atendimento excepcional
-                  e personalizado, e em garantir que todos os nossos pacientes
-                  sejam tratados com respeito, atenção e cuidado."
+                <p className="text-gray_red text-sm font-normal max-w-[385px]">
+                  "Estamos comprometidos em fornecer um atendimento excepcional,
+                  e em garantir que todos os nossos pacientes sejam tratados com
+                  respeito, atenção e cuidado."
                 </p>
+              </div>
+            </div>
+            <div className="w-full h-max flex flex-col">
+              <div className="flex flex-row-reverse items-end text-end gap-4 p-4">
+                <img
+                  src={profile_photo1}
+                  alt=""
+                  className="w-[84px] h-[84px] object-cover rounded-full shadow-lg"
+                />
+                <div className="">
+                  <h3 className="h3 text-primary">
+                    <p className="text-xs text-gray_red">Diretora Médica</p>
+                    <strong>Emanuella Braga de Carvalho</strong>
+                  </h3>
+                  <p className="text-gray_red text-sm text-end font-normal max-w-[385px]">
+                    "Nosso compromisso é proporcionar cuidados médicos,
+                    garantindo que cada paciente receba tratamento com
+                    dedicação, compaixão, e expertise."
+                  </p>
+                </div>
               </div>
             </div>
           </div>
