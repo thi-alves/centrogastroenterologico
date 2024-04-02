@@ -29,48 +29,48 @@ const WithUs = () => {
         </div>
 
         <div className="flex flex-col flexCenter md:flex-row py-10 px-4  bg-white rounded-2xl shadow-btn">
-          <div className="w-full md:w-[60%] flex flex-wrap">
-            <div className="bg-gray-200 p-4 flex-1 min-w-[350px]">
+          <div className="w-full md:w-[60%] flex flex-col md:flex-row flex-wrap">
+            <div className="bg-gray-200 p-4 flex-1 w-full md:min-w-[350px]">
               <label className="block h5 text-black mb-2">Nome:</label>
               <input
                 type="text"
                 className="w-full placeholder:text-gray-200/50 p-4 outline-none rounded-xl border border-1 border-gray bg-gray/20 shadow-sm hover:border-secondary placeholder:font-normal duration-300 transition-colors"
-                placeholder="Nome e sobrenome"
+                placeholder="Nome e sobrenome..."
               />
             </div>
-            <div className="bg-gray-200 p-4 flex-1 min-w-[350px] ">
+            <div className="bg-gray-200 p-4 flex-1 w-full md:min-w-[350px] ">
               <label className="block h5 text-black mb-2">E-mail:</label>
               <input
                 type="text"
                 className="w-full placeholder:text-gray-200/50 p-4 outline-none rounded-xl border border-1 border-gray bg-gray/20 shadow-sm hover:border-secondary placeholder:font-normal duration-300 transition-colors"
-                placeholder="Nome e sobrenome"
+                placeholder="E-mail pessoal..."
               />
             </div>
-            <div className="bg-gray-200 p-4 flex-1 min-w-[350px] ">
+            <div className="bg-gray-200 p-4 flex-1 w-full md:min-w-[350px] ">
               <label className="block h5 text-black mb-2">Telefone:</label>
               <input
                 type="text"
                 className="w-full placeholder:text-gray-200/50 p-4 outline-none rounded-xl border border-1 border-gray bg-gray/20 shadow-sm hover:border-secondary placeholder:font-normal duration-300 transition-colors"
-                placeholder="Nome e sobrenome"
+                placeholder="(xx) x xxxx-xxxx"
               />
             </div>
-            <div className="bg-gray-200 p-4 flex-1 min-w-[350px] ">
+            <div className="bg-gray-200 p-4 flex-1 w-full md:min-w-[350px] ">
               <label className="block h5 text-black mb-2">Assunto:</label>
               <input
                 type="text"
                 className="w-full placeholder:text-gray-200/50 p-4 outline-none rounded-xl border border-1 border-gray bg-gray/20 shadow-sm hover:border-secondary placeholder:font-normal duration-300 transition-colors"
-                placeholder="Nome e sobrenome"
+                placeholder="Titulo da mensagem..."
               />
             </div>
           </div>
           <div className="w-full md:w-[40%]">
-            <div className="bg-gray-200 p-4 flex-1 min-w-[350px] ">
+            <div className="bg-gray-200 p-4 flex-1 w-full md:min-w-[350px] ">
               <label className="block h5 text-black mb-2">Mensagem:</label>
               <textarea
                 rows="7"
                 cols="33"
                 className="w-full placeholder:text-gray-200/50 p-4 outline-none rounded-xl border border-1 border-gray bg-gray/20 shadow-sm hover:border-secondary placeholder:font-normal duration-300 transition-colors"
-                placeholder="Nome e sobrenome"
+                placeholder="Descreva sua mensagem..."
               />
             </div>
           </div>
