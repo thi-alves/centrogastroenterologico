@@ -1,3 +1,4 @@
+import { hero1 } from "./assets";
 import {
   Navbar,
   Hero,
@@ -23,9 +24,14 @@ import Our_Structure from "./components/Our_Structure";
 function App() {
   return (
     <div className="relative overflow-x-hidden z-0">
-      {/* <Navbar /> */}
       <Heroo />
-      <Hero />
+      <div
+        className="bg-cover bg-center flex items-center relative"
+        style={{ backgroundImage: `url(${hero1})` }}
+      >
+        {<Navbar />}
+        <Hero />
+      </div>
       <div className="bg-secondary/[2%] shadow-sm py-10">
         <About />
       </div>
@@ -35,12 +41,12 @@ function App() {
       <Book />
       <Button />
       <Schedule />
+      <Partners />
       <Articles />
       <Contact />
       <Testimonials />
       <Downloads />
       <WithUs />
-      <Partners />
       <Footer />
       <Teste />
     </div>

@@ -6,10 +6,7 @@ import { circle } from "../assets";
 const Faq = () => {
   const [Menu_Links, setMenu] = useState("Exames");
   return (
-    <section
-      id="Perguntas e Respostas"
-      className="max-container padding-container flex mt-12"
-    >
+    <section id="ajuda" className="max-container padding-container flex mt-12">
       <div className="flex flex-1 flex-col flexCenter gap-4 text-center">
         <div className="btn-secondary w-max select-none">FAQ</div>
         <h2 className="h2 text-primary">

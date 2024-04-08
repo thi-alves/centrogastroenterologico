@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import hero1 from "./hero1.png";
 import logo_google from "./google-logo-1.jpg";
 import logo_ofc from "./logo_ofc.jpg";
 import gastroenterologia from "./gastroenterologia.png";
@@ -19,7 +20,7 @@ import Arlete_Cecilia from "./Arlete_Cecilia.jpg";
 
 
 
-import home from "./home.jpg";
+import home from "./home.png";
 import about_01 from "./about_01.jpg";
 import about_02 from "./about_02.jpg";
 import profile_photo from "./profile_photo.jpg";
@@ -46,6 +47,7 @@ import estrela from "./estrela.png";
 
 export{
   logo,logo_google, 
+  hero1,
   logo_ofc,
   gastroenterologia,
   coloproctologia,

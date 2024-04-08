@@ -17,7 +17,7 @@ const Team = () => {
     slider.scrollLeft = slider.scrollLeft - 203;
   };
   return (
-    <section id="team">
+    <section id="corpo_clinico">
       <div className="w-screen containermin-h-scren flex flex-col justify-center items-center relative">
         <img
           id="circle"

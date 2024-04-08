@@ -9,7 +9,7 @@ import {
 const About = () => {
   return (
     <section
-      id="about"
+      id="sobre"
       className="max-container padding-container flex flex-col-reverse gap-20 md:flex-row"
     >
       <div className="flex flex-1 flex-col flexCenter relative">
@@ -87,7 +87,7 @@ const About = () => {
                 />
                 <div className="">
                   <h3 className="h3 text-primary">
-                    <p className="text-xs text-gray_red">Diretora Médica</p>
+                    <p className="text-xs text-gray_red">Diretora Clínica</p>
                     <strong>Emanuella Braga de Carvalho</strong>
                   </h3>
                   <p className="text-gray_red text-sm text-end font-normal max-w-[385px]">
