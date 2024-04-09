@@ -31,8 +31,8 @@ const Hero = () => {
             inigualável.
           </p>
         </div>
-        <div className="w-full md:w-1/2">
-          <img src={home} alt="" className="" />
+        <div className="w-full md:w-1/2 flex items-end justify-center">
+          <img src={home} alt="" className="max-w-[90%]" />
         </div>
       </div>
     </section>

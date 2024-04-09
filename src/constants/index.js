@@ -56,6 +56,7 @@ export const team = {
       "",
       crm: "CRM-MG 13.644",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_02",
@@ -66,6 +67,7 @@ export const team = {
       "",
       crm: "CRM-MG 39.058",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_05",
@@ -76,6 +78,7 @@ export const team = {
       "",
       crm: "CRM-MG 39.162",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_03",
@@ -86,6 +89,7 @@ export const team = {
       "",
       crm: "CRM-MG 42.299",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_04",
@@ -96,6 +100,7 @@ export const team = {
       "Medicina UFMG / Gastroenterologia Felicio Rocho / Endoscopia Hospital Militar",
       crm: "CRM-MG 39.018",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
@@ -106,6 +111,7 @@ export const team = {
       "",
       crm: "CRM-MG 42.299",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
@@ -116,6 +122,7 @@ export const team = {
       "Medicina UFMG / Cirurgia geral FHEMIG",
       crm: "CRM-MG 36.709",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
@@ -126,6 +133,7 @@ export const team = {
       "",
       crm: "CRM-MG 39.018",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA"],
     },
     {
       id: "card_06",
@@ -136,6 +144,7 @@ export const team = {
       "",
       crm: "CRM-MG 71.095",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA"],
     },
     {
       id: "card_06",
@@ -146,6 +155,7 @@ export const team = {
       "",
       crm: "CRM-MG 37.688",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
@@ -156,6 +166,7 @@ export const team = {
       "",
       crm: "CRM-MG 62.003",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA"],
     },
     {
       id: "card_06",
@@ -166,6 +177,7 @@ export const team = {
       "",
       crm: "CRM-MG 74.736",
       flag: true,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA"],
     },
     {
       id: "card_06",
@@ -176,6 +188,7 @@ export const team = {
       "",
       crm: "CRM-MG 19.199",
       flag: false,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
@@ -186,6 +199,7 @@ export const team = {
       "Ciências Médicas de Minas Gerais / Anestesiologia Hospital das Clínicas UFMG",
       crm: "CRM-MG 22.603",
       flag: false,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
@@ -196,6 +210,7 @@ export const team = {
       "",
       crm: "CRM-MG 39.018",
       flag: false,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
@@ -206,6 +221,7 @@ export const team = {
       "",
       crm: "CRM-MG 36.709",
       flag: false,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
@@ -216,6 +232,7 @@ export const team = {
       "",
       crm: "CRM-MG 34.670",
       flag: false,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
@@ -226,6 +243,7 @@ export const team = {
       "",
       crm: "CRM-MG 62.197",
       flag: false,
+      convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
    
   ],
@@ -539,5 +557,3 @@ export const testmonials = [
 
 export const name_Insurance = ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"];
 
-
-export const name_Doctor =["NANTES SILVESTRE MORILLO","RICARDO MORILLO VIGIL","EMANUELLA BRAGA DE CARVALHO","RICARDO SOARES FONTES","FERNANDO CAMPOS QUEIROZ","ARLETE CECÍLIA DIAS","SABRINA SOUZA ARAÚJO","LOREN CASTRO REIS"];

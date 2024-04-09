@@ -70,7 +70,7 @@ const Contact = () => {
     resolver: zodResolver(onSubmitFormSchema),
   });
   const checkAgree = watch("agree");
-  const checkPrivate = watch("private");
+  const convenio = watch("convenio");
   const phoneNumbers = ["5531986058783", "5531986110299"];
   function onSubmit(data: any) {
     return window.location.replace(
@@ -288,101 +288,92 @@ const Contact = () => {
                   )}
                 </div>
               </div>
-              {checkPrivate === "Não" || checkPrivate === undefined ? (
-                <>
-                  <div className="w-full md:w-1/2 lg:w-1/3">
-                    <div className="bg-gray-200 p-4">
-                      <label className="block h5 text-black mb-2">
-                        Convênio:
-                      </label>
-                      <select className={inputStyle} {...register("convenio")}>
-                        <option value="" disabled selected hidden>
-                          Escolha um convênio.
+
+              <div className="w-full md:w-1/2 lg:w-1/3">
+                <div className="bg-gray-200 p-4">
+                  <label className="block h5 text-black mb-2">Convênio:</label>
+                  <select className={inputStyle} {...register("convenio")}>
+                    <option value="" disabled selected hidden>
+                      Escolha um convênio.
+                    </option>
+                    {name_Insurance.map((insurance, index) => (
+                      <option value={insurance} key={index}>
+                        {insurance}
+                      </option>
+                    ))}
+                  </select>
+                  {errors.convenio && (
+                    <span className="font-xs text-secondary pl-4 ">
+                      {errors.convenio.message}
+                    </span>
+                  )}
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 lg:w-1/3">
+                <div className="bg-gray-200 p-4">
+                  <label className="block h5 text-black mb-2">Rede:</label>
+                  <input
+                    type="text"
+                    className={inputStyle}
+                    {...register("rede")}
+                    placeholder="Rede de atendimento."
+                  />
+                  {errors.rede && (
+                    <span className="font-xs text-secondary pl-4 ">
+                      {errors.rede.message}
+                    </span>
+                  )}
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 lg:w-1/3">
+                <div className="bg-gray-200 p-4">
+                  <label className="block h5 text-black mb-2">
+                    N° Carteirinha:
+                  </label>
+                  <input
+                    type="text"
+                    className={inputStyle}
+                    {...register("carteirinha")}
+                    placeholder="Ref..."
+                  />
+                  {errors.carteirinha && (
+                    <span className="font-xs text-secondary pl-4 ">
+                      {errors.carteirinha.message}
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              <div className="w-full  md:w-1/2 lg:w-1/3">
+                <div className="bg-gray-200 p-4">
+                  <label className="block h5 text-black mb-2">Medico:</label>
+                  <select className={inputStyle} {...register("medico")}>
+                    <option defaultValue="DEFAULT" disabled selected>
+                      Escolha seu médico...
+                    </option>
+                    {team.card.map((item, index) =>
+                      item.flag && item.convenios.includes(convenio) ? (
+                        <option value={item.title} key={index}>
+                          {item.title}
                         </option>
-                        {name_Insurance.map((insurance, index) => (
-                          <option value={insurance} key={index}>
-                            {insurance}
-                          </option>
-                        ))}
-                      </select>
-                      {errors.convenio && (
-                        <span className="font-xs text-secondary pl-4 ">
-                          {errors.convenio.message}
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/2 lg:w-1/3">
-                    <div className="bg-gray-200 p-4">
-                      <label className="block h5 text-black mb-2">Rede:</label>
-                      <input
-                        type="text"
-                        className={inputStyle}
-                        {...register("rede")}
-                        placeholder="Rede de atendimento."
-                      />
-                      {errors.rede && (
-                        <span className="font-xs text-secondary pl-4 ">
-                          {errors.rede.message}
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                  <div className="w-full md:w-1/2 lg:w-1/3">
-                    <div className="bg-gray-200 p-4">
-                      <label className="block h5 text-black mb-2">
-                        N° Carteirinha:
-                      </label>
-                      <input
-                        type="text"
-                        className={inputStyle}
-                        {...register("carteirinha")}
-                        placeholder="Ref..."
-                      />
-                      {errors.carteirinha && (
-                        <span className="font-xs text-secondary pl-4 ">
-                          {errors.carteirinha.message}
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                </>
-              ) : (
-                <>
-                  <div className="w-full  md:w-1/2 lg:w-1/3">
-                    <div className="bg-gray-200 p-4">
-                      <label className="block h5 text-black mb-2">
-                        Medico:
-                      </label>
-                      <select className={inputStyle} {...register("medico")}>
-                        <option defaultValue="DEFAULT" disabled selected>
-                          Escolha seu médico...
-                        </option>
-                        {team.card.map((item, index) =>
-                          item.flag ? (
-                            <option value={item.title} key={index}>
-                              {item.title}
-                            </option>
-                          ) : (
-                            ""
-                          )
-                        )}
-                      </select>
-                    </div>
-                  </div>
-                  <div className="w-full  md:w-1/2 lg:w-1/3">
-                    <div className="bg-gray-200 p-4">
-                      <label className="block h5 text-black mb-2">Exame:</label>
-                      <select className={inputStyle} {...register("exame")}>
-                        <option>Endoscopia</option>
-                        <option>Ecoendoscopia</option>
-                        <option>Colonoscopia</option>
-                        <option>Consulta</option>
-                      </select>
-                    </div>
-                  </div>
-                </>
-              )}
+                      ) : (
+                        ""
+                      )
+                    )}
+                  </select>
+                </div>
+              </div>
+              <div className="w-full  md:w-1/2 lg:w-1/3">
+                <div className="bg-gray-200 p-4">
+                  <label className="block h5 text-black mb-2">Exame:</label>
+                  <select className={inputStyle} {...register("exame")}>
+                    <option>Endoscopia</option>
+                    <option>Ecoendoscopia</option>
+                    <option>Colonoscopia</option>
+                    <option>Consulta</option>
+                  </select>
+                </div>
+              </div>
 
               <div className="w-full  md:w-1/2 lg:w-1/3">
                 <div className="bg-gray-200 p-4">

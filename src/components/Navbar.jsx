@@ -1,13 +1,13 @@
 import React from "react";
-import { logo } from "../assets";
+import { logo1 } from "../assets";
 
 function Navbar() {
   return (
-    <nav className="backdrop-blur-0 bg-gray_white/45 p-4 shadow-btn absolute top-0 w-full">
+    <nav className="backdrop-blur-0 bg-gray_white/50 p-4 shadow-btn absolute top-0 w-full">
       <div className="max-w-7xl mx-auto flex justify-between items-center ">
         <div className="flex items-center">
           <span className="text-secondary text-xl font-bold">
-            <img src={logo} alt="" />
+            <img src={logo1} alt="" />
           </span>
         </div>
         <div className="hidden md:block">

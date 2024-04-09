@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import logo1 from "./logo1.png";
 import hero1 from "./hero1.png";
 import logo_google from "./google-logo-1.jpg";
 import logo_ofc from "./logo_ofc.jpg";
@@ -46,7 +47,7 @@ import estrela from "./estrela.png";
 
 
 export{
-  logo,logo_google, 
+  logo,logo_google, logo1, 
   hero1,
   logo_ofc,
   gastroenterologia,
