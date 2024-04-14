@@ -1,10 +1,17 @@
 import { useState } from "react";
-import { Faq_Menu, Exames, Agendamentos } from "../constants";
+import {
+  Faq_Menu,
+  Exames,
+  Agendamentos,
+  Preparos,
+  Pagamentos,
+} from "../constants";
 import Card_Faq from "./Card_Faq";
 import { circle } from "../assets";
 
 const Faq = () => {
   const [Menu_Links, setMenu] = useState("Exames");
+  console.log(Menu_Links);
   return (
     <section id="ajuda" className="max-container padding-container flex mt-12">
       <div className="flex flex-1 flex-col flexCenter gap-4 text-center">
@@ -17,7 +24,7 @@ const Faq = () => {
           informações sobre nosso trabalho na grastroentereologia.
         </p>
         <div className="flex flexCenter flex-col md:flex-row flex-wrap w-full gap-4 text-left mt-8">
-          <div className="flex flex-col  w-full md:w-2/12 bg-white shadow-btn rounded-2xl border-[1px] border-gray py-6 h-full">
+          <div className="flex flex-col  w-full md:w-2/12 bg-white shadow-btn rounded-2xl border-[1px] border-gray py-6 h-max">
             {Faq_Menu.map((menu, index) => (
               <div
                 onClick={() => setMenu(menu)}
@@ -35,7 +42,7 @@ const Faq = () => {
               alt=""
               className="absolute -right-20 -bottom-20  opacity-15 w-[45%]"
             />
-            {Menu_Links == "Exames"
+            {Menu_Links === "Exames"
               ? Exames.map((user, index) => (
                   <Card_Faq
                     key={index}
@@ -43,8 +50,9 @@ const Faq = () => {
                     answers={user.answers}
                   />
                 ))
-              : false}
-            {Menu_Links == "Agendamentos"
+              : ""}
+
+            {Menu_Links === "Agendamentos"
               ? Agendamentos.map((user, index) => (
                   <Card_Faq
                     key={index}
@@ -52,26 +60,27 @@ const Faq = () => {
                     answers={user.answers}
                   />
                 ))
-              : false}
-            {Menu_Links == "Pagamentos"
-              ? Exames.map((user, index) => (
-                  <Card_Faq
-                    key={index}
-                    questions={user.questions}
-                    answers={user.answers}
-                  />
-                ))
-              : false}
+              : ""}
 
-            {Menu_Links == "Preparos"
-              ? Exames.map((user, index) => (
+            {Menu_Links === "Preparos"
+              ? Preparos.map((user, index) => (
                   <Card_Faq
                     key={index}
                     questions={user.questions}
                     answers={user.answers}
                   />
                 ))
-              : false}
+              : ""}
+
+            {Menu_Links === "Pagamentos"
+              ? Pagamentos.map((user, index) => (
+                  <Card_Faq
+                    key={index}
+                    questions={user.questions}
+                    answers={user.answers}
+                  />
+                ))
+              : ""}
           </div>
         </div>
       </div>

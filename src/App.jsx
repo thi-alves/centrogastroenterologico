@@ -40,10 +40,14 @@ function App() {
       <Team />
       <Book />
       <Button />
+
       <Schedule />
+      <Our_Structure />
       <Partners />
-      <Articles />
+
+      {/*<Articles />*/}
       <Contact />
+
       <Testimonials />
       <Downloads />
       <WithUs />

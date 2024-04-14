@@ -40,7 +40,7 @@ const About = () => {
               <p>
                 Nosso objetivo é proporcionar atendimento e acompanhamento na
                 área de Gastroenterologia, através de profissionais capacitados
-                e experientes, comprometidos atender ás necessidades dos
+                e experientes, comprometidos em atender ás necessidades dos
                 pacientes, com integridade e ética. Buscamos a satisfação do
                 nosso Cliente.
                 <br />
@@ -72,9 +72,8 @@ const About = () => {
                   <strong>Ricardo Morillo Vigil</strong>
                 </h3>
                 <p className="text-gray_red text-sm font-normal max-w-[385px]">
-                  "Estamos comprometidos em fornecer um atendimento excepcional,
-                  e em garantir que todos os nossos pacientes sejam tratados com
-                  respeito, atenção e cuidado."
+                  "Prezamos pelo cuidado humanizado de nossos pacientes, com
+                  ética, profissionalismo e respeito."
                 </p>
               </div>
             </div>
@@ -91,9 +90,9 @@ const About = () => {
                     <strong>Emanuella Braga de Carvalho</strong>
                   </h3>
                   <p className="text-gray_red text-sm text-end font-normal max-w-[385px]">
-                    "Nosso compromisso é proporcionar cuidados médicos,
-                    garantindo que cada paciente receba tratamento com
-                    dedicação, compaixão, e expertise."
+                    "Nosso objetivo é fornecer ao paciente uma assistência
+                    médica comprometida com a qualidade do acolhimento e
+                    proficiência."
                   </p>
                 </div>
               </div>

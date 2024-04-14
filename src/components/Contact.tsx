@@ -25,21 +25,16 @@ const onSubmitFormSchema = z.object({
         })
         .join(" ");
     }),
-  email: z
-    .string()
-    .email("Digite um email válido")
-    .nonempty("O email é obrigatório")
-    .toLowerCase(),
+  email: z.string().email("Digite um email válido").toLowerCase(),
   telefone: z
     .string()
-    .min(15, "Este campo deve ter no mínimo 15 caracteres.")
     .refine((value) => /^\d+$/.test(value.replace(/[() -]/g, "")), {
       message: "Este campo deve conter apenas números.",
     })
     .transform((value) => {
       return value.replace(/(\d{2})(\d{1})(\d{4})(\d{4})/, "($1) $2 $3-$4");
     }),
-  convenio: z.string().nonempty("Este campo não pode ser vazio."),
+  convenio: z.string(),
   rede: z.string(),
   carteirinha: z
     .string()

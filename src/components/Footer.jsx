@@ -107,14 +107,13 @@ const Footer = () => {
                     {" "}
                     <BsFillTelephoneFill className="text-primary  text-2xl" />{" "}
                     (+55) 31 3263-2000 <br />
-                    (+55) 31 3263-2000 <br />
                   </li>
                   <li>
                     {" "}
                     <MdLocationPin className="text-primary  text-2xl" />{" "}
                     <div className="inline-block">
-                      353 R. Pernambuco <br /> Conj. 507 e 609 <br />{" "}
-                      Belo-Horizonte
+                      Rua Pernambuco 353 <br /> Sala 507 e 609 <br />{" "}
+                      Funcionários / Belo-Horizonte CEP: 30130-150
                     </div>{" "}
                   </li>
                 </ul>

@@ -6,10 +6,23 @@ import {
   consultas,
   man, woman, Luiz_Ronaldo_Alberti, Raquel_Shamash, Natalia_Colares,Elaine_Laranjeiras,
   testmonials_01, testmonials_02, testmonials_03, testmonials_04, testmonials_05, Nantes_Silvestre_Morillo, Ricardo_Morillo_Vigil, Paola_Stefania_Costa, Emanuella_Braga, Arlete_Cecilia,
+  Luiz_carlos,
+  Claudia_Cristina,
+  Dilson_Barros,
+  Sabrina_Souza,
 } from "../assets";
 
 export const services = {
+
   card: [
+    {
+      id: "card_04",
+      icon: consultas,
+      title: "Consultas e Exames",
+      content:
+        "Consultas médicas especializadas em Gastroenterologia, Proctologia e Cirurgia Geral, com profissionais altamente qualificados para garantir seu bem estar, controle das doenças do aparelho digestivo e proporcionar qualidade de vida.",
+      link: "https://www.google.com",
+    },
     {
       id: "card_01",
       icon: gastroenterologia,
@@ -34,14 +47,7 @@ export const services = {
         "Cirurgia Geral é a especialidade médica que se dedica ao cuidado de pacientes portadores das mais variadas afeções que demandam ou possam vir a demandar algum tipo de intervenção cirúrgica no curso de seu tratamento.",
       link: "https://www.google.com",
     },
-    {
-      id: "card_04",
-      icon: consultas,
-      title: "Consultas e Exames",
-      content:
-        "Consultas médicas especializadas em Gastroenterologia, Proctologia e Cirurgia Geral, com profissionais altamente qualificados para garantir seu bem estar, controle das doenças do aparelho digestivo e proporcionar qualidade de vida.",
-      link: "https://www.google.com",
-    },
+   
   ],
 };
 
@@ -50,10 +56,10 @@ export const team = {
     {
       id: "card_01",
       photo: Nantes_Silvestre_Morillo,
-      title: "Nantes Silvestre Morillo",
+      title: "Nantes Silvestre Morillo Herrada",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "",
+      "Universidade Cayetano Heredia",
       crm: "CRM-MG 13.644",
       flag: true,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
@@ -64,7 +70,7 @@ export const team = {
       title: "Ricardo Morillo Vigil",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "",
+      "Universidade  UFMG",
       crm: "CRM-MG 39.058",
       flag: true,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
@@ -75,7 +81,7 @@ export const team = {
       title: "Emanuella Braga de Carvalho",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "",
+      "Universidade  UFMG",
       crm: "CRM-MG 39.162",
       flag: true,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
@@ -86,18 +92,18 @@ export const team = {
       title: "Arlete Cecília Dias",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "",
+      "Universidade  UFMG",
       crm: "CRM-MG 42.299",
       flag: true,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_04",
-      photo: woman,
+      photo: Sabrina_Souza,
       title: "Sabrina Souza Araújo",
       sTitle: "Cirurgia do Aparelho Digestivo",
       content:
-      "Medicina UFMG / Gastroenterologia Felicio Rocho / Endoscopia Hospital Militar",
+      "Universidade  UFMG",
       crm: "CRM-MG 39.018",
       flag: true,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
@@ -119,7 +125,7 @@ export const team = {
       title: "Luiz Ronaldo Alberti",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "Medicina UFMG / Cirurgia geral FHEMIG",
+      "Universidade Faculdade de Ciencias Medicas de MG",
       crm: "CRM-MG 36.709",
       flag: true,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
@@ -130,7 +136,7 @@ export const team = {
       title: "Arthur Vaz Alvares",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "",
+      "Universidade  UFMG",
       crm: "CRM-MG 39.018",
       flag: true,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA"],
@@ -141,7 +147,7 @@ export const team = {
       title: "Elaine Jessica Laranjeira",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "",
+      "Faculdades Unidas do Norte de MG",
       crm: "CRM-MG 71.095",
       flag: true,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA"],
@@ -152,7 +158,7 @@ export const team = {
       title: "Fernando Campos Queiroz",
       sTitle: "Cirurgião Geral",
       content:
-      "",
+      "Universidade  UFMG",
       crm: "CRM-MG 37.688",
       flag: true,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
@@ -163,7 +169,7 @@ export const team = {
       title: "Paola Stefania Costa",
       sTitle: "Coloproctologista",
       content:
-      "",
+      "Universidade  UFMG",
       crm: "CRM-MG 62.003",
       flag: true,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA"],
@@ -174,7 +180,7 @@ export const team = {
       title: "Ana Paula Fernandes",
       sTitle: "Coloproctologista",
       content:
-      "",
+      "Universidade   Federal de Juiz de Fora",
       crm: "CRM-MG 74.736",
       flag: true,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA"],
@@ -185,18 +191,18 @@ export const team = {
       title: "Raquel Shamash",
       sTitle: "Anestesiologista",
       content:
-      "",
+      "Faculdade de Medicina da UFMG",
       crm: "CRM-MG 19.199",
       flag: false,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
-      photo: man,
+      photo: Dilson_Barros,
       title: "Dilson de Barros Guimarães",
       sTitle: "Anestesiologia",
       content:
-      "Ciências Médicas de Minas Gerais / Anestesiologia Hospital das Clínicas UFMG",
+      "Ciências Médicas de Minas Gerais",
       crm: "CRM-MG 22.603",
       flag: false,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
@@ -207,29 +213,29 @@ export const team = {
       title: "Ricardo Arantes",
       sTitle: "Gastroenterologia / Endoscopia Digestiva",
       content:
-      "",
+      "Faculdade de Medicina de Barbacena",
       crm: "CRM-MG 39.018",
       flag: false,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
-      photo: man,
-      title: "Luiz Ronaldo Alberti",
+      photo: Luiz_carlos,
+      title: "Luiz Carlos Souza",
       sTitle: "Anestesiologista",
       content:
-      "",
+      "Universidade Faculdade de Ciencias Medicas de MG",
       crm: "CRM-MG 36.709",
       flag: false,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
     },
     {
       id: "card_06",
-      photo: woman,
+      photo: Claudia_Cristina,
       title: "Claudia Cristina dos santos",
       sTitle: "Anestesiologista",
       content:
-      "",
+      "Faculdade de Medicina de Barbacena",
       crm: "CRM-MG 34.670",
       flag: false,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
@@ -240,7 +246,7 @@ export const team = {
       title: "Natália Colares",
       sTitle: "Anestesiologista",
       content:
-      "",
+      "Universidade Federal São Jão Del-Rei",
       crm: "CRM-MG 62.197",
       flag: false,
       convenios: ["ALLIANZ", "AMIL", "ASPENG", "CASSI", "CASU", "CEMIG", "COPASA", "DESABAN", "FUNDAFFEMG", "FUNDAÇÃO ITAÚ", "FUNDAÇÃO LIBERTAS", "FUNDAÇÃO SÃO FRANCISCO XAVIER", "GOLDEN CROSS", "IPSEMG", "NOTREDAME", "PASA/VALE", "POSTAL SAÚDE", "SAÚDE AMMP", "SAÚDE CAIXA", "SULAMÉRICA", "UNIMED BH", "UNIMED INTERCÂMBIO"],
@@ -289,9 +295,8 @@ export const articles = {
 export const Faq_Menu = [
   "Exames",
   "Agendamentos",
-  "Pagamentos",
   "Preparos",
-  
+  "Pagamentos",
 ];
 
 export const Exames = [
@@ -351,154 +356,26 @@ export const Agendamentos = [
   },
 ];
 
+
 export const Pagamentos = [
   {
     questions: "Qual forma de pagamento?",
     answers:
-      "O Centro Gastroenterológico atendemos particular e convênios, entre em contato para maiores esclarecimentos.",
-  },
-];
-
-export const Convênios = [
-  {
-    questions: "Se eu aceitar participar de uma pesquisa clínica, viro cobaia?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Recebo alguma remuneração se eu aceitar participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions: "Tenho algum custo para participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Uma vez que aceitei participar de uma pesquisa clínica, terei que seguir até o final dela?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus direitos como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus deveres como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Caso eu aceite participar, com quem meus dados serão compartilhados?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-];
-
-export const Retornos = [
-  {
-    questions: "Se eu aceitar participar de uma pesquisa clínica, viro cobaia?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Recebo alguma remuneração se eu aceitar participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions: "Tenho algum custo para participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Uma vez que aceitei participar de uma pesquisa clínica, terei que seguir até o final dela?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus direitos como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus deveres como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Caso eu aceite participar, com quem meus dados serão compartilhados?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
+      "•	No Centro Gastroenterológico atendemos particular e convênios, entre em contato para maiores esclarecimentos.",
   },
 ];
 
 export const Preparos = [
   {
-    questions: "Se eu aceitar participar de uma pesquisa clínica, viro cobaia?",
+    questions: "Como fazer o preparo correto para o exame?",
     answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
+      "Essa costuma ser a maior dúvida dos pacientes. O exame de endoscopia requer somente jejum ( 8horas). Para colonoscopia, o preparo deve ser realizado conforme a orientação do médico que irá realizar o exame. Importante que você o siga à risca. Em caso de preparo inadequado ou incompleto, o exame é cancelado, uma vez que não será possível que seu médico avalie corretamente o intestino.",
   },
   {
     questions:
-      "Recebo alguma remuneração se eu aceitar participar de uma pesquisa clínica?",
+      "Quais orientações e preparos devem ser seguidos antes de realizar o exame?",
     answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-];
-
-export const Cancelamentos = [
-  {
-    questions: "Se eu aceitar participar de uma pesquisa clínica, viro cobaia?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Recebo alguma remuneração se eu aceitar participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions: "Tenho algum custo para participar de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Uma vez que aceitei participar de uma pesquisa clínica, terei que seguir até o final dela?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus direitos como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Quais são os meus deveres como participante de uma pesquisa clínica?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
-  },
-  {
-    questions:
-      "Caso eu aceite participar, com quem meus dados serão compartilhados?",
-    answers:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, ab vero est ipsa et eligendi corrupti possimus iste quae consequuntur corporis necessitatibus quos, tempora dicta harum exercitationem quas nostrum. Maxime.",
+      "Se já realizou esse exame antes,  trazer o resultado, não ingerir alimentos com sementes, casca e bagaço dois dias antes do exame, comunicar o uso de qualquer medicamento realizado até 10 dias antes do exame e comunicar alergias antes do exame",
   },
 ];
 

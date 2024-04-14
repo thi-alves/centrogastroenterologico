@@ -11,6 +11,7 @@ import {
 } from "../assets";
 
 import { BsArrowDownCircle, BsArrowUpCircle } from "react-icons/bs";
+import { name_Insurance } from "../constants";
 
 const Partners = () => {
   const [expand, setExpand] = useState(false);
@@ -56,26 +57,11 @@ const Partners = () => {
           </div>
           <div className={expandClass}>
             <ul className="flex flex-wrap gap-2 mt-4 justify-center">
-              <li className="font-bold">AMIL</li>
-              <li className="font-bold">ASPEMG</li>
-              <li className="font-bold">BHTRANS</li>
-              <li className="font-bold">CASSI</li>
-              <li className="font-bold">CASU </li>
-              <li className="font-bold">CEMIG</li>
-              <li className="font-bold">SULAMÉRICA</li>
-              <li className="font-bold">COPASS SAUDE</li>
-              <li className="font-bold">DESBAN</li>
-              <li className="font-bold">FUNDAFFEMG</li>
-              <li className="font-bold">FUNDAÇÃO ITAU</li>
-              <li className="font-bold">FUNDAÇÃO LIBERTAS</li>
-              <li className="font-bold">UNIMED</li>
-              <li className="font-bold">NOTREDAME INTERMÉDICA</li>
-              <li className="font-bold">FUNDAÇÃO SÃO FRANCISCO XAVIER</li>
-              <li className="font-bold">GOLDEN CROSS</li>
-              <li className="font-bold">IPSEMG</li>
-              <li className="font-bold">PASA/VALE</li>
-              <li className="font-bold">POSTAL SAUDE</li>
-              <li className="font-bold">SAÚDE AMMP</li>
+              {name_Insurance.map((insurance, i) => (
+                <li className="font-bold" key={i}>
+                  {insurance}
+                </li>
+              ))}
             </ul>
           </div>
         </div>

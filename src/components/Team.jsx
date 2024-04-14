@@ -28,19 +28,13 @@ const Team = () => {
 
         <div className="xl:max-w-[1280px] w-full space-container-section z-[1]">
           <div className="space-y-4 flex flex-col justify-center items-center text-center">
-            <button className="btn-secondary">Nossa equipe</button>
-            <h2 className="h2 text-primary">
-              <strong>
-                Temos uma equipe médica qualificada e{" "}
-                <br className="md:block hidden" />
-                pronta para cuidar de você
-              </strong>
-            </h2>
+            <button className="btn-secondary">Corpo Clínico</button>
+
             <p className="p text-gray_red max-w-[768px]">
-              Nossa equipe está altamente comprometida em oferecer excelência no
-              atendimento aos nossos pacientes. Temos um forte compromisso em
-              atender às expectativas de nossos pacientes, com uma abordagem
-              séria e respeitosa em relação à saúde e bem-estar humano.
+              Nossa clinica é composta por um grupo de médicos
+              gastroenterologistas, coloproctologistas, endoscopistas e
+              anestesistas com formação profissional de excelência e compromisso
+              ético.
             </p>
           </div>
         </div>

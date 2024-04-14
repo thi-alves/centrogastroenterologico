@@ -7,7 +7,7 @@ const Schedule = () => {
   return (
     <section
       id="schedule"
-      className="max-container padding-container flex mt-12"
+      className="max-container padding-container flex mt-12 mb-20"
     >
       <div className="flex flex-col">
         <div
@@ -29,10 +29,10 @@ const Schedule = () => {
             />
             <div className="w-full h-full flex flex-col  relative justify-center p-10 gap-6 z-[1]">
               <h2 className="h2 text-white ">
-                Solicite hoje mesmo o agendamento da sua consulta
+                Solicite hoje mesmo o agendamento da sua consulta ou exame.
               </h2>
               <a
-                href="#contact"
+                href="#agendamento"
                 className="bg-white rounded-xl px-8 py-4 font-bold text-secondary shadow-btn hover:-translate-y-1 transition duration-300 w-max"
               >
                 <BsCalendar3 className="inline text-2xl mr-2" />
@@ -60,10 +60,8 @@ const Schedule = () => {
             </div>
             <div className="">
               <h3 className="h3 text-black mb-2">Contato</h3>
-              <p className="p text-gray_red">(31) 3263-2000 | (31) 3263-2001</p>
-              <p className="p text-gray_red">
-                (31) 98611-0299 | (31) 98605-8783
-              </p>
+              <p className="p text-gray_red">(31) 3263-2000</p>
+
               <p className="p  text-secondary">
                 <span className="font-bold">
                   centrogastro@centrogastro.com.br
@@ -83,10 +81,10 @@ const Schedule = () => {
               <h3 className="h3 text-black mb-2">Hórario</h3>
               <p className="p text-gray_red">
                 <span className="font-bold text-secondary">Seg - Sex:</span>{" "}
-                06:30h às 18:00h
+                07:00h às 18:00h
               </p>
               <p className="p text-gray_red">
-                <span className="font-bold text-secondary">Sábado:</span> 06:30h
+                <span className="font-bold text-secondary">Sábado:</span> 07:00h
                 às 13:00h
               </p>
               <p className="p text-gray_red">

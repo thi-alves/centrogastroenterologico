@@ -18,12 +18,20 @@ import Natalia_Colares from "./Natalia_Colares.jpg";
 import Elaine_Laranjeiras from "./Elaine_Laranjeiras.jpg";
 import Emanuella_Braga from "./Emanuella_Braga.jpg";
 import Arlete_Cecilia from "./Arlete_Cecilia.jpg";
+import Luiz_carlos from "./Luiz_carlos.jpg";
+import Claudia_Cristina from "./Claudia_Cristina.jpg";
+import Dilson_Barros from "./Dilson_Barros.jpg";
+import Sabrina_Souza from "./Sabrina_Souza.jpg";
 
 
 
 import home from "./home.png";
 import about_01 from "./about_01.jpg";
 import about_02 from "./about_02.jpg";
+import structure1 from "./structure1.png";
+import structure2 from "./structure2.png";
+import structure3 from "./structure3.png";
+import structure4 from "./structure4.png";
 import profile_photo from "./profile_photo.jpg";
 import profile_photo1 from "./profile_photo1.jpg";
 import article_01 from "./article_01.jpg";
@@ -55,9 +63,11 @@ export{
   cirurgiageral,
   consultas,
   home,
-  man, woman, Nantes_Silvestre_Morillo, Ricardo_Morillo_Vigil, Luiz_Ronaldo_Alberti, Paola_Stefania_Costa,Raquel_Shamash, Natalia_Colares,Elaine_Laranjeiras,Emanuella_Braga, Arlete_Cecilia,
+  man, woman, Nantes_Silvestre_Morillo, Ricardo_Morillo_Vigil, Luiz_Ronaldo_Alberti, Paola_Stefania_Costa,Raquel_Shamash, 
+  Natalia_Colares,Elaine_Laranjeiras,Emanuella_Braga, Arlete_Cecilia,Luiz_carlos,Claudia_Cristina,Dilson_Barros,Sabrina_Souza,
   about_01,
   about_02,
+  structure1,structure2,structure3,structure4,
   profile_photo, profile_photo1,
   article_01, article_02, article_03,
   schedule,

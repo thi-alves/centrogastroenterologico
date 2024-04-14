@@ -23,8 +23,8 @@ const WithUs = () => {
           </h2>
           <p className="p max-w-[768px]">
             Valorizamos sua opinião e estamos prontos para receber seus elogios,
-            críticas, denúncias e sugestões de melhorias. Queremos garantir que
-            sua voz seja ouvida.
+            críticas e sugestões de melhorias. Queremos garantir que sua voz
+            seja ouvida.
           </p>
         </div>
 

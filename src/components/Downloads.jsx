@@ -5,10 +5,8 @@ const Downloads = () => {
     <section id="downloads">
       <div className="container mx-auto py-16">
         <div className="space-y-4 flex flex-col justify-center items-center text-center bg-secondary/[4%] rounded-2xl p-6 ">
-          <button className="btn-secondary">Downloads</button>
-          <h2 className="h2 text-primary">
-            <strong>Baixe um arquivo e salve-o no dispositivo</strong>
-          </h2>
+          <button className="btn-secondary">Termos e Preparos</button>
+
           <p className="p text-gray_red max-w-[768px]">
             Você pode solicitar seu arquivo, clicando em Termos ou Preparos e
             selecionar qual o arquivo desejado clicando em cima do título.
